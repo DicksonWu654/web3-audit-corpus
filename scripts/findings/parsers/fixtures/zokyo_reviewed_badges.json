@@ -1,0 +1,470 @@
+{
+  "claims": [
+    {
+      "card_start": 18760,
+      "image_sha256": "76595d24177a94edd1f43ba76e631c38cdc681ed386c12f6a32e0112867fbd6c",
+      "normalized_status": "open",
+      "ocr_text": "| wentuM | UNRESOLVED\n",
+      "original_sha256": "cd1cdfccaf0c82e0711410dca9af883cc36d48416331c137c5f5e81cad34ebb6",
+      "page": 20,
+      "pixel_box": [
+        90,
+        67,
+        816,
+        140
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/1inch/1inch_Zokyo%20audit%20report.pdf",
+      "render_sha256": "8bb55ed0a9d6965fcb18fbba8b995c4df475b7620bd13d9cccf381b986d834c8",
+      "review_method": "visual_review",
+      "review_render_sha256": "c06b77eb3c4df4ff39c703fbc6bde7e832ae457f627772687ca5d4ad71058bf1",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "MEDIUM",
+      "sha256": "cd1cdfccaf0c82e0711410dca9af883cc36d48416331c137c5f5e81cad34ebb6",
+      "source_span": {
+        "end": 18769,
+        "start": 18760,
+        "text": "—| MEDIUM"
+      },
+      "status_raw": "UNRESOLVED",
+      "text_sha256": "fbd92da75d9e657427f98333516a04b646f1a997dd370837d728f6941b5bdfec",
+      "title": "Performance of swap can be blocked."
+    },
+    {
+      "card_start": 19362,
+      "image_sha256": "76595d24177a94edd1f43ba76e631c38cdc681ed386c12f6a32e0112867fbd6c",
+      "normalized_status": "other",
+      "ocr_text": "| wentuM | UNRESOLVED\n",
+      "original_sha256": "cd1cdfccaf0c82e0711410dca9af883cc36d48416331c137c5f5e81cad34ebb6",
+      "page": 20,
+      "pixel_box": [
+        90,
+        67,
+        816,
+        140
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/1inch/1inch_Zokyo%20audit%20report.pdf",
+      "render_sha256": "8bb55ed0a9d6965fcb18fbba8b995c4df475b7620bd13d9cccf381b986d834c8",
+      "review_method": "visual_review",
+      "review_render_sha256": "c06b77eb3c4df4ff39c703fbc6bde7e832ae457f627772687ca5d4ad71058bf1",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "INFORMATIONAL",
+      "sha256": "cd1cdfccaf0c82e0711410dca9af883cc36d48416331c137c5f5e81cad34ebb6",
+      "source_span": {
+        "end": 19378,
+        "start": 19362,
+        "text": "—| INFORMATIONAL"
+      },
+      "status_raw": "VERIFIED",
+      "text_sha256": "fbd92da75d9e657427f98333516a04b646f1a997dd370837d728f6941b5bdfec",
+      "title": "Commented code."
+    },
+    {
+      "card_start": 15939,
+      "image_sha256": "4ff3e5b53fc19233b079d4cc03c457934781eb7427a5da289fd46e7d3c4d22b9",
+      "normalized_status": "invalid",
+      "ocr_text": "MEDIUM | NOT VALID\n",
+      "original_sha256": "eb9d3884cb756eb9a3226a06d4557bcf4fb6e19d670e86ef093f7822dbace5b8",
+      "page": 13,
+      "pixel_box": [
+        90,
+        269,
+        816,
+        344
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/LayerZero/LayerZero_Zokyo_audit_report_Oct22_2021.pdf",
+      "render_sha256": "2b77ed074e211869fa1026ce035d26d5421b83a4e53e8abcf2a969367074391d",
+      "review_method": "visual_review",
+      "review_render_sha256": "c0ee25ad7d6c43d1b0781d39700062746aef16f5388f1b31c54424f644aaa287",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "Medium",
+      "sha256": "eb9d3884cb756eb9a3226a06d4557bcf4fb6e19d670e86ef093f7822dbace5b8",
+      "source_span": {
+        "end": 15946,
+        "start": 15939,
+        "text": " Medium"
+      },
+      "status_raw": "NOT VALID",
+      "text_sha256": "daf10b10929dc26496204aa888558d3289f06aa50e201dba0912a4516a8979d7",
+      "title": "In RelayerStaking.sol, _relayer which refers to the Relayer Contract is passing through the"
+    },
+    {
+      "card_start": 16867,
+      "image_sha256": "deff8c76f4990025245b27fc788e771683c75dfc72be871b31f6772d309c98d7",
+      "normalized_status": "invalid",
+      "ocr_text": "MEDIUM | NOT VALID\n",
+      "original_sha256": "eb9d3884cb756eb9a3226a06d4557bcf4fb6e19d670e86ef093f7822dbace5b8",
+      "page": 13,
+      "pixel_box": [
+        90,
+        1020,
+        816,
+        1095
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/LayerZero/LayerZero_Zokyo_audit_report_Oct22_2021.pdf",
+      "render_sha256": "2b77ed074e211869fa1026ce035d26d5421b83a4e53e8abcf2a969367074391d",
+      "review_method": "visual_review",
+      "review_render_sha256": "c0ee25ad7d6c43d1b0781d39700062746aef16f5388f1b31c54424f644aaa287",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "Medium",
+      "sha256": "eb9d3884cb756eb9a3226a06d4557bcf4fb6e19d670e86ef093f7822dbace5b8",
+      "source_span": {
+        "end": 16874,
+        "start": 16867,
+        "text": " Medium"
+      },
+      "status_raw": "NOT VALID",
+      "text_sha256": "daf10b10929dc26496204aa888558d3289f06aa50e201dba0912a4516a8979d7",
+      "title": "In Network.sol, attackers might find it easy to make the oracle do misinformed actions by"
+    },
+    {
+      "card_start": 22619,
+      "image_sha256": "73885bd5f15c0f7a7180300f8eb40b97e85d112013583c19cc25f74b2506cdc5",
+      "normalized_status": "invalid",
+      "ocr_text": "INFORMATIONAL | NOT VALID\n",
+      "original_sha256": "eb9d3884cb756eb9a3226a06d4557bcf4fb6e19d670e86ef093f7822dbace5b8",
+      "page": 17,
+      "pixel_box": [
+        90,
+        269,
+        816,
+        344
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/LayerZero/LayerZero_Zokyo_audit_report_Oct22_2021.pdf",
+      "render_sha256": "976459bd2fbb8338b876c4c3307d0a80983e2df663ab9665a46456d543928b84",
+      "review_method": "visual_review",
+      "review_render_sha256": "cb818e5a385446bdf22b2dc04ac2cc7d9c14e6d472fe6edbd608b9a6cc2aa30a",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "Informational",
+      "sha256": "eb9d3884cb756eb9a3226a06d4557bcf4fb6e19d670e86ef093f7822dbace5b8",
+      "source_span": {
+        "end": 22633,
+        "start": 22619,
+        "text": " Informational"
+      },
+      "status_raw": "NOT VALID",
+      "text_sha256": "daf10b10929dc26496204aa888558d3289f06aa50e201dba0912a4516a8979d7",
+      "title": "In Treasury.sol, withdrawNative() does not check the contract’s balance before the withdrawal."
+    },
+    {
+      "card_start": 23086,
+      "image_sha256": "f3e85fe29e101eb23385f3b88e2cec77fa115a7a0e61c7c585eb81b6e098b2b1",
+      "normalized_status": "invalid",
+      "ocr_text": "INFORMATIONAL | NOT VALID\n",
+      "original_sha256": "eb9d3884cb756eb9a3226a06d4557bcf4fb6e19d670e86ef093f7822dbace5b8",
+      "page": 17,
+      "pixel_box": [
+        90,
+        720,
+        816,
+        795
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/LayerZero/LayerZero_Zokyo_audit_report_Oct22_2021.pdf",
+      "render_sha256": "976459bd2fbb8338b876c4c3307d0a80983e2df663ab9665a46456d543928b84",
+      "review_method": "visual_review",
+      "review_render_sha256": "cb818e5a385446bdf22b2dc04ac2cc7d9c14e6d472fe6edbd608b9a6cc2aa30a",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "Informational",
+      "sha256": "eb9d3884cb756eb9a3226a06d4557bcf4fb6e19d670e86ef093f7822dbace5b8",
+      "source_span": {
+        "end": 23100,
+        "start": 23086,
+        "text": " Informational"
+      },
+      "status_raw": "NOT VALID",
+      "text_sha256": "daf10b10929dc26496204aa888558d3289f06aa50e201dba0912a4516a8979d7",
+      "title": "In Communicator.sol, writing two implementations in solidity for similar function calls is"
+    },
+    {
+      "card_start": 11248,
+      "image_sha256": "ff85ef141c10698317da9a049d12d2cb7c54a6a93d92b22eba37378a97c620d2",
+      "normalized_status": "invalid",
+      "ocr_text": "INFORMATIONAL | NOT VALID\n",
+      "original_sha256": "d8b6701396033478e888adc733e38a84cfafb017b551740384bd209977cbd79b",
+      "page": 12,
+      "pixel_box": [
+        90,
+        196,
+        816,
+        271
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/MIMIR/MIMIR_Zokyo_audit_report_Oct15_2021.pdf",
+      "render_sha256": "89b874458ff75a48486974cae26732ca6d5f48518ae986a4ac4bda8d559d4553",
+      "review_method": "visual_review",
+      "review_render_sha256": "2ad2f1725ca6dd791d540b3d1e403b958048a1e8bcbf4265adf5a1d2047aba56",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "Informational",
+      "sha256": "d8b6701396033478e888adc733e38a84cfafb017b551740384bd209977cbd79b",
+      "source_span": {
+        "end": 11262,
+        "start": 11248,
+        "text": " Informational"
+      },
+      "status_raw": "NOT VALID",
+      "text_sha256": "88d193c31644eb04752049eb4ff787e318ead422107a224b8e76c7b6724a8b7f",
+      "title": "Misleading comment in line 954, contract MMIRToken:"
+    },
+    {
+      "card_start": 14006,
+      "image_sha256": "d128458c288195797961dc28e714dad9f14e0c674a9e0062ff6f903a10187ded",
+      "normalized_status": "resolved",
+      "ocr_text": "| CRITICAL. | RESOLVED\n",
+      "original_sha256": "ac24053453afedf5b82ba89041671e01e2ec6ae3b78eee80789b9897bf6f96a5",
+      "page": 13,
+      "pixel_box": [
+        90,
+        67,
+        816,
+        141
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/Metropolis/Metropolis_Zokyoaudit%20report.pdf",
+      "render_sha256": "7609d4444eba02989df60db7b46e4f9d33ed785869298d11b5d4d12dc00e2d9a",
+      "review_method": "visual_review",
+      "review_render_sha256": "44fbc77dbec5508caa668ce5ce93238d270ca7181e6c220fbe0546427e08a700",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "CRITICAL",
+      "sha256": "ac24053453afedf5b82ba89041671e01e2ec6ae3b78eee80789b9897bf6f96a5",
+      "source_span": {
+        "end": 14016,
+        "start": 14006,
+        "text": "| CRITICAL"
+      },
+      "status_raw": "RESOLVED",
+      "text_sha256": "ff10509c47700a278f25709c80e927d8943393234667be6e65619425ae54d41e",
+      "title": "Claimable soft clay amount can be claimed unlimited times."
+    },
+    {
+      "card_start": 8733,
+      "image_sha256": "73885bd5f15c0f7a7180300f8eb40b97e85d112013583c19cc25f74b2506cdc5",
+      "normalized_status": "invalid",
+      "ocr_text": "INFORMATIONAL | NOT VALID\n",
+      "original_sha256": "2ad9642bbdcaa9cd8467caafe6046f086c68605d7de6e0c6512130035517d652",
+      "page": 10,
+      "pixel_box": [
+        90,
+        269,
+        816,
+        344
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/Saffron%20-%20Report%201/Saffron_Zokyo_audit_report_Sep7_2021.pdf",
+      "render_sha256": "f21a0f6fe4f0e19d8805c8a2ed808b3183f4eb93b5169b9b7f14542e34bcfd01",
+      "review_method": "visual_review",
+      "review_render_sha256": "6d61a3ce6584e455f3d7103e6fc9afd14c3c74ce9aecec80bd9aadca489997a1",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "Informational",
+      "sha256": "2ad9642bbdcaa9cd8467caafe6046f086c68605d7de6e0c6512130035517d652",
+      "source_span": {
+        "end": 8747,
+        "start": 8733,
+        "text": " Informational"
+      },
+      "status_raw": "NOT VALID",
+      "text_sha256": "f000c8368623f12a4d06fc77be3f67f3c61600dc0b5696f53b6bc6c3f64a1ee4",
+      "title": "Withdraw function can be called with 0 amount of token to withdraw, and function doesn’t"
+    },
+    {
+      "card_start": 9876,
+      "image_sha256": "aadff8e62aae74c414107f3f7dd224fd24c00b15144e58b558cb3009d22818aa",
+      "normalized_status": "invalid",
+      "ocr_text": "Low | NOTVALID\n",
+      "original_sha256": "dda1d178fa66b488f568c009777aa3fcfd41874e652ef407efccc995df1d19ca",
+      "page": 11,
+      "pixel_box": [
+        90,
+        260,
+        816,
+        335
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/Shoyu/Shoyu_Zokyo_audit_report_Aug30_2021.pdf",
+      "render_sha256": "0816084709daa01da15452d6495bfa393bcf15cb5949ceb22f438aae4c4fad80",
+      "review_method": "visual_review",
+      "review_render_sha256": "a1e169151e656fbd6f272ca781dce807b506922691ccfbdbefe8efd181f531b7",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "LOW",
+      "sha256": "dda1d178fa66b488f568c009777aa3fcfd41874e652ef407efccc995df1d19ca",
+      "source_span": {
+        "end": 9880,
+        "start": 9876,
+        "text": " LOW"
+      },
+      "status_raw": "NOT VALID",
+      "text_sha256": "d5353c24a64c49ad7607b5d20479d68e2e3f15bbd301daaa45de575e2cf0aee4",
+      "title": "Correcting the require statements to be more precise"
+    },
+    {
+      "absence_reason": "not_stated",
+      "card_start": 8032,
+      "image_sha256": "091eb5a57e3f5f817be3460ad5f32812ab6c1963cf731b8884df306bb8c0e0eb",
+      "normalized_status": "unknown",
+      "ocr_text": "INFORMATIONAL\n",
+      "original_sha256": "02223738d7c0931277c53685477244cbe21966b890251aea05e97ba76693b9fa",
+      "page": 9,
+      "pixel_box": [
+        90,
+        729,
+        816,
+        804
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/StackOS/StackOS_Zokyo_audit_report_Apr22_2021.pdf",
+      "render_sha256": "f1885be995ec8765c939ab54ae35e5e8472fb464775706e66fd7a878f571f512",
+      "review_method": "visual_review",
+      "review_render_sha256": "f5e816f4c3495aedbc907e09739c1b93d9348a9203dc81db7ea8a612e4db6d25",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "INFORMATIONAL",
+      "sha256": "02223738d7c0931277c53685477244cbe21966b890251aea05e97ba76693b9fa",
+      "source_span": {
+        "end": 8046,
+        "start": 8032,
+        "text": " INFORMATIONAL"
+      },
+      "status_raw": null,
+      "text_sha256": "0fc739c4c70cf24115e62450f890ce5fb37dc3fbbfcd9abc9c60aee7e3dad07f",
+      "title": "Parameter variable"
+    },
+    {
+      "card_start": 18142,
+      "image_sha256": "dfc1cdf5abb8aee39d8cb5c13f895f6e8eeffd55c9e192af49a9f846d7b8a18f",
+      "normalized_status": "acknowledged",
+      "ocr_text": "Low | ACKNOWLEDG\n",
+      "original_sha256": "9492b54983efba1fca655d5b80d937a0f43b0f7ba3470c8e581dd354daf1e446",
+      "page": 17,
+      "pixel_box": [
+        90,
+        83,
+        816,
+        157
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/TProtocol/TProtocol_Zokyo_audit_report_Sep12th_2023.pdf",
+      "render_sha256": "b6552ac4b61cb03447dd175d0b7b10ad7fb85a324b161289ab1f10aa1408e814",
+      "review_method": "visual_review",
+      "review_render_sha256": "10a95e478582c1d5249d2e9f4bad215c1eee6dab273638d60c4c83080deae3e7",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "low",
+      "sha256": "9492b54983efba1fca655d5b80d937a0f43b0f7ba3470c8e581dd354daf1e446",
+      "source_span": {
+        "end": 18146,
+        "start": 18142,
+        "text": " low"
+      },
+      "status_raw": "ACKNOWLEDG",
+      "text_sha256": "7e7dae3bcaec60e91cc4c832b6ca4bdd1d4f62201741a33c56fd0bc6150e5c7a",
+      "title": "Unsafe ERC-20 Transfe"
+    },
+    {
+      "card_start": 20075,
+      "image_sha256": "1bad1114f722d7a549e4b7fcd1c656e81dac1b6dad00d31e8269ec5c17bb535c",
+      "normalized_status": "resolved",
+      "ocr_text": "Low | RESOLVE\n",
+      "original_sha256": "9492b54983efba1fca655d5b80d937a0f43b0f7ba3470c8e581dd354daf1e446",
+      "page": 19,
+      "pixel_box": [
+        90,
+        427,
+        816,
+        502
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/TProtocol/TProtocol_Zokyo_audit_report_Sep12th_2023.pdf",
+      "render_sha256": "54b731cdbcceba6a7a5c3ada25e60f385e29ed80a7231f0f3975b84bd57ec135",
+      "review_method": "visual_review",
+      "review_render_sha256": "64963528f85a559418db7925dadd8d86d9a7ca9d7a742f514697c6bb9305f83f",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "low",
+      "sha256": "9492b54983efba1fca655d5b80d937a0f43b0f7ba3470c8e581dd354daf1e446",
+      "source_span": {
+        "end": 20079,
+        "start": 20075,
+        "text": " low"
+      },
+      "status_raw": "RESOLVE",
+      "text_sha256": "7e7dae3bcaec60e91cc4c832b6ca4bdd1d4f62201741a33c56fd0bc6150e5c7a",
+      "title": "convertToUSDC Would Be Calculated Incorrectly If USTP Amount Is Below One"
+    },
+    {
+      "card_start": 21160,
+      "image_sha256": "cbd89d59823d965bb252c81a246bb5b28bec95f55d3a8f8d8a5232d24ad1c2e8",
+      "normalized_status": "resolved",
+      "ocr_text": "Low | RESOLVE\n",
+      "original_sha256": "9492b54983efba1fca655d5b80d937a0f43b0f7ba3470c8e581dd354daf1e446",
+      "page": 20,
+      "pixel_box": [
+        90,
+        74,
+        816,
+        148
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/TProtocol/TProtocol_Zokyo_audit_report_Sep12th_2023.pdf",
+      "render_sha256": "f30904caed809b26dd005e5006a9b890040626050b890faabfda631a8c875028",
+      "review_method": "visual_review",
+      "review_render_sha256": "956d400c70a6604f6cc02f4fa3cb4669165fa25d1b469ab516a7751fc793c6d8",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "low",
+      "sha256": "9492b54983efba1fca655d5b80d937a0f43b0f7ba3470c8e581dd354daf1e446",
+      "source_span": {
+        "end": 21164,
+        "start": 21160,
+        "text": " low"
+      },
+      "status_raw": "RESOLVE",
+      "text_sha256": "7e7dae3bcaec60e91cc4c832b6ca4bdd1d4f62201741a33c56fd0bc6150e5c7a",
+      "title": "withdrawUSDC` Can Cause Unexpected Losse"
+    },
+    {
+      "card_start": 7038,
+      "image_sha256": "fa159127610ffcc881039fb5c39eccff07181710d86d9c204fbfc392daeec029",
+      "normalized_status": "invalid",
+      "ocr_text": "Low | NOT VALID\n",
+      "original_sha256": "d212c68fedc82015afe8b86c87665f1164f2604d3957afb237122e570ec53c00",
+      "page": 9,
+      "pixel_box": [
+        90,
+        369,
+        816,
+        444
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/ZeroSwap/ZeroSwap_Zokyo_audit_report_Nov2_2021.pdf",
+      "render_sha256": "94be81019b42aed70efb5007d2c12d9c051271d0c2464aa7af97998cf83f8c61",
+      "review_method": "visual_review",
+      "review_render_sha256": "02fbee85890f3144154e21a11cf444aa74f82ebfd109cb3b3756b5c1f76404f1",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "Low",
+      "sha256": "d212c68fedc82015afe8b86c87665f1164f2604d3957afb237122e570ec53c00",
+      "source_span": {
+        "end": 7042,
+        "start": 7038,
+        "text": " Low"
+      },
+      "status_raw": "NOT VALID",
+      "text_sha256": "5886ce875f41714de8ab6d544d43fbccb18710a181e5c935c52f8b1bef81e7a0",
+      "title": "In Zeefarm.sol file, in releaseRewards(), move the line-164 before the line-158, that is update"
+    },
+    {
+      "card_start": 7816,
+      "image_sha256": "fa159127610ffcc881039fb5c39eccff07181710d86d9c204fbfc392daeec029",
+      "normalized_status": "invalid",
+      "ocr_text": "Low | NOT VALID\n",
+      "original_sha256": "d212c68fedc82015afe8b86c87665f1164f2604d3957afb237122e570ec53c00",
+      "page": 10,
+      "pixel_box": [
+        90,
+        269,
+        816,
+        344
+      ],
+      "public_url": "https://github.com/zokyo-sec/audit-reports/blob/39b9e51ac1b68a42ac03b222167760f7035bf16e/ZeroSwap/ZeroSwap_Zokyo_audit_report_Nov2_2021.pdf",
+      "render_sha256": "742da3f1219d126267afb2b19e57f630013902e76cdee308b92963ea594524e6",
+      "review_method": "visual_review",
+      "review_render_sha256": "fb440acdb8136546a1802455841ec5bc6625ae2dbbb03a1516c08cca8571daab",
+      "reviewed_utc": "2026-10-21",
+      "risk_raw": "Low",
+      "sha256": "d212c68fedc82015afe8b86c87665f1164f2604d3957afb237122e570ec53c00",
+      "source_span": {
+        "end": 7820,
+        "start": 7816,
+        "text": " Low"
+      },
+      "status_raw": "NOT VALID",
+      "text_sha256": "5886ce875f41714de8ab6d544d43fbccb18710a181e5c935c52f8b1bef81e7a0",
+      "title": "In Zeefarm.sol file, in releaseRewards(), move the line-181 before line-176, that is update the"
+    }
+  ],
+  "purpose": "Reviewed image status/absence regression receipts; no original or full narrative content."
+}

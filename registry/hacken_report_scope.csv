@@ -1,0 +1,3 @@
+sha256,service_kind,include_in_audit_counts,page,evidence,public_url,reviewed_as_of
+5bf4f8c94195aca204cc5ffdfc5c414391d34884f443b261b295b7409c8ec91c,web_application_assessment,no,5,https://wallet.sandbox.coinspaid.com - wallet,https://github.com/choco-cupcake/AuditSearcher/blob/bc907c9a314e7b63aaaec698d2640afa17dda118/audits/3.5-Hacken-conclusion.pdf,2026-10-24
+b408f63ba5237845d84ab6d90da2552b3a07f5c18ba1e7f0033f18536755846f,node_security_review,no,4,The scope of the project is node codebase and NOP scripts of Ambrosus project.,https://github.com/choco-cupcake/AuditSearcher/blob/bc907c9a314e7b63aaaec698d2640afa17dda118/audits/Ambrosus_Security_Review_Report_Final.pdf,2026-10-24

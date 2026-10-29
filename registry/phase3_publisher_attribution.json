@@ -1,0 +1,24 @@
+{
+  "policy_id": "source-named-auditor-brands-v2",
+  "implementation": "scripts/build/engagement_rules.py:auditor",
+  "basis": "Named authorship on the acquired report, including Auditors rows and executive-summary commissioning statements beyond image-only covers; repository or CDN hosting alone does not establish authorship.",
+  "families": [
+    {
+      "publishers": {"movebit": "MoveBit", "scalebit": "ScaleBit"},
+      "rule": "Prefer a single explicit prepared-by/audited-by author, otherwise a single named cover brand. Ambiguous co-branding retains the recorded attribution."
+    },
+    {
+      "publishers": {"theori": "Theori", "chainlight": "ChainLight"},
+      "rule": "Keep the existing publisher IDs separate. Theori-only reports count as Theori. Explicit ChainLight team branding counts as ChainLight, including covers also mentioning Theori; an unambiguous explicit author label takes priority."
+    },
+    {
+      "publishers": {"spearbit": "Spearbit", "cantina": "Cantina"},
+      "rule": "Prefer a single explicit commissioned/prepared-by author. Cantina hosting does not establish authorship of a Spearbit report. Otherwise use a single named cover brand."
+    },
+    {
+      "publishers": {"abdk-consulting": "ABDK Consulting", "consensys-diligence": "ConsenSys Diligence"},
+      "rule": "Prefer the explicitly named commissioned author or single cover author over a portfolio/discovery attribution; a cited previous audit does not establish authorship."
+    }
+  ],
+  "provenance": "Preserve collector publisher attribution and the source-named author evidence on each corrected document. Shared hosting is not joint authorship."
+}

@@ -1,0 +1,2159 @@
+series,dimension,label,year,engagements,counting_unit,is_ytd
+audit,chain_family,Bitcoin,2015,1,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2016,2,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2017,2,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2018,3,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2019,5,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2020,5,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2021,8,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2022,50,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2023,75,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2024,88,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2025,39,industry_engagement_multilabel,False
+audit,chain_family,Bitcoin,2026,7,industry_engagement_multilabel,True
+audit,chain_family,Bitcoin,unknown,3,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2017,2,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2019,1,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2020,4,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2021,3,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2022,13,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2023,23,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2024,33,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2025,42,industry_engagement_multilabel,False
+audit,chain_family,Cosmos,2026,14,industry_engagement_multilabel,True
+audit,chain_family,Cosmos,unknown,7,industry_engagement_multilabel,False
+audit,chain_family,EVM,2015,1,industry_engagement_multilabel,False
+audit,chain_family,EVM,2016,0,industry_engagement_multilabel,False
+audit,chain_family,EVM,2017,9,industry_engagement_multilabel,False
+audit,chain_family,EVM,2018,30,industry_engagement_multilabel,False
+audit,chain_family,EVM,2019,48,industry_engagement_multilabel,False
+audit,chain_family,EVM,2020,97,industry_engagement_multilabel,False
+audit,chain_family,EVM,2021,464,industry_engagement_multilabel,False
+audit,chain_family,EVM,2022,529,industry_engagement_multilabel,False
+audit,chain_family,EVM,2023,639,industry_engagement_multilabel,False
+audit,chain_family,EVM,2024,707,industry_engagement_multilabel,False
+audit,chain_family,EVM,2025,432,industry_engagement_multilabel,False
+audit,chain_family,EVM,2026,176,industry_engagement_multilabel,True
+audit,chain_family,EVM,unknown,43,industry_engagement_multilabel,False
+audit,chain_family,Move,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Move,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Move,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Move,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Move,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Move,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Move,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Move,2022,16,industry_engagement_multilabel,False
+audit,chain_family,Move,2023,37,industry_engagement_multilabel,False
+audit,chain_family,Move,2024,22,industry_engagement_multilabel,False
+audit,chain_family,Move,2025,49,industry_engagement_multilabel,False
+audit,chain_family,Move,2026,18,industry_engagement_multilabel,True
+audit,chain_family,Move,unknown,2,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2015,0,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2016,0,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2017,0,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2018,0,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2019,0,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2020,1,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2021,0,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2022,4,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2023,2,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2024,3,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2025,1,industry_engagement_multilabel,False
+audit,chain_family,NEAR,2026,0,industry_engagement_multilabel,True
+audit,chain_family,NEAR,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2020,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2021,8,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2022,49,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2023,63,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2024,55,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2025,3,industry_engagement_multilabel,False
+audit,chain_family,Other: Algorand,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Algorand,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2024,4,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Bitlayer,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Bitlayer,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2023,5,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Cardano,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Cardano,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2024,2,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: CratD2C,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: CratD2C,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: EBSI,2026,1,industry_engagement_multilabel,True
+audit,chain_family,Other: EBSI,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2022,3,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2023,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2025,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Hedera,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Hedera,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2024,2,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: KAIA,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: KAIA,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2023,3,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MetaChain,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: MetaChain,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2025,2,industry_engagement_multilabel,False
+audit,chain_family,Other: Monad,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Monad,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2023,1,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: MultiversX,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: MultiversX,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2020,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2021,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2022,14,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2023,45,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2024,27,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2025,16,industry_engagement_multilabel,False
+audit,chain_family,Other: Other,2026,8,industry_engagement_multilabel,True
+audit,chain_family,Other: Other,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2024,2,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2025,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Plume Network,2026,1,industry_engagement_multilabel,True
+audit,chain_family,Other: Plume Network,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2023,2,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2024,5,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Radix,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Radix,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2023,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sei,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Sei,unknown,2,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2025,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Sky Marvel Chain,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Sky Marvel Chain,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2022,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Stellar,2026,2,industry_engagement_multilabel,True
+audit,chain_family,Other: Stellar,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2025,2,industry_engagement_multilabel,False
+audit,chain_family,Other: Supra,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Supra,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2020,2,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2023,3,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2024,5,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2025,3,industry_engagement_multilabel,False
+audit,chain_family,Other: Tron,2026,10,industry_engagement_multilabel,True
+audit,chain_family,Other: Tron,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2023,2,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2025,2,industry_engagement_multilabel,False
+audit,chain_family,Other: VeChain,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: VeChain,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2022,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2023,2,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2024,1,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: Whitechain,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: Whitechain,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2022,3,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2024,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Other: starcoin,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Other: starcoin,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Solana,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Solana,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Solana,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Solana,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Solana,2019,1,industry_engagement_multilabel,False
+audit,chain_family,Solana,2020,1,industry_engagement_multilabel,False
+audit,chain_family,Solana,2021,12,industry_engagement_multilabel,False
+audit,chain_family,Solana,2022,38,industry_engagement_multilabel,False
+audit,chain_family,Solana,2023,51,industry_engagement_multilabel,False
+audit,chain_family,Solana,2024,82,industry_engagement_multilabel,False
+audit,chain_family,Solana,2025,184,industry_engagement_multilabel,False
+audit,chain_family,Solana,2026,94,industry_engagement_multilabel,True
+audit,chain_family,Solana,unknown,5,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2021,0,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2022,4,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2023,10,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2024,15,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2025,51,industry_engagement_multilabel,False
+audit,chain_family,Starknet,2026,13,industry_engagement_multilabel,True
+audit,chain_family,Starknet,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2018,0,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2019,1,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2020,0,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2021,4,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2022,5,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2023,11,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2024,5,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2025,4,industry_engagement_multilabel,False
+audit,chain_family,Substrate,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Substrate,unknown,3,industry_engagement_multilabel,False
+audit,chain_family,TON,2015,0,industry_engagement_multilabel,False
+audit,chain_family,TON,2016,0,industry_engagement_multilabel,False
+audit,chain_family,TON,2017,0,industry_engagement_multilabel,False
+audit,chain_family,TON,2018,0,industry_engagement_multilabel,False
+audit,chain_family,TON,2019,0,industry_engagement_multilabel,False
+audit,chain_family,TON,2020,1,industry_engagement_multilabel,False
+audit,chain_family,TON,2021,0,industry_engagement_multilabel,False
+audit,chain_family,TON,2022,2,industry_engagement_multilabel,False
+audit,chain_family,TON,2023,5,industry_engagement_multilabel,False
+audit,chain_family,TON,2024,12,industry_engagement_multilabel,False
+audit,chain_family,TON,2025,28,industry_engagement_multilabel,False
+audit,chain_family,TON,2026,0,industry_engagement_multilabel,True
+audit,chain_family,TON,unknown,0,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2015,0,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2016,0,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2017,0,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2018,5,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2019,0,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2020,13,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2021,11,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2022,2,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2023,0,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2024,3,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2025,0,industry_engagement_multilabel,False
+audit,chain_family,Tezos,2026,0,industry_engagement_multilabel,True
+audit,chain_family,Tezos,unknown,1,industry_engagement_multilabel,False
+audit,chain_family,unknown,2015,0,industry_engagement_multilabel,False
+audit,chain_family,unknown,2016,5,industry_engagement_multilabel,False
+audit,chain_family,unknown,2017,43,industry_engagement_multilabel,False
+audit,chain_family,unknown,2018,99,industry_engagement_multilabel,False
+audit,chain_family,unknown,2019,85,industry_engagement_multilabel,False
+audit,chain_family,unknown,2020,260,industry_engagement_multilabel,False
+audit,chain_family,unknown,2021,843,industry_engagement_multilabel,False
+audit,chain_family,unknown,2022,1203,industry_engagement_multilabel,False
+audit,chain_family,unknown,2023,1397,industry_engagement_multilabel,False
+audit,chain_family,unknown,2024,1836,industry_engagement_multilabel,False
+audit,chain_family,unknown,2025,1988,industry_engagement_multilabel,False
+audit,chain_family,unknown,2026,894,industry_engagement_multilabel,True
+audit,chain_family,unknown,unknown,131,industry_engagement_multilabel,False
+audit,language,C++,2015,0,industry_engagement_multilabel,False
+audit,language,C++,2016,2,industry_engagement_multilabel,False
+audit,language,C++,2017,1,industry_engagement_multilabel,False
+audit,language,C++,2018,4,industry_engagement_multilabel,False
+audit,language,C++,2019,4,industry_engagement_multilabel,False
+audit,language,C++,2020,3,industry_engagement_multilabel,False
+audit,language,C++,2021,3,industry_engagement_multilabel,False
+audit,language,C++,2022,0,industry_engagement_multilabel,False
+audit,language,C++,2023,1,industry_engagement_multilabel,False
+audit,language,C++,2024,1,industry_engagement_multilabel,False
+audit,language,C++,2025,4,industry_engagement_multilabel,False
+audit,language,C++,2026,3,industry_engagement_multilabel,True
+audit,language,C++,unknown,0,industry_engagement_multilabel,False
+audit,language,Cadence,2015,0,industry_engagement_multilabel,False
+audit,language,Cadence,2016,0,industry_engagement_multilabel,False
+audit,language,Cadence,2017,0,industry_engagement_multilabel,False
+audit,language,Cadence,2018,0,industry_engagement_multilabel,False
+audit,language,Cadence,2019,0,industry_engagement_multilabel,False
+audit,language,Cadence,2020,0,industry_engagement_multilabel,False
+audit,language,Cadence,2021,0,industry_engagement_multilabel,False
+audit,language,Cadence,2022,0,industry_engagement_multilabel,False
+audit,language,Cadence,2023,0,industry_engagement_multilabel,False
+audit,language,Cadence,2024,1,industry_engagement_multilabel,False
+audit,language,Cadence,2025,0,industry_engagement_multilabel,False
+audit,language,Cadence,2026,1,industry_engagement_multilabel,True
+audit,language,Cadence,unknown,0,industry_engagement_multilabel,False
+audit,language,Cairo,2015,0,industry_engagement_multilabel,False
+audit,language,Cairo,2016,0,industry_engagement_multilabel,False
+audit,language,Cairo,2017,0,industry_engagement_multilabel,False
+audit,language,Cairo,2018,0,industry_engagement_multilabel,False
+audit,language,Cairo,2019,0,industry_engagement_multilabel,False
+audit,language,Cairo,2020,0,industry_engagement_multilabel,False
+audit,language,Cairo,2021,0,industry_engagement_multilabel,False
+audit,language,Cairo,2022,7,industry_engagement_multilabel,False
+audit,language,Cairo,2023,12,industry_engagement_multilabel,False
+audit,language,Cairo,2024,60,industry_engagement_multilabel,False
+audit,language,Cairo,2025,127,industry_engagement_multilabel,False
+audit,language,Cairo,2026,47,industry_engagement_multilabel,True
+audit,language,Cairo,unknown,4,industry_engagement_multilabel,False
+audit,language,Circom,2015,0,industry_engagement_multilabel,False
+audit,language,Circom,2016,0,industry_engagement_multilabel,False
+audit,language,Circom,2017,0,industry_engagement_multilabel,False
+audit,language,Circom,2018,0,industry_engagement_multilabel,False
+audit,language,Circom,2019,0,industry_engagement_multilabel,False
+audit,language,Circom,2020,0,industry_engagement_multilabel,False
+audit,language,Circom,2021,0,industry_engagement_multilabel,False
+audit,language,Circom,2022,0,industry_engagement_multilabel,False
+audit,language,Circom,2023,1,industry_engagement_multilabel,False
+audit,language,Circom,2024,0,industry_engagement_multilabel,False
+audit,language,Circom,2025,0,industry_engagement_multilabel,False
+audit,language,Circom,2026,2,industry_engagement_multilabel,True
+audit,language,Circom,unknown,0,industry_engagement_multilabel,False
+audit,language,Clarity,2015,0,industry_engagement_multilabel,False
+audit,language,Clarity,2016,0,industry_engagement_multilabel,False
+audit,language,Clarity,2017,0,industry_engagement_multilabel,False
+audit,language,Clarity,2018,0,industry_engagement_multilabel,False
+audit,language,Clarity,2019,0,industry_engagement_multilabel,False
+audit,language,Clarity,2020,2,industry_engagement_multilabel,False
+audit,language,Clarity,2021,0,industry_engagement_multilabel,False
+audit,language,Clarity,2022,3,industry_engagement_multilabel,False
+audit,language,Clarity,2023,4,industry_engagement_multilabel,False
+audit,language,Clarity,2024,13,industry_engagement_multilabel,False
+audit,language,Clarity,2025,13,industry_engagement_multilabel,False
+audit,language,Clarity,2026,1,industry_engagement_multilabel,True
+audit,language,Clarity,unknown,0,industry_engagement_multilabel,False
+audit,language,Daml,2015,0,industry_engagement_multilabel,False
+audit,language,Daml,2016,0,industry_engagement_multilabel,False
+audit,language,Daml,2017,0,industry_engagement_multilabel,False
+audit,language,Daml,2018,0,industry_engagement_multilabel,False
+audit,language,Daml,2019,0,industry_engagement_multilabel,False
+audit,language,Daml,2020,0,industry_engagement_multilabel,False
+audit,language,Daml,2021,0,industry_engagement_multilabel,False
+audit,language,Daml,2022,0,industry_engagement_multilabel,False
+audit,language,Daml,2023,0,industry_engagement_multilabel,False
+audit,language,Daml,2024,0,industry_engagement_multilabel,False
+audit,language,Daml,2025,2,industry_engagement_multilabel,False
+audit,language,Daml,2026,2,industry_engagement_multilabel,True
+audit,language,Daml,unknown,0,industry_engagement_multilabel,False
+audit,language,FunC,2015,0,industry_engagement_multilabel,False
+audit,language,FunC,2016,0,industry_engagement_multilabel,False
+audit,language,FunC,2017,0,industry_engagement_multilabel,False
+audit,language,FunC,2018,0,industry_engagement_multilabel,False
+audit,language,FunC,2019,0,industry_engagement_multilabel,False
+audit,language,FunC,2020,0,industry_engagement_multilabel,False
+audit,language,FunC,2021,0,industry_engagement_multilabel,False
+audit,language,FunC,2022,0,industry_engagement_multilabel,False
+audit,language,FunC,2023,1,industry_engagement_multilabel,False
+audit,language,FunC,2024,7,industry_engagement_multilabel,False
+audit,language,FunC,2025,6,industry_engagement_multilabel,False
+audit,language,FunC,2026,0,industry_engagement_multilabel,True
+audit,language,FunC,unknown,0,industry_engagement_multilabel,False
+audit,language,Func,2015,0,industry_engagement_multilabel,False
+audit,language,Func,2016,0,industry_engagement_multilabel,False
+audit,language,Func,2017,0,industry_engagement_multilabel,False
+audit,language,Func,2018,0,industry_engagement_multilabel,False
+audit,language,Func,2019,0,industry_engagement_multilabel,False
+audit,language,Func,2020,0,industry_engagement_multilabel,False
+audit,language,Func,2021,0,industry_engagement_multilabel,False
+audit,language,Func,2022,0,industry_engagement_multilabel,False
+audit,language,Func,2023,0,industry_engagement_multilabel,False
+audit,language,Func,2024,2,industry_engagement_multilabel,False
+audit,language,Func,2025,1,industry_engagement_multilabel,False
+audit,language,Func,2026,0,industry_engagement_multilabel,True
+audit,language,Func,unknown,0,industry_engagement_multilabel,False
+audit,language,Go,2015,0,industry_engagement_multilabel,False
+audit,language,Go,2016,0,industry_engagement_multilabel,False
+audit,language,Go,2017,0,industry_engagement_multilabel,False
+audit,language,Go,2018,0,industry_engagement_multilabel,False
+audit,language,Go,2019,0,industry_engagement_multilabel,False
+audit,language,Go,2020,0,industry_engagement_multilabel,False
+audit,language,Go,2021,2,industry_engagement_multilabel,False
+audit,language,Go,2022,1,industry_engagement_multilabel,False
+audit,language,Go,2023,2,industry_engagement_multilabel,False
+audit,language,Go,2024,2,industry_engagement_multilabel,False
+audit,language,Go,2025,0,industry_engagement_multilabel,False
+audit,language,Go,2026,0,industry_engagement_multilabel,True
+audit,language,Go,unknown,0,industry_engagement_multilabel,False
+audit,language,Haskell,2015,0,industry_engagement_multilabel,False
+audit,language,Haskell,2016,0,industry_engagement_multilabel,False
+audit,language,Haskell,2017,0,industry_engagement_multilabel,False
+audit,language,Haskell,2018,0,industry_engagement_multilabel,False
+audit,language,Haskell,2019,0,industry_engagement_multilabel,False
+audit,language,Haskell,2020,2,industry_engagement_multilabel,False
+audit,language,Haskell,2021,0,industry_engagement_multilabel,False
+audit,language,Haskell,2022,0,industry_engagement_multilabel,False
+audit,language,Haskell,2023,0,industry_engagement_multilabel,False
+audit,language,Haskell,2024,0,industry_engagement_multilabel,False
+audit,language,Haskell,2025,0,industry_engagement_multilabel,False
+audit,language,Haskell,2026,0,industry_engagement_multilabel,True
+audit,language,Haskell,unknown,0,industry_engagement_multilabel,False
+audit,language,JavaScript,2015,0,industry_engagement_multilabel,False
+audit,language,JavaScript,2016,0,industry_engagement_multilabel,False
+audit,language,JavaScript,2017,0,industry_engagement_multilabel,False
+audit,language,JavaScript,2018,3,industry_engagement_multilabel,False
+audit,language,JavaScript,2019,1,industry_engagement_multilabel,False
+audit,language,JavaScript,2020,1,industry_engagement_multilabel,False
+audit,language,JavaScript,2021,16,industry_engagement_multilabel,False
+audit,language,JavaScript,2022,1,industry_engagement_multilabel,False
+audit,language,JavaScript,2023,6,industry_engagement_multilabel,False
+audit,language,JavaScript,2024,8,industry_engagement_multilabel,False
+audit,language,JavaScript,2025,6,industry_engagement_multilabel,False
+audit,language,JavaScript,2026,7,industry_engagement_multilabel,True
+audit,language,JavaScript,unknown,1,industry_engagement_multilabel,False
+audit,language,Javascript,2015,0,industry_engagement_multilabel,False
+audit,language,Javascript,2016,0,industry_engagement_multilabel,False
+audit,language,Javascript,2017,0,industry_engagement_multilabel,False
+audit,language,Javascript,2018,0,industry_engagement_multilabel,False
+audit,language,Javascript,2019,0,industry_engagement_multilabel,False
+audit,language,Javascript,2020,0,industry_engagement_multilabel,False
+audit,language,Javascript,2021,1,industry_engagement_multilabel,False
+audit,language,Javascript,2022,0,industry_engagement_multilabel,False
+audit,language,Javascript,2023,0,industry_engagement_multilabel,False
+audit,language,Javascript,2024,1,industry_engagement_multilabel,False
+audit,language,Javascript,2025,0,industry_engagement_multilabel,False
+audit,language,Javascript,2026,0,industry_engagement_multilabel,True
+audit,language,Javascript,unknown,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2015,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2016,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2017,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2018,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2019,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2020,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2021,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2022,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2023,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2024,0,industry_engagement_multilabel,False
+audit,language,Kotlin,2025,1,industry_engagement_multilabel,False
+audit,language,Kotlin,2026,0,industry_engagement_multilabel,True
+audit,language,Kotlin,unknown,0,industry_engagement_multilabel,False
+audit,language,Move,2015,0,industry_engagement_multilabel,False
+audit,language,Move,2016,0,industry_engagement_multilabel,False
+audit,language,Move,2017,0,industry_engagement_multilabel,False
+audit,language,Move,2018,0,industry_engagement_multilabel,False
+audit,language,Move,2019,0,industry_engagement_multilabel,False
+audit,language,Move,2020,0,industry_engagement_multilabel,False
+audit,language,Move,2021,1,industry_engagement_multilabel,False
+audit,language,Move,2022,1,industry_engagement_multilabel,False
+audit,language,Move,2023,5,industry_engagement_multilabel,False
+audit,language,Move,2024,4,industry_engagement_multilabel,False
+audit,language,Move,2025,14,industry_engagement_multilabel,False
+audit,language,Move,2026,1,industry_engagement_multilabel,True
+audit,language,Move,unknown,0,industry_engagement_multilabel,False
+audit,language,Python,2015,0,industry_engagement_multilabel,False
+audit,language,Python,2016,0,industry_engagement_multilabel,False
+audit,language,Python,2017,2,industry_engagement_multilabel,False
+audit,language,Python,2018,1,industry_engagement_multilabel,False
+audit,language,Python,2019,3,industry_engagement_multilabel,False
+audit,language,Python,2020,2,industry_engagement_multilabel,False
+audit,language,Python,2021,4,industry_engagement_multilabel,False
+audit,language,Python,2022,0,industry_engagement_multilabel,False
+audit,language,Python,2023,5,industry_engagement_multilabel,False
+audit,language,Python,2024,2,industry_engagement_multilabel,False
+audit,language,Python,2025,3,industry_engagement_multilabel,False
+audit,language,Python,2026,1,industry_engagement_multilabel,True
+audit,language,Python,unknown,1,industry_engagement_multilabel,False
+audit,language,Rell,2015,0,industry_engagement_multilabel,False
+audit,language,Rell,2016,0,industry_engagement_multilabel,False
+audit,language,Rell,2017,0,industry_engagement_multilabel,False
+audit,language,Rell,2018,0,industry_engagement_multilabel,False
+audit,language,Rell,2019,0,industry_engagement_multilabel,False
+audit,language,Rell,2020,0,industry_engagement_multilabel,False
+audit,language,Rell,2021,0,industry_engagement_multilabel,False
+audit,language,Rell,2022,0,industry_engagement_multilabel,False
+audit,language,Rell,2023,0,industry_engagement_multilabel,False
+audit,language,Rell,2024,2,industry_engagement_multilabel,False
+audit,language,Rell,2025,0,industry_engagement_multilabel,False
+audit,language,Rell,2026,0,industry_engagement_multilabel,True
+audit,language,Rell,unknown,0,industry_engagement_multilabel,False
+audit,language,Rust,2015,0,industry_engagement_multilabel,False
+audit,language,Rust,2016,0,industry_engagement_multilabel,False
+audit,language,Rust,2017,0,industry_engagement_multilabel,False
+audit,language,Rust,2018,2,industry_engagement_multilabel,False
+audit,language,Rust,2019,1,industry_engagement_multilabel,False
+audit,language,Rust,2020,7,industry_engagement_multilabel,False
+audit,language,Rust,2021,24,industry_engagement_multilabel,False
+audit,language,Rust,2022,19,industry_engagement_multilabel,False
+audit,language,Rust,2023,28,industry_engagement_multilabel,False
+audit,language,Rust,2024,81,industry_engagement_multilabel,False
+audit,language,Rust,2025,191,industry_engagement_multilabel,False
+audit,language,Rust,2026,78,industry_engagement_multilabel,True
+audit,language,Rust,unknown,9,industry_engagement_multilabel,False
+audit,language,Scala,2015,0,industry_engagement_multilabel,False
+audit,language,Scala,2016,0,industry_engagement_multilabel,False
+audit,language,Scala,2017,0,industry_engagement_multilabel,False
+audit,language,Scala,2018,0,industry_engagement_multilabel,False
+audit,language,Scala,2019,0,industry_engagement_multilabel,False
+audit,language,Scala,2020,0,industry_engagement_multilabel,False
+audit,language,Scala,2021,0,industry_engagement_multilabel,False
+audit,language,Scala,2022,0,industry_engagement_multilabel,False
+audit,language,Scala,2023,0,industry_engagement_multilabel,False
+audit,language,Scala,2024,0,industry_engagement_multilabel,False
+audit,language,Scala,2025,1,industry_engagement_multilabel,False
+audit,language,Scala,2026,1,industry_engagement_multilabel,True
+audit,language,Scala,unknown,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2015,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2016,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2017,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2018,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2019,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2020,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2021,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2022,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2023,1,industry_engagement_multilabel,False
+audit,language,Scrypto,2024,5,industry_engagement_multilabel,False
+audit,language,Scrypto,2025,0,industry_engagement_multilabel,False
+audit,language,Scrypto,2026,0,industry_engagement_multilabel,True
+audit,language,Scrypto,unknown,0,industry_engagement_multilabel,False
+audit,language,Solidity,2015,0,industry_engagement_multilabel,False
+audit,language,Solidity,2016,3,industry_engagement_multilabel,False
+audit,language,Solidity,2017,33,industry_engagement_multilabel,False
+audit,language,Solidity,2018,43,industry_engagement_multilabel,False
+audit,language,Solidity,2019,66,industry_engagement_multilabel,False
+audit,language,Solidity,2020,150,industry_engagement_multilabel,False
+audit,language,Solidity,2021,604,industry_engagement_multilabel,False
+audit,language,Solidity,2022,766,industry_engagement_multilabel,False
+audit,language,Solidity,2023,756,industry_engagement_multilabel,False
+audit,language,Solidity,2024,829,industry_engagement_multilabel,False
+audit,language,Solidity,2025,708,industry_engagement_multilabel,False
+audit,language,Solidity,2026,299,industry_engagement_multilabel,True
+audit,language,Solidity,unknown,61,industry_engagement_multilabel,False
+audit,language,TON Solidity,2015,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2016,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2017,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2018,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2019,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2020,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2021,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2022,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2023,3,industry_engagement_multilabel,False
+audit,language,TON Solidity,2024,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2025,0,industry_engagement_multilabel,False
+audit,language,TON Solidity,2026,0,industry_engagement_multilabel,True
+audit,language,TON Solidity,unknown,0,industry_engagement_multilabel,False
+audit,language,Tact,2015,0,industry_engagement_multilabel,False
+audit,language,Tact,2016,0,industry_engagement_multilabel,False
+audit,language,Tact,2017,0,industry_engagement_multilabel,False
+audit,language,Tact,2018,0,industry_engagement_multilabel,False
+audit,language,Tact,2019,0,industry_engagement_multilabel,False
+audit,language,Tact,2020,0,industry_engagement_multilabel,False
+audit,language,Tact,2021,0,industry_engagement_multilabel,False
+audit,language,Tact,2022,0,industry_engagement_multilabel,False
+audit,language,Tact,2023,0,industry_engagement_multilabel,False
+audit,language,Tact,2024,2,industry_engagement_multilabel,False
+audit,language,Tact,2025,0,industry_engagement_multilabel,False
+audit,language,Tact,2026,0,industry_engagement_multilabel,True
+audit,language,Tact,unknown,0,industry_engagement_multilabel,False
+audit,language,Tolk,2015,0,industry_engagement_multilabel,False
+audit,language,Tolk,2016,0,industry_engagement_multilabel,False
+audit,language,Tolk,2017,0,industry_engagement_multilabel,False
+audit,language,Tolk,2018,0,industry_engagement_multilabel,False
+audit,language,Tolk,2019,0,industry_engagement_multilabel,False
+audit,language,Tolk,2020,0,industry_engagement_multilabel,False
+audit,language,Tolk,2021,0,industry_engagement_multilabel,False
+audit,language,Tolk,2022,0,industry_engagement_multilabel,False
+audit,language,Tolk,2023,0,industry_engagement_multilabel,False
+audit,language,Tolk,2024,0,industry_engagement_multilabel,False
+audit,language,Tolk,2025,1,industry_engagement_multilabel,False
+audit,language,Tolk,2026,0,industry_engagement_multilabel,True
+audit,language,Tolk,unknown,0,industry_engagement_multilabel,False
+audit,language,TypeScript,2015,0,industry_engagement_multilabel,False
+audit,language,TypeScript,2016,0,industry_engagement_multilabel,False
+audit,language,TypeScript,2017,0,industry_engagement_multilabel,False
+audit,language,TypeScript,2018,1,industry_engagement_multilabel,False
+audit,language,TypeScript,2019,0,industry_engagement_multilabel,False
+audit,language,TypeScript,2020,1,industry_engagement_multilabel,False
+audit,language,TypeScript,2021,6,industry_engagement_multilabel,False
+audit,language,TypeScript,2022,3,industry_engagement_multilabel,False
+audit,language,TypeScript,2023,8,industry_engagement_multilabel,False
+audit,language,TypeScript,2024,8,industry_engagement_multilabel,False
+audit,language,TypeScript,2025,7,industry_engagement_multilabel,False
+audit,language,TypeScript,2026,12,industry_engagement_multilabel,True
+audit,language,TypeScript,unknown,1,industry_engagement_multilabel,False
+audit,language,Typescript,2015,0,industry_engagement_multilabel,False
+audit,language,Typescript,2016,0,industry_engagement_multilabel,False
+audit,language,Typescript,2017,0,industry_engagement_multilabel,False
+audit,language,Typescript,2018,0,industry_engagement_multilabel,False
+audit,language,Typescript,2019,0,industry_engagement_multilabel,False
+audit,language,Typescript,2020,0,industry_engagement_multilabel,False
+audit,language,Typescript,2021,0,industry_engagement_multilabel,False
+audit,language,Typescript,2022,0,industry_engagement_multilabel,False
+audit,language,Typescript,2023,0,industry_engagement_multilabel,False
+audit,language,Typescript,2024,2,industry_engagement_multilabel,False
+audit,language,Typescript,2025,1,industry_engagement_multilabel,False
+audit,language,Typescript,2026,0,industry_engagement_multilabel,True
+audit,language,Typescript,unknown,0,industry_engagement_multilabel,False
+audit,language,Vyper,2015,0,industry_engagement_multilabel,False
+audit,language,Vyper,2016,0,industry_engagement_multilabel,False
+audit,language,Vyper,2017,0,industry_engagement_multilabel,False
+audit,language,Vyper,2018,0,industry_engagement_multilabel,False
+audit,language,Vyper,2019,5,industry_engagement_multilabel,False
+audit,language,Vyper,2020,4,industry_engagement_multilabel,False
+audit,language,Vyper,2021,4,industry_engagement_multilabel,False
+audit,language,Vyper,2022,5,industry_engagement_multilabel,False
+audit,language,Vyper,2023,17,industry_engagement_multilabel,False
+audit,language,Vyper,2024,34,industry_engagement_multilabel,False
+audit,language,Vyper,2025,66,industry_engagement_multilabel,False
+audit,language,Vyper,2026,31,industry_engagement_multilabel,True
+audit,language,Vyper,unknown,2,industry_engagement_multilabel,False
+audit,language,Yul,2015,0,industry_engagement_multilabel,False
+audit,language,Yul,2016,0,industry_engagement_multilabel,False
+audit,language,Yul,2017,0,industry_engagement_multilabel,False
+audit,language,Yul,2018,1,industry_engagement_multilabel,False
+audit,language,Yul,2019,0,industry_engagement_multilabel,False
+audit,language,Yul,2020,0,industry_engagement_multilabel,False
+audit,language,Yul,2021,0,industry_engagement_multilabel,False
+audit,language,Yul,2022,5,industry_engagement_multilabel,False
+audit,language,Yul,2023,10,industry_engagement_multilabel,False
+audit,language,Yul,2024,6,industry_engagement_multilabel,False
+audit,language,Yul,2025,5,industry_engagement_multilabel,False
+audit,language,Yul,2026,1,industry_engagement_multilabel,True
+audit,language,Yul,unknown,0,industry_engagement_multilabel,False
+audit,language,unknown,2015,1,industry_engagement_multilabel,False
+audit,language,unknown,2016,2,industry_engagement_multilabel,False
+audit,language,unknown,2017,19,industry_engagement_multilabel,False
+audit,language,unknown,2018,88,industry_engagement_multilabel,False
+audit,language,unknown,2019,68,industry_engagement_multilabel,False
+audit,language,unknown,2020,210,industry_engagement_multilabel,False
+audit,language,unknown,2021,697,industry_engagement_multilabel,False
+audit,language,unknown,2022,1025,industry_engagement_multilabel,False
+audit,language,unknown,2023,1336,industry_engagement_multilabel,False
+audit,language,unknown,2024,1747,industry_engagement_multilabel,False
+audit,language,unknown,2025,1810,industry_engagement_multilabel,False
+audit,language,unknown,2026,827,industry_engagement_multilabel,True
+audit,language,unknown,unknown,117,industry_engagement_multilabel,False
+audit,publisher_kind,collective,2015,0,publisher_engagement,False
+audit,publisher_kind,collective,2016,0,publisher_engagement,False
+audit,publisher_kind,collective,2017,0,publisher_engagement,False
+audit,publisher_kind,collective,2018,0,publisher_engagement,False
+audit,publisher_kind,collective,2019,0,publisher_engagement,False
+audit,publisher_kind,collective,2020,0,publisher_engagement,False
+audit,publisher_kind,collective,2021,2,publisher_engagement,False
+audit,publisher_kind,collective,2022,21,publisher_engagement,False
+audit,publisher_kind,collective,2023,107,publisher_engagement,False
+audit,publisher_kind,collective,2024,164,publisher_engagement,False
+audit,publisher_kind,collective,2025,166,publisher_engagement,False
+audit,publisher_kind,collective,2026,54,publisher_engagement,True
+audit,publisher_kind,collective,unknown,25,publisher_engagement,False
+audit,publisher_kind,contest_platform,2015,0,publisher_engagement,False
+audit,publisher_kind,contest_platform,2016,0,publisher_engagement,False
+audit,publisher_kind,contest_platform,2017,0,publisher_engagement,False
+audit,publisher_kind,contest_platform,2018,0,publisher_engagement,False
+audit,publisher_kind,contest_platform,2019,0,publisher_engagement,False
+audit,publisher_kind,contest_platform,2020,0,publisher_engagement,False
+audit,publisher_kind,contest_platform,2021,67,publisher_engagement,False
+audit,publisher_kind,contest_platform,2022,175,publisher_engagement,False
+audit,publisher_kind,contest_platform,2023,219,publisher_engagement,False
+audit,publisher_kind,contest_platform,2024,393,publisher_engagement,False
+audit,publisher_kind,contest_platform,2025,379,publisher_engagement,False
+audit,publisher_kind,contest_platform,2026,166,publisher_engagement,True
+audit,publisher_kind,contest_platform,unknown,20,publisher_engagement,False
+audit,publisher_kind,firm,2015,1,publisher_engagement,False
+audit,publisher_kind,firm,2016,7,publisher_engagement,False
+audit,publisher_kind,firm,2017,52,publisher_engagement,False
+audit,publisher_kind,firm,2018,135,publisher_engagement,False
+audit,publisher_kind,firm,2019,139,publisher_engagement,False
+audit,publisher_kind,firm,2020,375,publisher_engagement,False
+audit,publisher_kind,firm,2021,1264,publisher_engagement,False
+audit,publisher_kind,firm,2022,1630,publisher_engagement,False
+audit,publisher_kind,firm,2023,1829,publisher_engagement,False
+audit,publisher_kind,firm,2024,2127,publisher_engagement,False
+audit,publisher_kind,firm,2025,2147,publisher_engagement,False
+audit,publisher_kind,firm,2026,966,publisher_engagement,True
+audit,publisher_kind,firm,unknown,144,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2015,0,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2016,0,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2017,12,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2018,10,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2019,8,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2020,8,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2021,34,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2022,42,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2023,47,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2024,32,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2025,25,publisher_engagement,False
+audit,top20_publisher,abdk-consulting,2026,1,publisher_engagement,True
+audit,top20_publisher,abdk-consulting,unknown,0,publisher_engagement,False
+audit,top20_publisher,blocksec,2015,0,publisher_engagement,False
+audit,top20_publisher,blocksec,2016,0,publisher_engagement,False
+audit,top20_publisher,blocksec,2017,0,publisher_engagement,False
+audit,top20_publisher,blocksec,2018,0,publisher_engagement,False
+audit,top20_publisher,blocksec,2019,0,publisher_engagement,False
+audit,top20_publisher,blocksec,2020,0,publisher_engagement,False
+audit,top20_publisher,blocksec,2021,6,publisher_engagement,False
+audit,top20_publisher,blocksec,2022,37,publisher_engagement,False
+audit,top20_publisher,blocksec,2023,25,publisher_engagement,False
+audit,top20_publisher,blocksec,2024,45,publisher_engagement,False
+audit,top20_publisher,blocksec,2025,52,publisher_engagement,False
+audit,top20_publisher,blocksec,2026,67,publisher_engagement,True
+audit,top20_publisher,blocksec,unknown,0,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2015,0,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2016,0,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2017,4,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2018,9,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2019,8,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2020,2,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2021,27,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2022,48,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2023,72,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2024,84,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2025,93,publisher_engagement,False
+audit,top20_publisher,chainsecurity,2026,66,publisher_engagement,True
+audit,top20_publisher,chainsecurity,unknown,1,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2015,0,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2016,0,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2017,0,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2018,0,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2019,0,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2020,0,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2021,0,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2022,0,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2023,0,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2024,29,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2025,141,publisher_engagement,False
+audit,top20_publisher,code4rena-zenith,2026,50,publisher_engagement,True
+audit,top20_publisher,code4rena-zenith,unknown,1,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2015,0,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2016,0,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2017,0,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2018,0,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2019,0,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2020,0,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2021,0,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2022,9,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2023,35,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2024,54,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2025,159,publisher_engagement,False
+audit,top20_publisher,guardianaudits,2026,79,publisher_engagement,True
+audit,top20_publisher,guardianaudits,unknown,8,publisher_engagement,False
+audit,top20_publisher,hacken,2015,0,publisher_engagement,False
+audit,top20_publisher,hacken,2016,0,publisher_engagement,False
+audit,top20_publisher,hacken,2017,0,publisher_engagement,False
+audit,top20_publisher,hacken,2018,0,publisher_engagement,False
+audit,top20_publisher,hacken,2019,0,publisher_engagement,False
+audit,top20_publisher,hacken,2020,11,publisher_engagement,False
+audit,top20_publisher,hacken,2021,303,publisher_engagement,False
+audit,top20_publisher,hacken,2022,301,publisher_engagement,False
+audit,top20_publisher,hacken,2023,234,publisher_engagement,False
+audit,top20_publisher,hacken,2024,222,publisher_engagement,False
+audit,top20_publisher,hacken,2025,122,publisher_engagement,False
+audit,top20_publisher,hacken,2026,79,publisher_engagement,True
+audit,top20_publisher,hacken,unknown,8,publisher_engagement,False
+audit,top20_publisher,halborn,2015,0,publisher_engagement,False
+audit,top20_publisher,halborn,2016,0,publisher_engagement,False
+audit,top20_publisher,halborn,2017,0,publisher_engagement,False
+audit,top20_publisher,halborn,2018,0,publisher_engagement,False
+audit,top20_publisher,halborn,2019,0,publisher_engagement,False
+audit,top20_publisher,halborn,2020,17,publisher_engagement,False
+audit,top20_publisher,halborn,2021,81,publisher_engagement,False
+audit,top20_publisher,halborn,2022,90,publisher_engagement,False
+audit,top20_publisher,halborn,2023,81,publisher_engagement,False
+audit,top20_publisher,halborn,2024,56,publisher_engagement,False
+audit,top20_publisher,halborn,2025,149,publisher_engagement,False
+audit,top20_publisher,halborn,2026,63,publisher_engagement,True
+audit,top20_publisher,halborn,unknown,2,publisher_engagement,False
+audit,top20_publisher,mixbytes,2015,0,publisher_engagement,False
+audit,top20_publisher,mixbytes,2016,0,publisher_engagement,False
+audit,top20_publisher,mixbytes,2017,0,publisher_engagement,False
+audit,top20_publisher,mixbytes,2018,2,publisher_engagement,False
+audit,top20_publisher,mixbytes,2019,9,publisher_engagement,False
+audit,top20_publisher,mixbytes,2020,15,publisher_engagement,False
+audit,top20_publisher,mixbytes,2021,45,publisher_engagement,False
+audit,top20_publisher,mixbytes,2022,15,publisher_engagement,False
+audit,top20_publisher,mixbytes,2023,24,publisher_engagement,False
+audit,top20_publisher,mixbytes,2024,36,publisher_engagement,False
+audit,top20_publisher,mixbytes,2025,52,publisher_engagement,False
+audit,top20_publisher,mixbytes,2026,43,publisher_engagement,True
+audit,top20_publisher,mixbytes,unknown,11,publisher_engagement,False
+audit,top20_publisher,oak-security,2015,0,publisher_engagement,False
+audit,top20_publisher,oak-security,2016,0,publisher_engagement,False
+audit,top20_publisher,oak-security,2017,0,publisher_engagement,False
+audit,top20_publisher,oak-security,2018,0,publisher_engagement,False
+audit,top20_publisher,oak-security,2019,0,publisher_engagement,False
+audit,top20_publisher,oak-security,2020,0,publisher_engagement,False
+audit,top20_publisher,oak-security,2021,20,publisher_engagement,False
+audit,top20_publisher,oak-security,2022,46,publisher_engagement,False
+audit,top20_publisher,oak-security,2023,73,publisher_engagement,False
+audit,top20_publisher,oak-security,2024,80,publisher_engagement,False
+audit,top20_publisher,oak-security,2025,68,publisher_engagement,False
+audit,top20_publisher,oak-security,2026,25,publisher_engagement,True
+audit,top20_publisher,oak-security,unknown,15,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2015,0,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2016,5,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2017,30,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2018,12,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2019,9,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2020,33,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2021,26,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2022,31,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2023,66,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2024,68,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2025,102,publisher_engagement,False
+audit,top20_publisher,openzeppelin,2026,44,publisher_engagement,True
+audit,top20_publisher,openzeppelin,unknown,1,publisher_engagement,False
+audit,top20_publisher,ottersec,2015,0,publisher_engagement,False
+audit,top20_publisher,ottersec,2016,0,publisher_engagement,False
+audit,top20_publisher,ottersec,2017,0,publisher_engagement,False
+audit,top20_publisher,ottersec,2018,0,publisher_engagement,False
+audit,top20_publisher,ottersec,2019,0,publisher_engagement,False
+audit,top20_publisher,ottersec,2020,0,publisher_engagement,False
+audit,top20_publisher,ottersec,2021,0,publisher_engagement,False
+audit,top20_publisher,ottersec,2022,72,publisher_engagement,False
+audit,top20_publisher,ottersec,2023,97,publisher_engagement,False
+audit,top20_publisher,ottersec,2024,131,publisher_engagement,False
+audit,top20_publisher,ottersec,2025,75,publisher_engagement,False
+audit,top20_publisher,ottersec,2026,15,publisher_engagement,True
+audit,top20_publisher,ottersec,unknown,0,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2015,0,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2016,0,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2017,0,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2018,0,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2019,0,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2020,0,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2021,0,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2022,3,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2023,76,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2024,125,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2025,111,publisher_engagement,False
+audit,top20_publisher,pashov-audit-group,2026,30,publisher_engagement,True
+audit,top20_publisher,pashov-audit-group,unknown,25,publisher_engagement,False
+audit,top20_publisher,peckshield,2015,0,publisher_engagement,False
+audit,top20_publisher,peckshield,2016,0,publisher_engagement,False
+audit,top20_publisher,peckshield,2017,0,publisher_engagement,False
+audit,top20_publisher,peckshield,2018,0,publisher_engagement,False
+audit,top20_publisher,peckshield,2019,1,publisher_engagement,False
+audit,top20_publisher,peckshield,2020,29,publisher_engagement,False
+audit,top20_publisher,peckshield,2021,125,publisher_engagement,False
+audit,top20_publisher,peckshield,2022,131,publisher_engagement,False
+audit,top20_publisher,peckshield,2023,104,publisher_engagement,False
+audit,top20_publisher,peckshield,2024,81,publisher_engagement,False
+audit,top20_publisher,peckshield,2025,41,publisher_engagement,False
+audit,top20_publisher,peckshield,2026,10,publisher_engagement,True
+audit,top20_publisher,peckshield,unknown,1,publisher_engagement,False
+audit,top20_publisher,quantstamp,2015,0,publisher_engagement,False
+audit,top20_publisher,quantstamp,2016,0,publisher_engagement,False
+audit,top20_publisher,quantstamp,2017,0,publisher_engagement,False
+audit,top20_publisher,quantstamp,2018,7,publisher_engagement,False
+audit,top20_publisher,quantstamp,2019,14,publisher_engagement,False
+audit,top20_publisher,quantstamp,2020,38,publisher_engagement,False
+audit,top20_publisher,quantstamp,2021,63,publisher_engagement,False
+audit,top20_publisher,quantstamp,2022,35,publisher_engagement,False
+audit,top20_publisher,quantstamp,2023,76,publisher_engagement,False
+audit,top20_publisher,quantstamp,2024,83,publisher_engagement,False
+audit,top20_publisher,quantstamp,2025,70,publisher_engagement,False
+audit,top20_publisher,quantstamp,2026,18,publisher_engagement,True
+audit,top20_publisher,quantstamp,unknown,0,publisher_engagement,False
+audit,top20_publisher,slowmist,2015,0,publisher_engagement,False
+audit,top20_publisher,slowmist,2016,0,publisher_engagement,False
+audit,top20_publisher,slowmist,2017,0,publisher_engagement,False
+audit,top20_publisher,slowmist,2018,3,publisher_engagement,False
+audit,top20_publisher,slowmist,2019,5,publisher_engagement,False
+audit,top20_publisher,slowmist,2020,13,publisher_engagement,False
+audit,top20_publisher,slowmist,2021,58,publisher_engagement,False
+audit,top20_publisher,slowmist,2022,42,publisher_engagement,False
+audit,top20_publisher,slowmist,2023,41,publisher_engagement,False
+audit,top20_publisher,slowmist,2024,71,publisher_engagement,False
+audit,top20_publisher,slowmist,2025,45,publisher_engagement,False
+audit,top20_publisher,slowmist,2026,7,publisher_engagement,True
+audit,top20_publisher,slowmist,unknown,6,publisher_engagement,False
+audit,top20_publisher,solidified,2015,0,publisher_engagement,False
+audit,top20_publisher,solidified,2016,0,publisher_engagement,False
+audit,top20_publisher,solidified,2017,0,publisher_engagement,False
+audit,top20_publisher,solidified,2018,36,publisher_engagement,False
+audit,top20_publisher,solidified,2019,22,publisher_engagement,False
+audit,top20_publisher,solidified,2020,31,publisher_engagement,False
+audit,top20_publisher,solidified,2021,75,publisher_engagement,False
+audit,top20_publisher,solidified,2022,45,publisher_engagement,False
+audit,top20_publisher,solidified,2023,19,publisher_engagement,False
+audit,top20_publisher,solidified,2024,2,publisher_engagement,False
+audit,top20_publisher,solidified,2025,0,publisher_engagement,False
+audit,top20_publisher,solidified,2026,0,publisher_engagement,True
+audit,top20_publisher,solidified,unknown,0,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2015,0,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2016,0,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2017,3,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2018,10,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2019,17,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2020,33,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2021,29,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2022,43,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2023,60,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2024,63,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2025,64,publisher_engagement,False
+audit,top20_publisher,trail-of-bits,2026,32,publisher_engagement,True
+audit,top20_publisher,trail-of-bits,unknown,0,publisher_engagement,False
+audit,top20_publisher,verichains,2015,0,publisher_engagement,False
+audit,top20_publisher,verichains,2016,0,publisher_engagement,False
+audit,top20_publisher,verichains,2017,0,publisher_engagement,False
+audit,top20_publisher,verichains,2018,8,publisher_engagement,False
+audit,top20_publisher,verichains,2019,2,publisher_engagement,False
+audit,top20_publisher,verichains,2020,1,publisher_engagement,False
+audit,top20_publisher,verichains,2021,55,publisher_engagement,False
+audit,top20_publisher,verichains,2022,107,publisher_engagement,False
+audit,top20_publisher,verichains,2023,61,publisher_engagement,False
+audit,top20_publisher,verichains,2024,76,publisher_engagement,False
+audit,top20_publisher,verichains,2025,17,publisher_engagement,False
+audit,top20_publisher,verichains,2026,2,publisher_engagement,True
+audit,top20_publisher,verichains,unknown,6,publisher_engagement,False
+audit,top20_publisher,zellic,2015,0,publisher_engagement,False
+audit,top20_publisher,zellic,2016,0,publisher_engagement,False
+audit,top20_publisher,zellic,2017,0,publisher_engagement,False
+audit,top20_publisher,zellic,2018,0,publisher_engagement,False
+audit,top20_publisher,zellic,2019,0,publisher_engagement,False
+audit,top20_publisher,zellic,2020,0,publisher_engagement,False
+audit,top20_publisher,zellic,2021,0,publisher_engagement,False
+audit,top20_publisher,zellic,2022,47,publisher_engagement,False
+audit,top20_publisher,zellic,2023,95,publisher_engagement,False
+audit,top20_publisher,zellic,2024,117,publisher_engagement,False
+audit,top20_publisher,zellic,2025,100,publisher_engagement,False
+audit,top20_publisher,zellic,2026,54,publisher_engagement,True
+audit,top20_publisher,zellic,unknown,1,publisher_engagement,False
+audit,top20_publisher,zokyo,2015,0,publisher_engagement,False
+audit,top20_publisher,zokyo,2016,0,publisher_engagement,False
+audit,top20_publisher,zokyo,2017,0,publisher_engagement,False
+audit,top20_publisher,zokyo,2018,0,publisher_engagement,False
+audit,top20_publisher,zokyo,2019,0,publisher_engagement,False
+audit,top20_publisher,zokyo,2020,4,publisher_engagement,False
+audit,top20_publisher,zokyo,2021,57,publisher_engagement,False
+audit,top20_publisher,zokyo,2022,61,publisher_engagement,False
+audit,top20_publisher,zokyo,2023,68,publisher_engagement,False
+audit,top20_publisher,zokyo,2024,73,publisher_engagement,False
+audit,top20_publisher,zokyo,2025,41,publisher_engagement,False
+audit,top20_publisher,zokyo,2026,6,publisher_engagement,True
+audit,top20_publisher,zokyo,unknown,0,publisher_engagement,False
+publication,chain_family,Bitcoin,2015,1,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2016,1,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2017,1,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2019,2,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2020,4,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2022,5,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2023,3,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2024,12,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2025,16,industry_engagement_multilabel,False
+publication,chain_family,Bitcoin,2026,5,industry_engagement_multilabel,True
+publication,chain_family,Bitcoin,unknown,238,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2017,2,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2019,1,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2020,2,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2021,2,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2022,2,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2023,1,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2024,3,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2025,8,industry_engagement_multilabel,False
+publication,chain_family,Cosmos,2026,2,industry_engagement_multilabel,True
+publication,chain_family,Cosmos,unknown,119,industry_engagement_multilabel,False
+publication,chain_family,EVM,2015,1,industry_engagement_multilabel,False
+publication,chain_family,EVM,2016,0,industry_engagement_multilabel,False
+publication,chain_family,EVM,2017,5,industry_engagement_multilabel,False
+publication,chain_family,EVM,2018,7,industry_engagement_multilabel,False
+publication,chain_family,EVM,2019,37,industry_engagement_multilabel,False
+publication,chain_family,EVM,2020,69,industry_engagement_multilabel,False
+publication,chain_family,EVM,2021,54,industry_engagement_multilabel,False
+publication,chain_family,EVM,2022,51,industry_engagement_multilabel,False
+publication,chain_family,EVM,2023,97,industry_engagement_multilabel,False
+publication,chain_family,EVM,2024,156,industry_engagement_multilabel,False
+publication,chain_family,EVM,2025,127,industry_engagement_multilabel,False
+publication,chain_family,EVM,2026,68,industry_engagement_multilabel,True
+publication,chain_family,EVM,unknown,2503,industry_engagement_multilabel,False
+publication,chain_family,Move,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Move,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Move,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Move,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Move,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Move,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Move,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Move,2022,3,industry_engagement_multilabel,False
+publication,chain_family,Move,2023,5,industry_engagement_multilabel,False
+publication,chain_family,Move,2024,3,industry_engagement_multilabel,False
+publication,chain_family,Move,2025,12,industry_engagement_multilabel,False
+publication,chain_family,Move,2026,2,industry_engagement_multilabel,True
+publication,chain_family,Move,unknown,119,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2015,0,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2016,0,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2017,0,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2018,0,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2019,0,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2020,0,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2021,0,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2022,1,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2023,0,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2024,1,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2025,0,industry_engagement_multilabel,False
+publication,chain_family,NEAR,2026,0,industry_engagement_multilabel,True
+publication,chain_family,NEAR,unknown,9,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2022,3,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2023,2,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2024,1,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Algorand,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Algorand,unknown,173,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Bitlayer,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Bitlayer,unknown,4,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Cardano,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Cardano,unknown,5,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: CratD2C,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: CratD2C,unknown,2,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: EBSI,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: EBSI,unknown,1,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Hedera,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Hedera,unknown,5,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: KAIA,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: KAIA,unknown,2,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MetaChain,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: MetaChain,unknown,3,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Monad,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Monad,unknown,2,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: MultiversX,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: MultiversX,unknown,1,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Other,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Other,unknown,112,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Plume Network,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Plume Network,unknown,4,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Radix,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Radix,unknown,7,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sei,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Sei,unknown,3,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Sky Marvel Chain,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Sky Marvel Chain,unknown,1,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Stellar,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Stellar,unknown,3,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Supra,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Supra,unknown,2,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2020,2,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2024,2,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2025,2,industry_engagement_multilabel,False
+publication,chain_family,Other: Tron,2026,7,industry_engagement_multilabel,True
+publication,chain_family,Other: Tron,unknown,10,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: VeChain,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: VeChain,unknown,4,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: Whitechain,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: Whitechain,unknown,3,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Other: starcoin,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Other: starcoin,unknown,3,industry_engagement_multilabel,False
+publication,chain_family,Solana,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Solana,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Solana,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Solana,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Solana,2019,1,industry_engagement_multilabel,False
+publication,chain_family,Solana,2020,1,industry_engagement_multilabel,False
+publication,chain_family,Solana,2021,8,industry_engagement_multilabel,False
+publication,chain_family,Solana,2022,16,industry_engagement_multilabel,False
+publication,chain_family,Solana,2023,12,industry_engagement_multilabel,False
+publication,chain_family,Solana,2024,18,industry_engagement_multilabel,False
+publication,chain_family,Solana,2025,78,industry_engagement_multilabel,False
+publication,chain_family,Solana,2026,27,industry_engagement_multilabel,True
+publication,chain_family,Solana,unknown,307,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2019,0,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2022,1,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2023,4,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2024,2,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2025,7,industry_engagement_multilabel,False
+publication,chain_family,Starknet,2026,2,industry_engagement_multilabel,True
+publication,chain_family,Starknet,unknown,77,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2019,1,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2020,0,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2021,0,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2022,0,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2023,2,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2024,0,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Substrate,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Substrate,unknown,30,industry_engagement_multilabel,False
+publication,chain_family,TON,2015,0,industry_engagement_multilabel,False
+publication,chain_family,TON,2016,0,industry_engagement_multilabel,False
+publication,chain_family,TON,2017,0,industry_engagement_multilabel,False
+publication,chain_family,TON,2018,0,industry_engagement_multilabel,False
+publication,chain_family,TON,2019,0,industry_engagement_multilabel,False
+publication,chain_family,TON,2020,0,industry_engagement_multilabel,False
+publication,chain_family,TON,2021,0,industry_engagement_multilabel,False
+publication,chain_family,TON,2022,0,industry_engagement_multilabel,False
+publication,chain_family,TON,2023,1,industry_engagement_multilabel,False
+publication,chain_family,TON,2024,4,industry_engagement_multilabel,False
+publication,chain_family,TON,2025,20,industry_engagement_multilabel,False
+publication,chain_family,TON,2026,0,industry_engagement_multilabel,True
+publication,chain_family,TON,unknown,23,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2015,0,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2016,0,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2017,0,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2018,0,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2019,5,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2020,10,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2021,8,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2022,1,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2023,0,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2024,1,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2025,0,industry_engagement_multilabel,False
+publication,chain_family,Tezos,2026,0,industry_engagement_multilabel,True
+publication,chain_family,Tezos,unknown,10,industry_engagement_multilabel,False
+publication,chain_family,unknown,2015,0,industry_engagement_multilabel,False
+publication,chain_family,unknown,2016,5,industry_engagement_multilabel,False
+publication,chain_family,unknown,2017,31,industry_engagement_multilabel,False
+publication,chain_family,unknown,2018,33,industry_engagement_multilabel,False
+publication,chain_family,unknown,2019,22,industry_engagement_multilabel,False
+publication,chain_family,unknown,2020,106,industry_engagement_multilabel,False
+publication,chain_family,unknown,2021,176,industry_engagement_multilabel,False
+publication,chain_family,unknown,2022,230,industry_engagement_multilabel,False
+publication,chain_family,unknown,2023,451,industry_engagement_multilabel,False
+publication,chain_family,unknown,2024,659,industry_engagement_multilabel,False
+publication,chain_family,unknown,2025,823,industry_engagement_multilabel,False
+publication,chain_family,unknown,2026,357,industry_engagement_multilabel,True
+publication,chain_family,unknown,unknown,5891,industry_engagement_multilabel,False
+publication,language,C++,2015,0,industry_engagement_multilabel,False
+publication,language,C++,2016,1,industry_engagement_multilabel,False
+publication,language,C++,2017,1,industry_engagement_multilabel,False
+publication,language,C++,2018,2,industry_engagement_multilabel,False
+publication,language,C++,2019,0,industry_engagement_multilabel,False
+publication,language,C++,2020,2,industry_engagement_multilabel,False
+publication,language,C++,2021,2,industry_engagement_multilabel,False
+publication,language,C++,2022,0,industry_engagement_multilabel,False
+publication,language,C++,2023,0,industry_engagement_multilabel,False
+publication,language,C++,2024,1,industry_engagement_multilabel,False
+publication,language,C++,2025,3,industry_engagement_multilabel,False
+publication,language,C++,2026,3,industry_engagement_multilabel,True
+publication,language,C++,unknown,11,industry_engagement_multilabel,False
+publication,language,Cadence,2015,0,industry_engagement_multilabel,False
+publication,language,Cadence,2016,0,industry_engagement_multilabel,False
+publication,language,Cadence,2017,0,industry_engagement_multilabel,False
+publication,language,Cadence,2018,0,industry_engagement_multilabel,False
+publication,language,Cadence,2019,0,industry_engagement_multilabel,False
+publication,language,Cadence,2020,0,industry_engagement_multilabel,False
+publication,language,Cadence,2021,0,industry_engagement_multilabel,False
+publication,language,Cadence,2022,0,industry_engagement_multilabel,False
+publication,language,Cadence,2023,0,industry_engagement_multilabel,False
+publication,language,Cadence,2024,1,industry_engagement_multilabel,False
+publication,language,Cadence,2025,0,industry_engagement_multilabel,False
+publication,language,Cadence,2026,1,industry_engagement_multilabel,True
+publication,language,Cadence,unknown,0,industry_engagement_multilabel,False
+publication,language,Cairo,2015,0,industry_engagement_multilabel,False
+publication,language,Cairo,2016,0,industry_engagement_multilabel,False
+publication,language,Cairo,2017,0,industry_engagement_multilabel,False
+publication,language,Cairo,2018,0,industry_engagement_multilabel,False
+publication,language,Cairo,2019,0,industry_engagement_multilabel,False
+publication,language,Cairo,2020,0,industry_engagement_multilabel,False
+publication,language,Cairo,2021,0,industry_engagement_multilabel,False
+publication,language,Cairo,2022,0,industry_engagement_multilabel,False
+publication,language,Cairo,2023,1,industry_engagement_multilabel,False
+publication,language,Cairo,2024,3,industry_engagement_multilabel,False
+publication,language,Cairo,2025,4,industry_engagement_multilabel,False
+publication,language,Cairo,2026,2,industry_engagement_multilabel,True
+publication,language,Cairo,unknown,247,industry_engagement_multilabel,False
+publication,language,Circom,2015,0,industry_engagement_multilabel,False
+publication,language,Circom,2016,0,industry_engagement_multilabel,False
+publication,language,Circom,2017,0,industry_engagement_multilabel,False
+publication,language,Circom,2018,0,industry_engagement_multilabel,False
+publication,language,Circom,2019,0,industry_engagement_multilabel,False
+publication,language,Circom,2020,0,industry_engagement_multilabel,False
+publication,language,Circom,2021,0,industry_engagement_multilabel,False
+publication,language,Circom,2022,0,industry_engagement_multilabel,False
+publication,language,Circom,2023,1,industry_engagement_multilabel,False
+publication,language,Circom,2024,0,industry_engagement_multilabel,False
+publication,language,Circom,2025,0,industry_engagement_multilabel,False
+publication,language,Circom,2026,1,industry_engagement_multilabel,True
+publication,language,Circom,unknown,1,industry_engagement_multilabel,False
+publication,language,Clarity,2015,0,industry_engagement_multilabel,False
+publication,language,Clarity,2016,0,industry_engagement_multilabel,False
+publication,language,Clarity,2017,0,industry_engagement_multilabel,False
+publication,language,Clarity,2018,0,industry_engagement_multilabel,False
+publication,language,Clarity,2019,0,industry_engagement_multilabel,False
+publication,language,Clarity,2020,2,industry_engagement_multilabel,False
+publication,language,Clarity,2021,0,industry_engagement_multilabel,False
+publication,language,Clarity,2022,3,industry_engagement_multilabel,False
+publication,language,Clarity,2023,3,industry_engagement_multilabel,False
+publication,language,Clarity,2024,10,industry_engagement_multilabel,False
+publication,language,Clarity,2025,11,industry_engagement_multilabel,False
+publication,language,Clarity,2026,1,industry_engagement_multilabel,True
+publication,language,Clarity,unknown,6,industry_engagement_multilabel,False
+publication,language,Daml,2015,0,industry_engagement_multilabel,False
+publication,language,Daml,2016,0,industry_engagement_multilabel,False
+publication,language,Daml,2017,0,industry_engagement_multilabel,False
+publication,language,Daml,2018,0,industry_engagement_multilabel,False
+publication,language,Daml,2019,0,industry_engagement_multilabel,False
+publication,language,Daml,2020,0,industry_engagement_multilabel,False
+publication,language,Daml,2021,0,industry_engagement_multilabel,False
+publication,language,Daml,2022,0,industry_engagement_multilabel,False
+publication,language,Daml,2023,0,industry_engagement_multilabel,False
+publication,language,Daml,2024,0,industry_engagement_multilabel,False
+publication,language,Daml,2025,2,industry_engagement_multilabel,False
+publication,language,Daml,2026,2,industry_engagement_multilabel,True
+publication,language,Daml,unknown,0,industry_engagement_multilabel,False
+publication,language,FunC,2015,0,industry_engagement_multilabel,False
+publication,language,FunC,2016,0,industry_engagement_multilabel,False
+publication,language,FunC,2017,0,industry_engagement_multilabel,False
+publication,language,FunC,2018,0,industry_engagement_multilabel,False
+publication,language,FunC,2019,0,industry_engagement_multilabel,False
+publication,language,FunC,2020,0,industry_engagement_multilabel,False
+publication,language,FunC,2021,0,industry_engagement_multilabel,False
+publication,language,FunC,2022,0,industry_engagement_multilabel,False
+publication,language,FunC,2023,1,industry_engagement_multilabel,False
+publication,language,FunC,2024,4,industry_engagement_multilabel,False
+publication,language,FunC,2025,7,industry_engagement_multilabel,False
+publication,language,FunC,2026,0,industry_engagement_multilabel,True
+publication,language,FunC,unknown,2,industry_engagement_multilabel,False
+publication,language,Func,2015,0,industry_engagement_multilabel,False
+publication,language,Func,2016,0,industry_engagement_multilabel,False
+publication,language,Func,2017,0,industry_engagement_multilabel,False
+publication,language,Func,2018,0,industry_engagement_multilabel,False
+publication,language,Func,2019,0,industry_engagement_multilabel,False
+publication,language,Func,2020,0,industry_engagement_multilabel,False
+publication,language,Func,2021,0,industry_engagement_multilabel,False
+publication,language,Func,2022,0,industry_engagement_multilabel,False
+publication,language,Func,2023,0,industry_engagement_multilabel,False
+publication,language,Func,2024,0,industry_engagement_multilabel,False
+publication,language,Func,2025,0,industry_engagement_multilabel,False
+publication,language,Func,2026,0,industry_engagement_multilabel,True
+publication,language,Func,unknown,3,industry_engagement_multilabel,False
+publication,language,Go,2015,0,industry_engagement_multilabel,False
+publication,language,Go,2016,0,industry_engagement_multilabel,False
+publication,language,Go,2017,0,industry_engagement_multilabel,False
+publication,language,Go,2018,0,industry_engagement_multilabel,False
+publication,language,Go,2019,0,industry_engagement_multilabel,False
+publication,language,Go,2020,0,industry_engagement_multilabel,False
+publication,language,Go,2021,0,industry_engagement_multilabel,False
+publication,language,Go,2022,0,industry_engagement_multilabel,False
+publication,language,Go,2023,1,industry_engagement_multilabel,False
+publication,language,Go,2024,2,industry_engagement_multilabel,False
+publication,language,Go,2025,0,industry_engagement_multilabel,False
+publication,language,Go,2026,0,industry_engagement_multilabel,True
+publication,language,Go,unknown,4,industry_engagement_multilabel,False
+publication,language,Haskell,2015,0,industry_engagement_multilabel,False
+publication,language,Haskell,2016,0,industry_engagement_multilabel,False
+publication,language,Haskell,2017,0,industry_engagement_multilabel,False
+publication,language,Haskell,2018,0,industry_engagement_multilabel,False
+publication,language,Haskell,2019,0,industry_engagement_multilabel,False
+publication,language,Haskell,2020,1,industry_engagement_multilabel,False
+publication,language,Haskell,2021,0,industry_engagement_multilabel,False
+publication,language,Haskell,2022,0,industry_engagement_multilabel,False
+publication,language,Haskell,2023,0,industry_engagement_multilabel,False
+publication,language,Haskell,2024,0,industry_engagement_multilabel,False
+publication,language,Haskell,2025,0,industry_engagement_multilabel,False
+publication,language,Haskell,2026,0,industry_engagement_multilabel,True
+publication,language,Haskell,unknown,1,industry_engagement_multilabel,False
+publication,language,JavaScript,2015,0,industry_engagement_multilabel,False
+publication,language,JavaScript,2016,0,industry_engagement_multilabel,False
+publication,language,JavaScript,2017,0,industry_engagement_multilabel,False
+publication,language,JavaScript,2018,1,industry_engagement_multilabel,False
+publication,language,JavaScript,2019,0,industry_engagement_multilabel,False
+publication,language,JavaScript,2020,1,industry_engagement_multilabel,False
+publication,language,JavaScript,2021,2,industry_engagement_multilabel,False
+publication,language,JavaScript,2022,2,industry_engagement_multilabel,False
+publication,language,JavaScript,2023,1,industry_engagement_multilabel,False
+publication,language,JavaScript,2024,7,industry_engagement_multilabel,False
+publication,language,JavaScript,2025,3,industry_engagement_multilabel,False
+publication,language,JavaScript,2026,2,industry_engagement_multilabel,True
+publication,language,JavaScript,unknown,31,industry_engagement_multilabel,False
+publication,language,Javascript,2015,0,industry_engagement_multilabel,False
+publication,language,Javascript,2016,0,industry_engagement_multilabel,False
+publication,language,Javascript,2017,0,industry_engagement_multilabel,False
+publication,language,Javascript,2018,0,industry_engagement_multilabel,False
+publication,language,Javascript,2019,0,industry_engagement_multilabel,False
+publication,language,Javascript,2020,0,industry_engagement_multilabel,False
+publication,language,Javascript,2021,0,industry_engagement_multilabel,False
+publication,language,Javascript,2022,0,industry_engagement_multilabel,False
+publication,language,Javascript,2023,0,industry_engagement_multilabel,False
+publication,language,Javascript,2024,0,industry_engagement_multilabel,False
+publication,language,Javascript,2025,1,industry_engagement_multilabel,False
+publication,language,Javascript,2026,0,industry_engagement_multilabel,True
+publication,language,Javascript,unknown,1,industry_engagement_multilabel,False
+publication,language,Kotlin,2015,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2016,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2017,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2018,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2019,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2020,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2021,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2022,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2023,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2024,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2025,0,industry_engagement_multilabel,False
+publication,language,Kotlin,2026,0,industry_engagement_multilabel,True
+publication,language,Kotlin,unknown,1,industry_engagement_multilabel,False
+publication,language,Move,2015,0,industry_engagement_multilabel,False
+publication,language,Move,2016,0,industry_engagement_multilabel,False
+publication,language,Move,2017,0,industry_engagement_multilabel,False
+publication,language,Move,2018,0,industry_engagement_multilabel,False
+publication,language,Move,2019,0,industry_engagement_multilabel,False
+publication,language,Move,2020,0,industry_engagement_multilabel,False
+publication,language,Move,2021,1,industry_engagement_multilabel,False
+publication,language,Move,2022,0,industry_engagement_multilabel,False
+publication,language,Move,2023,0,industry_engagement_multilabel,False
+publication,language,Move,2024,0,industry_engagement_multilabel,False
+publication,language,Move,2025,3,industry_engagement_multilabel,False
+publication,language,Move,2026,1,industry_engagement_multilabel,True
+publication,language,Move,unknown,21,industry_engagement_multilabel,False
+publication,language,Python,2015,0,industry_engagement_multilabel,False
+publication,language,Python,2016,0,industry_engagement_multilabel,False
+publication,language,Python,2017,2,industry_engagement_multilabel,False
+publication,language,Python,2018,0,industry_engagement_multilabel,False
+publication,language,Python,2019,2,industry_engagement_multilabel,False
+publication,language,Python,2020,1,industry_engagement_multilabel,False
+publication,language,Python,2021,3,industry_engagement_multilabel,False
+publication,language,Python,2022,0,industry_engagement_multilabel,False
+publication,language,Python,2023,0,industry_engagement_multilabel,False
+publication,language,Python,2024,1,industry_engagement_multilabel,False
+publication,language,Python,2025,2,industry_engagement_multilabel,False
+publication,language,Python,2026,0,industry_engagement_multilabel,True
+publication,language,Python,unknown,13,industry_engagement_multilabel,False
+publication,language,Rell,2015,0,industry_engagement_multilabel,False
+publication,language,Rell,2016,0,industry_engagement_multilabel,False
+publication,language,Rell,2017,0,industry_engagement_multilabel,False
+publication,language,Rell,2018,0,industry_engagement_multilabel,False
+publication,language,Rell,2019,0,industry_engagement_multilabel,False
+publication,language,Rell,2020,0,industry_engagement_multilabel,False
+publication,language,Rell,2021,0,industry_engagement_multilabel,False
+publication,language,Rell,2022,0,industry_engagement_multilabel,False
+publication,language,Rell,2023,0,industry_engagement_multilabel,False
+publication,language,Rell,2024,2,industry_engagement_multilabel,False
+publication,language,Rell,2025,0,industry_engagement_multilabel,False
+publication,language,Rell,2026,0,industry_engagement_multilabel,True
+publication,language,Rell,unknown,0,industry_engagement_multilabel,False
+publication,language,Rust,2015,0,industry_engagement_multilabel,False
+publication,language,Rust,2016,0,industry_engagement_multilabel,False
+publication,language,Rust,2017,0,industry_engagement_multilabel,False
+publication,language,Rust,2018,0,industry_engagement_multilabel,False
+publication,language,Rust,2019,1,industry_engagement_multilabel,False
+publication,language,Rust,2020,3,industry_engagement_multilabel,False
+publication,language,Rust,2021,13,industry_engagement_multilabel,False
+publication,language,Rust,2022,6,industry_engagement_multilabel,False
+publication,language,Rust,2023,10,industry_engagement_multilabel,False
+publication,language,Rust,2024,20,industry_engagement_multilabel,False
+publication,language,Rust,2025,66,industry_engagement_multilabel,False
+publication,language,Rust,2026,17,industry_engagement_multilabel,True
+publication,language,Rust,unknown,304,industry_engagement_multilabel,False
+publication,language,Scala,2015,0,industry_engagement_multilabel,False
+publication,language,Scala,2016,0,industry_engagement_multilabel,False
+publication,language,Scala,2017,0,industry_engagement_multilabel,False
+publication,language,Scala,2018,0,industry_engagement_multilabel,False
+publication,language,Scala,2019,0,industry_engagement_multilabel,False
+publication,language,Scala,2020,0,industry_engagement_multilabel,False
+publication,language,Scala,2021,0,industry_engagement_multilabel,False
+publication,language,Scala,2022,0,industry_engagement_multilabel,False
+publication,language,Scala,2023,0,industry_engagement_multilabel,False
+publication,language,Scala,2024,0,industry_engagement_multilabel,False
+publication,language,Scala,2025,1,industry_engagement_multilabel,False
+publication,language,Scala,2026,1,industry_engagement_multilabel,True
+publication,language,Scala,unknown,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2015,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2016,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2017,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2018,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2019,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2020,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2021,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2022,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2023,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2024,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2025,0,industry_engagement_multilabel,False
+publication,language,Scrypto,2026,0,industry_engagement_multilabel,True
+publication,language,Scrypto,unknown,6,industry_engagement_multilabel,False
+publication,language,Solidity,2015,0,industry_engagement_multilabel,False
+publication,language,Solidity,2016,3,industry_engagement_multilabel,False
+publication,language,Solidity,2017,22,industry_engagement_multilabel,False
+publication,language,Solidity,2018,11,industry_engagement_multilabel,False
+publication,language,Solidity,2019,40,industry_engagement_multilabel,False
+publication,language,Solidity,2020,102,industry_engagement_multilabel,False
+publication,language,Solidity,2021,103,industry_engagement_multilabel,False
+publication,language,Solidity,2022,88,industry_engagement_multilabel,False
+publication,language,Solidity,2023,218,industry_engagement_multilabel,False
+publication,language,Solidity,2024,300,industry_engagement_multilabel,False
+publication,language,Solidity,2025,263,industry_engagement_multilabel,False
+publication,language,Solidity,2026,109,industry_engagement_multilabel,True
+publication,language,Solidity,unknown,3059,industry_engagement_multilabel,False
+publication,language,TON Solidity,2015,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2016,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2017,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2018,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2019,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2020,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2021,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2022,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2023,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2024,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2025,0,industry_engagement_multilabel,False
+publication,language,TON Solidity,2026,0,industry_engagement_multilabel,True
+publication,language,TON Solidity,unknown,3,industry_engagement_multilabel,False
+publication,language,Tact,2015,0,industry_engagement_multilabel,False
+publication,language,Tact,2016,0,industry_engagement_multilabel,False
+publication,language,Tact,2017,0,industry_engagement_multilabel,False
+publication,language,Tact,2018,0,industry_engagement_multilabel,False
+publication,language,Tact,2019,0,industry_engagement_multilabel,False
+publication,language,Tact,2020,0,industry_engagement_multilabel,False
+publication,language,Tact,2021,0,industry_engagement_multilabel,False
+publication,language,Tact,2022,0,industry_engagement_multilabel,False
+publication,language,Tact,2023,0,industry_engagement_multilabel,False
+publication,language,Tact,2024,0,industry_engagement_multilabel,False
+publication,language,Tact,2025,0,industry_engagement_multilabel,False
+publication,language,Tact,2026,0,industry_engagement_multilabel,True
+publication,language,Tact,unknown,2,industry_engagement_multilabel,False
+publication,language,Tolk,2015,0,industry_engagement_multilabel,False
+publication,language,Tolk,2016,0,industry_engagement_multilabel,False
+publication,language,Tolk,2017,0,industry_engagement_multilabel,False
+publication,language,Tolk,2018,0,industry_engagement_multilabel,False
+publication,language,Tolk,2019,0,industry_engagement_multilabel,False
+publication,language,Tolk,2020,0,industry_engagement_multilabel,False
+publication,language,Tolk,2021,0,industry_engagement_multilabel,False
+publication,language,Tolk,2022,0,industry_engagement_multilabel,False
+publication,language,Tolk,2023,0,industry_engagement_multilabel,False
+publication,language,Tolk,2024,0,industry_engagement_multilabel,False
+publication,language,Tolk,2025,1,industry_engagement_multilabel,False
+publication,language,Tolk,2026,0,industry_engagement_multilabel,True
+publication,language,Tolk,unknown,0,industry_engagement_multilabel,False
+publication,language,TypeScript,2015,0,industry_engagement_multilabel,False
+publication,language,TypeScript,2016,0,industry_engagement_multilabel,False
+publication,language,TypeScript,2017,0,industry_engagement_multilabel,False
+publication,language,TypeScript,2018,0,industry_engagement_multilabel,False
+publication,language,TypeScript,2019,0,industry_engagement_multilabel,False
+publication,language,TypeScript,2020,1,industry_engagement_multilabel,False
+publication,language,TypeScript,2021,3,industry_engagement_multilabel,False
+publication,language,TypeScript,2022,1,industry_engagement_multilabel,False
+publication,language,TypeScript,2023,8,industry_engagement_multilabel,False
+publication,language,TypeScript,2024,5,industry_engagement_multilabel,False
+publication,language,TypeScript,2025,5,industry_engagement_multilabel,False
+publication,language,TypeScript,2026,9,industry_engagement_multilabel,True
+publication,language,TypeScript,unknown,15,industry_engagement_multilabel,False
+publication,language,Typescript,2015,0,industry_engagement_multilabel,False
+publication,language,Typescript,2016,0,industry_engagement_multilabel,False
+publication,language,Typescript,2017,0,industry_engagement_multilabel,False
+publication,language,Typescript,2018,0,industry_engagement_multilabel,False
+publication,language,Typescript,2019,0,industry_engagement_multilabel,False
+publication,language,Typescript,2020,0,industry_engagement_multilabel,False
+publication,language,Typescript,2021,0,industry_engagement_multilabel,False
+publication,language,Typescript,2022,0,industry_engagement_multilabel,False
+publication,language,Typescript,2023,0,industry_engagement_multilabel,False
+publication,language,Typescript,2024,1,industry_engagement_multilabel,False
+publication,language,Typescript,2025,1,industry_engagement_multilabel,False
+publication,language,Typescript,2026,0,industry_engagement_multilabel,True
+publication,language,Typescript,unknown,1,industry_engagement_multilabel,False
+publication,language,Vyper,2015,0,industry_engagement_multilabel,False
+publication,language,Vyper,2016,0,industry_engagement_multilabel,False
+publication,language,Vyper,2017,0,industry_engagement_multilabel,False
+publication,language,Vyper,2018,0,industry_engagement_multilabel,False
+publication,language,Vyper,2019,3,industry_engagement_multilabel,False
+publication,language,Vyper,2020,2,industry_engagement_multilabel,False
+publication,language,Vyper,2021,1,industry_engagement_multilabel,False
+publication,language,Vyper,2022,0,industry_engagement_multilabel,False
+publication,language,Vyper,2023,4,industry_engagement_multilabel,False
+publication,language,Vyper,2024,1,industry_engagement_multilabel,False
+publication,language,Vyper,2025,4,industry_engagement_multilabel,False
+publication,language,Vyper,2026,0,industry_engagement_multilabel,True
+publication,language,Vyper,unknown,153,industry_engagement_multilabel,False
+publication,language,Yul,2015,0,industry_engagement_multilabel,False
+publication,language,Yul,2016,0,industry_engagement_multilabel,False
+publication,language,Yul,2017,0,industry_engagement_multilabel,False
+publication,language,Yul,2018,1,industry_engagement_multilabel,False
+publication,language,Yul,2019,0,industry_engagement_multilabel,False
+publication,language,Yul,2020,0,industry_engagement_multilabel,False
+publication,language,Yul,2021,0,industry_engagement_multilabel,False
+publication,language,Yul,2022,1,industry_engagement_multilabel,False
+publication,language,Yul,2023,2,industry_engagement_multilabel,False
+publication,language,Yul,2024,11,industry_engagement_multilabel,False
+publication,language,Yul,2025,4,industry_engagement_multilabel,False
+publication,language,Yul,2026,1,industry_engagement_multilabel,True
+publication,language,Yul,unknown,8,industry_engagement_multilabel,False
+publication,language,unknown,2015,1,industry_engagement_multilabel,False
+publication,language,unknown,2016,2,industry_engagement_multilabel,False
+publication,language,unknown,2017,14,industry_engagement_multilabel,False
+publication,language,unknown,2018,27,industry_engagement_multilabel,False
+publication,language,unknown,2019,27,industry_engagement_multilabel,False
+publication,language,unknown,2020,79,industry_engagement_multilabel,False
+publication,language,unknown,2021,127,industry_engagement_multilabel,False
+publication,language,unknown,2022,210,industry_engagement_multilabel,False
+publication,language,unknown,2023,333,industry_engagement_multilabel,False
+publication,language,unknown,2024,506,industry_engagement_multilabel,False
+publication,language,unknown,2025,706,industry_engagement_multilabel,False
+publication,language,unknown,2026,326,industry_engagement_multilabel,True
+publication,language,unknown,unknown,5589,industry_engagement_multilabel,False
+publication,publisher_kind,collective,2015,0,publisher_engagement,False
+publication,publisher_kind,collective,2016,0,publisher_engagement,False
+publication,publisher_kind,collective,2017,0,publisher_engagement,False
+publication,publisher_kind,collective,2018,0,publisher_engagement,False
+publication,publisher_kind,collective,2019,0,publisher_engagement,False
+publication,publisher_kind,collective,2020,0,publisher_engagement,False
+publication,publisher_kind,collective,2021,2,publisher_engagement,False
+publication,publisher_kind,collective,2022,22,publisher_engagement,False
+publication,publisher_kind,collective,2023,30,publisher_engagement,False
+publication,publisher_kind,collective,2024,42,publisher_engagement,False
+publication,publisher_kind,collective,2025,35,publisher_engagement,False
+publication,publisher_kind,collective,2026,6,publisher_engagement,True
+publication,publisher_kind,collective,unknown,402,publisher_engagement,False
+publication,publisher_kind,contest_platform,2015,0,publisher_engagement,False
+publication,publisher_kind,contest_platform,2016,0,publisher_engagement,False
+publication,publisher_kind,contest_platform,2017,0,publisher_engagement,False
+publication,publisher_kind,contest_platform,2018,0,publisher_engagement,False
+publication,publisher_kind,contest_platform,2019,0,publisher_engagement,False
+publication,publisher_kind,contest_platform,2020,0,publisher_engagement,False
+publication,publisher_kind,contest_platform,2021,1,publisher_engagement,False
+publication,publisher_kind,contest_platform,2022,3,publisher_engagement,False
+publication,publisher_kind,contest_platform,2023,40,publisher_engagement,False
+publication,publisher_kind,contest_platform,2024,105,publisher_engagement,False
+publication,publisher_kind,contest_platform,2025,207,publisher_engagement,False
+publication,publisher_kind,contest_platform,2026,120,publisher_engagement,True
+publication,publisher_kind,contest_platform,unknown,943,publisher_engagement,False
+publication,publisher_kind,firm,2015,1,publisher_engagement,False
+publication,publisher_kind,firm,2016,6,publisher_engagement,False
+publication,publisher_kind,firm,2017,36,publisher_engagement,False
+publication,publisher_kind,firm,2018,40,publisher_engagement,False
+publication,publisher_kind,firm,2019,68,publisher_engagement,False
+publication,publisher_kind,firm,2020,188,publisher_engagement,False
+publication,publisher_kind,firm,2021,242,publisher_engagement,False
+publication,publisher_kind,firm,2022,283,publisher_engagement,False
+publication,publisher_kind,firm,2023,498,publisher_engagement,False
+publication,publisher_kind,firm,2024,699,publisher_engagement,False
+publication,publisher_kind,firm,2025,820,publisher_engagement,False
+publication,publisher_kind,firm,2026,337,publisher_engagement,True
+publication,publisher_kind,firm,unknown,7598,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2015,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2016,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2017,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2018,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2019,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2020,1,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2021,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2022,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2023,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2024,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2025,0,publisher_engagement,False
+publication,top20_publisher,abdk-consulting,2026,0,publisher_engagement,True
+publication,top20_publisher,abdk-consulting,unknown,218,publisher_engagement,False
+publication,top20_publisher,blocksec,2015,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2016,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2017,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2018,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2019,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2020,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2021,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2022,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2023,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2024,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2025,0,publisher_engagement,False
+publication,top20_publisher,blocksec,2026,0,publisher_engagement,True
+publication,top20_publisher,blocksec,unknown,232,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2015,0,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2016,0,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2017,4,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2018,9,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2019,8,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2020,1,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2021,23,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2022,50,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2023,73,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2024,83,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2025,100,publisher_engagement,False
+publication,top20_publisher,chainsecurity,2026,61,publisher_engagement,True
+publication,top20_publisher,chainsecurity,unknown,2,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2015,0,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2016,0,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2017,0,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2018,0,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2019,0,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2020,0,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2021,0,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2022,0,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2023,0,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2024,28,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2025,134,publisher_engagement,False
+publication,top20_publisher,code4rena-zenith,2026,56,publisher_engagement,True
+publication,top20_publisher,code4rena-zenith,unknown,3,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2015,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2016,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2017,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2018,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2019,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2020,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2021,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2022,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2023,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2024,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2025,0,publisher_engagement,False
+publication,top20_publisher,guardianaudits,2026,0,publisher_engagement,True
+publication,top20_publisher,guardianaudits,unknown,344,publisher_engagement,False
+publication,top20_publisher,hacken,2015,0,publisher_engagement,False
+publication,top20_publisher,hacken,2016,0,publisher_engagement,False
+publication,top20_publisher,hacken,2017,0,publisher_engagement,False
+publication,top20_publisher,hacken,2018,0,publisher_engagement,False
+publication,top20_publisher,hacken,2019,0,publisher_engagement,False
+publication,top20_publisher,hacken,2020,0,publisher_engagement,False
+publication,top20_publisher,hacken,2021,0,publisher_engagement,False
+publication,top20_publisher,hacken,2022,0,publisher_engagement,False
+publication,top20_publisher,hacken,2023,0,publisher_engagement,False
+publication,top20_publisher,hacken,2024,0,publisher_engagement,False
+publication,top20_publisher,hacken,2025,0,publisher_engagement,False
+publication,top20_publisher,hacken,2026,0,publisher_engagement,True
+publication,top20_publisher,hacken,unknown,1280,publisher_engagement,False
+publication,top20_publisher,halborn,2015,0,publisher_engagement,False
+publication,top20_publisher,halborn,2016,0,publisher_engagement,False
+publication,top20_publisher,halborn,2017,0,publisher_engagement,False
+publication,top20_publisher,halborn,2018,0,publisher_engagement,False
+publication,top20_publisher,halborn,2019,0,publisher_engagement,False
+publication,top20_publisher,halborn,2020,9,publisher_engagement,False
+publication,top20_publisher,halborn,2021,1,publisher_engagement,False
+publication,top20_publisher,halborn,2022,3,publisher_engagement,False
+publication,top20_publisher,halborn,2023,1,publisher_engagement,False
+publication,top20_publisher,halborn,2024,45,publisher_engagement,False
+publication,top20_publisher,halborn,2025,148,publisher_engagement,False
+publication,top20_publisher,halborn,2026,62,publisher_engagement,True
+publication,top20_publisher,halborn,unknown,270,publisher_engagement,False
+publication,top20_publisher,mixbytes,2015,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2016,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2017,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2018,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2019,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2020,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2021,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2022,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2023,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2024,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2025,0,publisher_engagement,False
+publication,top20_publisher,mixbytes,2026,0,publisher_engagement,True
+publication,top20_publisher,mixbytes,unknown,252,publisher_engagement,False
+publication,top20_publisher,oak-security,2015,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2016,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2017,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2018,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2019,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2020,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2021,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2022,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2023,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2024,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2025,0,publisher_engagement,False
+publication,top20_publisher,oak-security,2026,0,publisher_engagement,True
+publication,top20_publisher,oak-security,unknown,327,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2015,0,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2016,5,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2017,30,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2018,12,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2019,9,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2020,33,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2021,24,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2022,26,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2023,40,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2024,76,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2025,90,publisher_engagement,False
+publication,top20_publisher,openzeppelin,2026,58,publisher_engagement,True
+publication,top20_publisher,openzeppelin,unknown,24,publisher_engagement,False
+publication,top20_publisher,ottersec,2015,0,publisher_engagement,False
+publication,top20_publisher,ottersec,2016,0,publisher_engagement,False
+publication,top20_publisher,ottersec,2017,0,publisher_engagement,False
+publication,top20_publisher,ottersec,2018,0,publisher_engagement,False
+publication,top20_publisher,ottersec,2019,0,publisher_engagement,False
+publication,top20_publisher,ottersec,2020,0,publisher_engagement,False
+publication,top20_publisher,ottersec,2021,0,publisher_engagement,False
+publication,top20_publisher,ottersec,2022,65,publisher_engagement,False
+publication,top20_publisher,ottersec,2023,101,publisher_engagement,False
+publication,top20_publisher,ottersec,2024,128,publisher_engagement,False
+publication,top20_publisher,ottersec,2025,78,publisher_engagement,False
+publication,top20_publisher,ottersec,2026,14,publisher_engagement,True
+publication,top20_publisher,ottersec,unknown,4,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2015,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2016,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2017,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2018,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2019,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2020,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2021,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2022,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2023,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2024,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2025,0,publisher_engagement,False
+publication,top20_publisher,pashov-audit-group,2026,0,publisher_engagement,True
+publication,top20_publisher,pashov-audit-group,unknown,370,publisher_engagement,False
+publication,top20_publisher,peckshield,2015,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2016,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2017,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2018,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2019,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2020,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2021,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2022,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2023,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2024,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2025,0,publisher_engagement,False
+publication,top20_publisher,peckshield,2026,0,publisher_engagement,True
+publication,top20_publisher,peckshield,unknown,523,publisher_engagement,False
+publication,top20_publisher,quantstamp,2015,0,publisher_engagement,False
+publication,top20_publisher,quantstamp,2016,0,publisher_engagement,False
+publication,top20_publisher,quantstamp,2017,0,publisher_engagement,False
+publication,top20_publisher,quantstamp,2018,1,publisher_engagement,False
+publication,top20_publisher,quantstamp,2019,17,publisher_engagement,False
+publication,top20_publisher,quantstamp,2020,36,publisher_engagement,False
+publication,top20_publisher,quantstamp,2021,59,publisher_engagement,False
+publication,top20_publisher,quantstamp,2022,23,publisher_engagement,False
+publication,top20_publisher,quantstamp,2023,68,publisher_engagement,False
+publication,top20_publisher,quantstamp,2024,90,publisher_engagement,False
+publication,top20_publisher,quantstamp,2025,78,publisher_engagement,False
+publication,top20_publisher,quantstamp,2026,21,publisher_engagement,True
+publication,top20_publisher,quantstamp,unknown,11,publisher_engagement,False
+publication,top20_publisher,slowmist,2015,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2016,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2017,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2018,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2019,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2020,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2021,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2022,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2023,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2024,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2025,0,publisher_engagement,False
+publication,top20_publisher,slowmist,2026,0,publisher_engagement,True
+publication,top20_publisher,slowmist,unknown,291,publisher_engagement,False
+publication,top20_publisher,solidified,2015,0,publisher_engagement,False
+publication,top20_publisher,solidified,2016,0,publisher_engagement,False
+publication,top20_publisher,solidified,2017,0,publisher_engagement,False
+publication,top20_publisher,solidified,2018,0,publisher_engagement,False
+publication,top20_publisher,solidified,2019,0,publisher_engagement,False
+publication,top20_publisher,solidified,2020,0,publisher_engagement,False
+publication,top20_publisher,solidified,2021,0,publisher_engagement,False
+publication,top20_publisher,solidified,2022,0,publisher_engagement,False
+publication,top20_publisher,solidified,2023,1,publisher_engagement,False
+publication,top20_publisher,solidified,2024,0,publisher_engagement,False
+publication,top20_publisher,solidified,2025,0,publisher_engagement,False
+publication,top20_publisher,solidified,2026,0,publisher_engagement,True
+publication,top20_publisher,solidified,unknown,229,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2015,0,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2016,0,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2017,0,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2018,3,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2019,5,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2020,1,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2021,0,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2022,1,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2023,1,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2024,1,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2025,0,publisher_engagement,False
+publication,top20_publisher,trail-of-bits,2026,0,publisher_engagement,True
+publication,top20_publisher,trail-of-bits,unknown,342,publisher_engagement,False
+publication,top20_publisher,verichains,2015,0,publisher_engagement,False
+publication,top20_publisher,verichains,2016,0,publisher_engagement,False
+publication,top20_publisher,verichains,2017,0,publisher_engagement,False
+publication,top20_publisher,verichains,2018,0,publisher_engagement,False
+publication,top20_publisher,verichains,2019,0,publisher_engagement,False
+publication,top20_publisher,verichains,2020,0,publisher_engagement,False
+publication,top20_publisher,verichains,2021,1,publisher_engagement,False
+publication,top20_publisher,verichains,2022,0,publisher_engagement,False
+publication,top20_publisher,verichains,2023,0,publisher_engagement,False
+publication,top20_publisher,verichains,2024,0,publisher_engagement,False
+publication,top20_publisher,verichains,2025,0,publisher_engagement,False
+publication,top20_publisher,verichains,2026,0,publisher_engagement,True
+publication,top20_publisher,verichains,unknown,334,publisher_engagement,False
+publication,top20_publisher,zellic,2015,0,publisher_engagement,False
+publication,top20_publisher,zellic,2016,0,publisher_engagement,False
+publication,top20_publisher,zellic,2017,0,publisher_engagement,False
+publication,top20_publisher,zellic,2018,0,publisher_engagement,False
+publication,top20_publisher,zellic,2019,0,publisher_engagement,False
+publication,top20_publisher,zellic,2020,0,publisher_engagement,False
+publication,top20_publisher,zellic,2021,0,publisher_engagement,False
+publication,top20_publisher,zellic,2022,0,publisher_engagement,False
+publication,top20_publisher,zellic,2023,0,publisher_engagement,False
+publication,top20_publisher,zellic,2024,0,publisher_engagement,False
+publication,top20_publisher,zellic,2025,0,publisher_engagement,False
+publication,top20_publisher,zellic,2026,0,publisher_engagement,True
+publication,top20_publisher,zellic,unknown,414,publisher_engagement,False
+publication,top20_publisher,zokyo,2015,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2016,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2017,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2018,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2019,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2020,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2021,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2022,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2023,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2024,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2025,0,publisher_engagement,False
+publication,top20_publisher,zokyo,2026,0,publisher_engagement,True
+publication,top20_publisher,zokyo,unknown,310,publisher_engagement,False

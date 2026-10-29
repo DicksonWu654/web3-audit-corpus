@@ -1,0 +1,193 @@
+{
+  "site_title": "Web3 Audit Database",
+  "site_url": "https://web3-audits.dicksonwu.xyz",
+  "data_repo": "https://github.com/DicksonWu654/web3-audit-findings",
+  "repo": "https://github.com/DicksonWu654/web3-audit-corpus",
+  "data_path": "data/",
+  "release_assets": [
+    {
+      "file": "findings.parquet",
+      "label": "Findings (Parquet)",
+      "about": "Finding text, severity, status and class; text withheld where publisher notices require it"
+    },
+    {
+      "file": "findings.jsonl.gz",
+      "label": "Findings (JSON Lines, gzip)",
+      "about": "One JSON object per finding with firm, project, year, chains and the original report link; built for scripts and agents"
+    },
+    {
+      "file": "audits-markdown.zip",
+      "label": "Audits as Markdown (zip)",
+      "about": "One Markdown file per report with every finding as a section, plus INDEX.csv; point a coding agent at the folder"
+    },
+    {
+      "file": "findings.csv.gz",
+      "label": "Findings (CSV, gzip)",
+      "about": "The same table as compressed CSV"
+    },
+    {
+      "file": "engagements.csv",
+      "label": "Engagements",
+      "about": "One row per audit engagement, with dates, project and review mode"
+    },
+    {
+      "file": "reports.csv",
+      "label": "Reports",
+      "about": "Source documents: publisher link, pinned permalink, sha256, pages"
+    },
+    {
+      "file": "firms.csv",
+      "label": "Publishers",
+      "about": "Firms, collectives and contest platforms with collection coverage"
+    },
+    {
+      "file": "stats.zip",
+      "label": "Summary tables (zip)",
+      "about": "Descriptive count tables: audits and findings by year, publisher, review mode and class"
+    },
+    {
+      "file": "taxonomy.yaml",
+      "label": "Taxonomy",
+      "about": "Vulnerability groups and leaves with definitions"
+    },
+    {
+      "file": "quality.csv",
+      "label": "Quality measurements",
+      "about": "Every accuracy and agreement figure with its sample"
+    },
+    {
+      "file": "DATA_DICTIONARY.md",
+      "label": "Data dictionary",
+      "about": "Column definitions for every file"
+    },
+    {
+      "file": "release_summary.json",
+      "label": "Release summary",
+      "about": "Snapshot counts, selection totals and build diagnostics"
+    },
+    {
+      "file": "CHECKSUMS.sha256",
+      "label": "Checksums",
+      "about": "SHA-256 of every release file"
+    }
+  ],
+  "license_file": "LICENSE-DATA.md",
+  "featured_findings": [
+    {
+      "id": "finding:732846ca5240dd7f42402239efca6a9428f6b17dcddd6388dbc65544003c988b"
+    },
+    {
+      "id": "finding:79e41e79b7c5aec4e06c05a5b9f9e4ccd00a5c065fcedc1fc6cdcd543261e793",
+      "project": "EigenLayer"
+    },
+    {
+      "id": "finding:645c1265178948dcb03cde455a836194288b26db58afb48f8cfb39360d25e4b3"
+    },
+    {
+      "id": "finding:31b452c9afabe51facfc0306070a301aa902297b689c241359115b7e8e22a6b2"
+    },
+    {
+      "id": "finding:24f70d68c3845489a87aaf6ee52075202dd6256ad811ad7b1e2d04d775600e45"
+    }
+  ],
+  "carousel_terms": [
+    "optimism",
+    "solana",
+    "curve",
+    "gmx",
+    "synthetix",
+    "zksync",
+    "yearn",
+    "euler",
+    "compound",
+    "layerzero",
+    "sui",
+    "aptos",
+    "wormhole",
+    "cosmos",
+    "balancer",
+    "ethena",
+    "scroll",
+    "linea",
+    "across",
+    "jito"
+  ],
+  "featured_projects": [
+    {
+      "label": "Uniswap",
+      "p": "uniswap"
+    },
+    {
+      "label": "Aave",
+      "p": "aave"
+    },
+    {
+      "label": "Lido",
+      "p": "lido"
+    },
+    {
+      "label": "EigenLayer",
+      "p": "eigenlayer,eigen labs"
+    },
+    {
+      "label": "Morpho",
+      "p": "morpho"
+    },
+    {
+      "label": "Optimism",
+      "p": "optimism,op labs"
+    },
+    {
+      "label": "Compound",
+      "p": "compound"
+    },
+    {
+      "label": "MakerDAO and Sky",
+      "p": "makerdao,maker dao,sky token"
+    },
+    {
+      "label": "Solana",
+      "p": "solana"
+    },
+    {
+      "label": "Chainlink",
+      "p": "chainlink"
+    },
+    {
+      "label": "Curve",
+      "p": "curve"
+    },
+    {
+      "label": "Arbitrum",
+      "p": "arbitrum"
+    },
+    {
+      "label": "LayerZero",
+      "p": "layerzero"
+    },
+    {
+      "label": "Wormhole",
+      "p": "wormhole"
+    },
+    {
+      "label": "Ethena",
+      "p": "ethena"
+    },
+    {
+      "label": "GMX",
+      "p": "gmx"
+    }
+  ],
+  "publisher_names": {
+    "asymmetric-research": "Asymmetric Research",
+    "fuzzland": "Fuzzland",
+    "theori": "Theori",
+    "three-sigma": "Three Sigma",
+    "chainsecurity": "ChainSecurity",
+    "halborn": "Halborn",
+    "trail-of-bits": "Trail of Bits",
+    "informalsystems": "Informal Systems",
+    "iosiro": "iosiro",
+    "consensys-diligence": "Consensys Diligence"
+  }
+}

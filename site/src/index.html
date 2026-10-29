@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--#include head-->
+<title>{{site_title}}: search and download {{db.finding_records}} audit findings</title>
+<meta name="description" content="{{db.finding_records}} findings from {{db.audits}} public smart-contract audits by {{db.publishers}} firms and contest platforms. Search them, download everything as plain files, or point your AI agent at them.">
+</head>
+<body data-page="index">
+<!--#include header-->
+<main id="main">
+  <div class="wrap">
+    <section class="hero" aria-labelledby="hero-h">
+      <div class="hero-top">
+        <div class="hero-main">
+          <h1 id="hero-h">The open database of Web3 audit findings.</h1>
+          <p class="lede" id="lede"><strong>{{db.finding_records}}</strong> findings from <strong>{{db.audits}}</strong> public smart-contract audits by <strong>{{db.publishers}}</strong> firms and contest platforms, {{db.years}}. Search them here, download every file, or point your AI agent at them for your next audit.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="explorer.html">Search findings</a>
+            <a class="btn btn-plain" href="#download">Download everything</a>
+            <a class="btn btn-plain" href="agents.html">Use with AI agents</a>
+          </div>
+          <p class="hero-free">No API key. No sign-up. It's all files.</p>
+        </div>
+        <section class="rc" id="record" aria-roledescription="carousel" aria-labelledby="record-h" hidden>
+          <div class="rc-head">
+            <h2 id="record-h">What's in a record</h2>
+            <p class="record-sub">Real findings, as the database stores them</p>
+          </div>
+          <div class="rc-track"></div>
+          <div class="rc-controls">
+            <button type="button" class="rc-btn rc-prev" aria-label="Previous finding"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+            <div class="rc-dots" role="group" aria-label="Choose a finding"></div>
+            <button type="button" class="rc-btn rc-next" aria-label="Next finding"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="projects" aria-labelledby="projects-h">
+      <h2 id="projects-h" class="projects-h">Jump to a project</h2>
+      <ul class="chips">{{html.chips}}</ul>
+    </section>
+
+    <ul class="db-figures" aria-label="What the database holds">
+      <li><b>{{db.publishers}}</b><span>audit firms and contest platforms</span></li>
+      <li><b>{{db.audits}}</b><span>audits, {{db.dated_audits}} with an exact date</span></li>
+      <li><b>{{db.reports}}</b><span>report files, each linked to the original</span></li>
+      <li><b>{{db.projects}}</b><span>audited projects</span></li>
+      <li><b>{{db.finding_records}}</b><span>finding records</span></li>
+      <li><b>{{db.full_text}}</b><span>with full finding text</span></li>
+    </ul>
+    <p class="note db-asof">Audit years {{db.years}}. {{db.year_max}} is year to date: the snapshot was taken on {{db.as_of}}.</p>
+    {{html.analysis_teaser}}
+  </div>
+
+  <section class="section dl-band" id="download" aria-labelledby="download-h">
+    <div class="wrap">
+      <div class="dl-head">
+        <h2 id="download-h" class="sec-h">Download everything</h2>
+        <p class="dl-lede">No API key, no sign-up, no rate limit. The whole database is a set of plain files on GitHub. Take what you need.</p>
+      </div>
+      <div class="dl-clone">
+        <div class="dl-clone-text">
+          <h3 class="dl-path">For coding agents: clone the findings</h3>
+          <p>Every finding as a plain Markdown file, with the report extracts, linked hub pages by firm, class, language, chain and project, and a metadata graph. Open the folder in Claude Code or Codex; its <code>AGENTS.md</code> tells the agent how to search.</p>
+          <p class="dl-sparse">Only need one firm or class? A sparse clone works; the <a href="{{data_repo}}#readme">repository README</a> has the commands.</p>
+        </div>
+        <div class="code"><pre><code>git clone --depth 1 {{data_repo}}
+cd web3-audit-findings</code></pre><button class="copy" type="button">Copy</button></div>
+      </div>
+      <h3 class="dl-path dl-path-2">For notebooks and bulk queries: release files</h3>
+      <ul class="dl-cards">
+        <li class="dl-card"><a href="{{db.download}}audits-markdown.zip"><span class="dl-name">audits-markdown.zip</span><span class="dl-size">{{db.size_markdown}}</span></a><p>One Markdown file per report, every finding a section, in one download.</p></li>
+        <li class="dl-card"><a href="{{db.download}}findings.parquet"><span class="dl-name">findings.parquet</span><span class="dl-size">{{db.size_parquet}}</span></a><p>The findings table for DuckDB, pandas or Polars. Join it to engagements.csv and reports.csv.</p></li>
+        <li class="dl-card"><a href="{{db.download}}findings.jsonl.gz"><span class="dl-name">findings.jsonl.gz</span><span class="dl-size">{{db.size_jsonl}}</span></a><p>One JSON object per finding, with firm, project, year and the original report link. For scripts and jq.</p></li>
+        <li class="dl-card"><a href="{{db.download}}findings.csv.gz"><span class="dl-name">findings.csv.gz</span><span class="dl-size">{{db.size_csv}}</span></a><p>The same table as compressed CSV, for spreadsheets and anything else.</p></li>
+      </ul>
+      <div class="dl-cmds">
+        <div><h3>One file</h3><div class="code"><pre><code>curl -LO {{db.download}}audits-markdown.zip</code></pre><button class="copy" type="button">Copy</button></div></div>
+        <div><h3>Every file, with the GitHub CLI</h3><div class="code"><pre><code>gh release download --repo {{db.repo_slug}}</code></pre><button class="copy" type="button">Copy</button></div></div>
+      </div>
+      <p class="dl-more">Audits, report links with SHA-256 hashes, the taxonomy and every quality measurement are on the <a href="methodology.html#download">data page</a>. Working with an agent? Start with <a href="agents.html">the agent guide</a>.</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="section db-counts" aria-labelledby="counts-h">
+      <h2 id="counts-h" class="sec-h">By the numbers</h2>
+      <div class="db-grid">
+        <div id="c-years"></div>
+        <div id="c-sev"></div>
+        <div class="span2" id="c-classes"></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="section uses-band" aria-labelledby="uses-h">
+    <div class="wrap">
+      <h2 id="uses-h" class="sr-only">Use the data</h2>
+      <div class="uses uses-4">
+        <div class="use">
+          <h3>Search every finding</h3>
+          <p>Filter by firm, date, severity, fix status, vulnerability class and review type. Every finding has its own page to read and share.</p>
+          <a class="go" href="explorer.html">Search findings</a>
+        </div>
+        <div class="use">
+          <h3>Browse by firm</h3>
+          <p>Every firm and contest platform has a page with its audits, finding counts and a link to each report.</p>
+          <a class="go" href="firms.html">Browse firms</a>
+        </div>
+        <div class="use">
+          <h3>Hand it to your agent</h3>
+          <p>Unzip one Markdown file per audit and let your coding agent search past findings while it reviews your code.</p>
+          <a class="go" href="agents.html">Use with AI agents</a>
+        </div>
+        <div class="use">
+          <h3>Check how it was built</h3>
+          <p>Collection, measured accuracy, the vulnerability taxonomy, coverage per firm, rights and corrections.</p>
+          <a class="go" href="methodology.html">Data and methods</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!--#include footer-->
+<script type="module" src="assets/js/app.js?v={{v}}"></script>
+</body>
+</html>

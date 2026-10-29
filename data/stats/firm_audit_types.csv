@@ -1,0 +1,379 @@
+publisher_id,name,kind,audit_type,engagements,denominator,share,coverage
+abdk-consulting,ABDK Consulting,firm,infrastructure,24,219,0.1095890410958904,public_portfolio
+abdk-consulting,ABDK Consulting,firm,nft_or_game,1,219,0.0045662100456621,public_portfolio
+abdk-consulting,ABDK Consulting,firm,other_or_unclear,137,219,0.6255707762557078,public_portfolio
+abdk-consulting,ABDK Consulting,firm,protocol,49,219,0.2237442922374429,public_portfolio
+abdk-consulting,ABDK Consulting,firm,token_only,6,219,0.0273972602739726,public_portfolio
+abdk-consulting,ABDK Consulting,firm,wallet_or_account,2,219,0.0091324200913242,public_portfolio
+ackee-blockchain,Ackee Blockchain,firm,infrastructure,16,102,0.1568627450980392,public_portfolio
+ackee-blockchain,Ackee Blockchain,firm,nft_or_game,5,102,0.049019607843137254,public_portfolio
+ackee-blockchain,Ackee Blockchain,firm,other_or_unclear,20,102,0.19607843137254902,public_portfolio
+ackee-blockchain,Ackee Blockchain,firm,protocol,51,102,0.5,public_portfolio
+ackee-blockchain,Ackee Blockchain,firm,token_only,2,102,0.0196078431372549,public_portfolio
+ackee-blockchain,Ackee Blockchain,firm,wallet_or_account,8,102,0.0784313725490196,public_portfolio
+bailsec,Bailsec,firm,infrastructure,2,111,0.018018018018018018,public_portfolio
+bailsec,Bailsec,firm,nft_or_game,7,111,0.06306306306306306,public_portfolio
+bailsec,Bailsec,firm,other_or_unclear,54,111,0.4864864864864865,public_portfolio
+bailsec,Bailsec,firm,protocol,47,111,0.42342342342342343,public_portfolio
+bailsec,Bailsec,firm,token_only,1,111,0.009009009009009009,public_portfolio
+bailsec,Bailsec,firm,wallet_or_account,0,111,0.0,public_portfolio
+blocksec,BlockSec,firm,infrastructure,26,232,0.11206896551724138,public_portfolio
+blocksec,BlockSec,firm,nft_or_game,7,232,0.03017241379310345,public_portfolio
+blocksec,BlockSec,firm,other_or_unclear,31,232,0.1336206896551724,public_portfolio
+blocksec,BlockSec,firm,protocol,153,232,0.6594827586206896,public_portfolio
+blocksec,BlockSec,firm,token_only,3,232,0.01293103448275862,public_portfolio
+blocksec,BlockSec,firm,wallet_or_account,12,232,0.05172413793103448,public_portfolio
+cantina,Cantina,contest_platform,infrastructure,78,555,0.14054054054054055,public_portfolio
+cantina,Cantina,contest_platform,nft_or_game,25,555,0.04504504504504504,public_portfolio
+cantina,Cantina,contest_platform,other_or_unclear,88,555,0.15855855855855855,public_portfolio
+cantina,Cantina,contest_platform,protocol,329,555,0.5927927927927928,public_portfolio
+cantina,Cantina,contest_platform,token_only,6,555,0.010810810810810811,public_portfolio
+cantina,Cantina,contest_platform,wallet_or_account,29,555,0.05225225225225225,public_portfolio
+certora,Certora,firm,infrastructure,23,194,0.11855670103092783,public_portfolio
+certora,Certora,firm,nft_or_game,11,194,0.05670103092783505,public_portfolio
+certora,Certora,firm,other_or_unclear,5,194,0.02577319587628866,public_portfolio
+certora,Certora,firm,protocol,147,194,0.7577319587628866,public_portfolio
+certora,Certora,firm,token_only,2,194,0.010309278350515464,public_portfolio
+certora,Certora,firm,wallet_or_account,6,194,0.030927835051546393,public_portfolio
+chainlight,ChainLight,firm,infrastructure,0,20,0.0,public_portfolio
+chainlight,ChainLight,firm,nft_or_game,2,20,0.1,public_portfolio
+chainlight,ChainLight,firm,other_or_unclear,9,20,0.45,public_portfolio
+chainlight,ChainLight,firm,protocol,8,20,0.4,public_portfolio
+chainlight,ChainLight,firm,token_only,0,20,0.0,public_portfolio
+chainlight,ChainLight,firm,wallet_or_account,1,20,0.05,public_portfolio
+chainsecurity,ChainSecurity,firm,infrastructure,60,414,0.14492753623188406,public_portfolio
+chainsecurity,ChainSecurity,firm,nft_or_game,14,414,0.033816425120772944,public_portfolio
+chainsecurity,ChainSecurity,firm,other_or_unclear,12,414,0.028985507246376812,public_portfolio
+chainsecurity,ChainSecurity,firm,protocol,311,414,0.751207729468599,public_portfolio
+chainsecurity,ChainSecurity,firm,token_only,6,414,0.014492753623188406,public_portfolio
+chainsecurity,ChainSecurity,firm,wallet_or_account,11,414,0.026570048309178744,public_portfolio
+code4rena,Code4rena,contest_platform,infrastructure,36,414,0.08695652173913043,public_portfolio
+code4rena,Code4rena,contest_platform,nft_or_game,43,414,0.10386473429951691,public_portfolio
+code4rena,Code4rena,contest_platform,other_or_unclear,77,414,0.1859903381642512,public_portfolio
+code4rena,Code4rena,contest_platform,protocol,249,414,0.6014492753623188,public_portfolio
+code4rena,Code4rena,contest_platform,token_only,1,414,0.0024154589371980675,public_portfolio
+code4rena,Code4rena,contest_platform,wallet_or_account,8,414,0.01932367149758454,public_portfolio
+code4rena-zenith,Zenith,firm,infrastructure,16,221,0.07239819004524888,public_portfolio
+code4rena-zenith,Zenith,firm,nft_or_game,5,221,0.02262443438914027,public_portfolio
+code4rena-zenith,Zenith,firm,other_or_unclear,26,221,0.11764705882352941,public_portfolio
+code4rena-zenith,Zenith,firm,protocol,167,221,0.755656108597285,public_portfolio
+code4rena-zenith,Zenith,firm,token_only,2,221,0.00904977375565611,public_portfolio
+code4rena-zenith,Zenith,firm,wallet_or_account,5,221,0.02262443438914027,public_portfolio
+codespect,CODESPECT,firm,infrastructure,2,43,0.046511627906976744,public_portfolio
+codespect,CODESPECT,firm,nft_or_game,2,43,0.046511627906976744,public_portfolio
+codespect,CODESPECT,firm,other_or_unclear,0,43,0.0,public_portfolio
+codespect,CODESPECT,firm,protocol,35,43,0.813953488372093,public_portfolio
+codespect,CODESPECT,firm,token_only,2,43,0.046511627906976744,public_portfolio
+codespect,CODESPECT,firm,wallet_or_account,2,43,0.046511627906976744,public_portfolio
+coinspect,Coinspect,firm,infrastructure,8,41,0.1951219512195122,public_portfolio
+coinspect,Coinspect,firm,nft_or_game,1,41,0.024390243902439025,public_portfolio
+coinspect,Coinspect,firm,other_or_unclear,2,41,0.04878048780487805,public_portfolio
+coinspect,Coinspect,firm,protocol,28,41,0.6829268292682927,public_portfolio
+coinspect,Coinspect,firm,token_only,1,41,0.024390243902439025,public_portfolio
+coinspect,Coinspect,firm,wallet_or_account,1,41,0.024390243902439025,public_portfolio
+composable-security,Composable Security,firm,infrastructure,2,27,0.07407407407407407,public_portfolio
+composable-security,Composable Security,firm,nft_or_game,2,27,0.07407407407407407,public_portfolio
+composable-security,Composable Security,firm,other_or_unclear,2,27,0.07407407407407407,public_portfolio
+composable-security,Composable Security,firm,protocol,21,27,0.7777777777777778,public_portfolio
+composable-security,Composable Security,firm,token_only,0,27,0.0,public_portfolio
+composable-security,Composable Security,firm,wallet_or_account,0,27,0.0,public_portfolio
+consensys-diligence,Consensys Diligence,firm,infrastructure,26,168,0.15476190476190477,public_portfolio
+consensys-diligence,Consensys Diligence,firm,nft_or_game,8,168,0.047619047619047616,public_portfolio
+consensys-diligence,Consensys Diligence,firm,other_or_unclear,14,168,0.08333333333333333,public_portfolio
+consensys-diligence,Consensys Diligence,firm,protocol,94,168,0.5595238095238095,public_portfolio
+consensys-diligence,Consensys Diligence,firm,token_only,6,168,0.03571428571428571,public_portfolio
+consensys-diligence,Consensys Diligence,firm,wallet_or_account,20,168,0.11904761904761904,public_portfolio
+decurity,Decurity,firm,infrastructure,10,60,0.16666666666666666,public_portfolio
+decurity,Decurity,firm,nft_or_game,1,60,0.016666666666666666,public_portfolio
+decurity,Decurity,firm,other_or_unclear,5,60,0.08333333333333333,public_portfolio
+decurity,Decurity,firm,protocol,43,60,0.7166666666666667,public_portfolio
+decurity,Decurity,firm,token_only,0,60,0.0,public_portfolio
+decurity,Decurity,firm,wallet_or_account,1,60,0.016666666666666666,public_portfolio
+dedaub,Dedaub,firm,infrastructure,21,209,0.10047846889952153,public_portfolio
+dedaub,Dedaub,firm,nft_or_game,8,209,0.03827751196172249,public_portfolio
+dedaub,Dedaub,firm,other_or_unclear,11,209,0.05263157894736842,public_portfolio
+dedaub,Dedaub,firm,protocol,158,209,0.7559808612440191,public_portfolio
+dedaub,Dedaub,firm,token_only,3,209,0.014354066985645933,public_portfolio
+dedaub,Dedaub,firm,wallet_or_account,8,209,0.03827751196172249,public_portfolio
+electisec,Electisec,firm,infrastructure,11,205,0.05365853658536585,public_portfolio
+electisec,Electisec,firm,nft_or_game,6,205,0.02926829268292683,public_portfolio
+electisec,Electisec,firm,other_or_unclear,30,205,0.14634146341463414,public_portfolio
+electisec,Electisec,firm,protocol,156,205,0.7609756097560976,public_portfolio
+electisec,Electisec,firm,token_only,1,205,0.004878048780487805,public_portfolio
+electisec,Electisec,firm,wallet_or_account,1,205,0.004878048780487805,public_portfolio
+fuzzland,Fuzzland,firm,infrastructure,1,30,0.03333333333333333,public_portfolio
+fuzzland,Fuzzland,firm,nft_or_game,3,30,0.1,public_portfolio
+fuzzland,Fuzzland,firm,other_or_unclear,9,30,0.3,public_portfolio
+fuzzland,Fuzzland,firm,protocol,17,30,0.5666666666666667,public_portfolio
+fuzzland,Fuzzland,firm,token_only,0,30,0.0,public_portfolio
+fuzzland,Fuzzland,firm,wallet_or_account,0,30,0.0,public_portfolio
+guardianaudits,Guardian Audits,firm,infrastructure,14,344,0.040697674418604654,public_portfolio
+guardianaudits,Guardian Audits,firm,nft_or_game,9,344,0.02616279069767442,public_portfolio
+guardianaudits,Guardian Audits,firm,other_or_unclear,96,344,0.27906976744186046,public_portfolio
+guardianaudits,Guardian Audits,firm,protocol,218,344,0.6337209302325582,public_portfolio
+guardianaudits,Guardian Audits,firm,token_only,1,344,0.0029069767441860465,public_portfolio
+guardianaudits,Guardian Audits,firm,wallet_or_account,6,344,0.01744186046511628,public_portfolio
+hacken,Hacken,firm,infrastructure,46,1280,0.0359375,public_sca_api_plus_third_party_copies
+hacken,Hacken,firm,nft_or_game,72,1280,0.05625,public_sca_api_plus_third_party_copies
+hacken,Hacken,firm,other_or_unclear,519,1280,0.40546875,public_sca_api_plus_third_party_copies
+hacken,Hacken,firm,protocol,474,1280,0.3703125,public_sca_api_plus_third_party_copies
+hacken,Hacken,firm,token_only,158,1280,0.1234375,public_sca_api_plus_third_party_copies
+hacken,Hacken,firm,wallet_or_account,11,1280,0.00859375,public_sca_api_plus_third_party_copies
+halborn,Halborn,firm,infrastructure,64,539,0.11873840445269017,public_portfolio
+halborn,Halborn,firm,nft_or_game,31,539,0.0575139146567718,public_portfolio
+halborn,Halborn,firm,other_or_unclear,94,539,0.17439703153988867,public_portfolio
+halborn,Halborn,firm,protocol,310,539,0.575139146567718,public_portfolio
+halborn,Halborn,firm,token_only,18,539,0.03339517625231911,public_portfolio
+halborn,Halborn,firm,wallet_or_account,22,539,0.04081632653061224,public_portfolio
+hats-finance,Hats Finance,contest_platform,infrastructure,1,16,0.0625,public_portfolio
+hats-finance,Hats Finance,contest_platform,nft_or_game,1,16,0.0625,public_portfolio
+hats-finance,Hats Finance,contest_platform,other_or_unclear,1,16,0.0625,public_portfolio
+hats-finance,Hats Finance,contest_platform,protocol,13,16,0.8125,public_portfolio
+hats-finance,Hats Finance,contest_platform,token_only,0,16,0.0,public_portfolio
+hats-finance,Hats Finance,contest_platform,wallet_or_account,0,16,0.0,public_portfolio
+hexens,Hexens,firm,infrastructure,52,169,0.3076923076923077,public_portfolio
+hexens,Hexens,firm,nft_or_game,5,169,0.029585798816568046,public_portfolio
+hexens,Hexens,firm,other_or_unclear,10,169,0.05917159763313609,public_portfolio
+hexens,Hexens,firm,protocol,98,169,0.5798816568047337,public_portfolio
+hexens,Hexens,firm,token_only,1,169,0.005917159763313609,public_portfolio
+hexens,Hexens,firm,wallet_or_account,3,169,0.01775147928994083,public_portfolio
+immunefi,Immunefi,contest_platform,infrastructure,1,60,0.016666666666666666,public_portfolio
+immunefi,Immunefi,contest_platform,nft_or_game,0,60,0.0,public_portfolio
+immunefi,Immunefi,contest_platform,other_or_unclear,57,60,0.95,public_portfolio
+immunefi,Immunefi,contest_platform,protocol,2,60,0.03333333333333333,public_portfolio
+immunefi,Immunefi,contest_platform,token_only,0,60,0.0,public_portfolio
+immunefi,Immunefi,contest_platform,wallet_or_account,0,60,0.0,public_portfolio
+informalsystems,Informal Systems,firm,infrastructure,32,51,0.6274509803921569,public_portfolio
+informalsystems,Informal Systems,firm,nft_or_game,0,51,0.0,public_portfolio
+informalsystems,Informal Systems,firm,other_or_unclear,5,51,0.09803921568627451,public_portfolio
+informalsystems,Informal Systems,firm,protocol,14,51,0.27450980392156865,public_portfolio
+informalsystems,Informal Systems,firm,token_only,0,51,0.0,public_portfolio
+informalsystems,Informal Systems,firm,wallet_or_account,0,51,0.0,public_portfolio
+iosiro,iosiro,firm,infrastructure,7,125,0.056,public_portfolio
+iosiro,iosiro,firm,nft_or_game,1,125,0.008,public_portfolio
+iosiro,iosiro,firm,other_or_unclear,29,125,0.232,public_portfolio
+iosiro,iosiro,firm,protocol,81,125,0.648,public_portfolio
+iosiro,iosiro,firm,token_only,5,125,0.04,public_portfolio
+iosiro,iosiro,firm,wallet_or_account,2,125,0.016,public_portfolio
+kudelski-security,Kudelski Security,firm,infrastructure,9,37,0.24324324324324326,public_portfolio
+kudelski-security,Kudelski Security,firm,nft_or_game,0,37,0.0,public_portfolio
+kudelski-security,Kudelski Security,firm,other_or_unclear,10,37,0.2702702702702703,public_portfolio
+kudelski-security,Kudelski Security,firm,protocol,12,37,0.32432432432432434,public_portfolio
+kudelski-security,Kudelski Security,firm,token_only,1,37,0.02702702702702703,public_portfolio
+kudelski-security,Kudelski Security,firm,wallet_or_account,5,37,0.13513513513513514,public_portfolio
+least-authority,Least Authority,firm,infrastructure,85,194,0.4381443298969072,public_portfolio
+least-authority,Least Authority,firm,nft_or_game,3,194,0.015463917525773196,public_portfolio
+least-authority,Least Authority,firm,other_or_unclear,23,194,0.11855670103092783,public_portfolio
+least-authority,Least Authority,firm,protocol,36,194,0.18556701030927836,public_portfolio
+least-authority,Least Authority,firm,token_only,2,194,0.010309278350515464,public_portfolio
+least-authority,Least Authority,firm,wallet_or_account,45,194,0.23195876288659795,public_portfolio
+macro,Macro,firm,infrastructure,20,193,0.10362694300518134,public_portfolio
+macro,Macro,firm,nft_or_game,16,193,0.08290155440414508,public_portfolio
+macro,Macro,firm,other_or_unclear,78,193,0.40414507772020725,public_portfolio
+macro,Macro,firm,protocol,75,193,0.38860103626943004,public_portfolio
+macro,Macro,firm,token_only,1,193,0.0051813471502590676,public_portfolio
+macro,Macro,firm,wallet_or_account,3,193,0.015544041450777202,public_portfolio
+mixbytes,MixBytes,firm,infrastructure,14,252,0.05555555555555555,public_portfolio
+mixbytes,MixBytes,firm,nft_or_game,7,252,0.027777777777777776,public_portfolio
+mixbytes,MixBytes,firm,other_or_unclear,25,252,0.0992063492063492,public_portfolio
+mixbytes,MixBytes,firm,protocol,197,252,0.7817460317460317,public_portfolio
+mixbytes,MixBytes,firm,token_only,2,252,0.007936507936507936,public_portfolio
+mixbytes,MixBytes,firm,wallet_or_account,7,252,0.027777777777777776,public_portfolio
+movebit,MoveBit,firm,infrastructure,2,30,0.06666666666666667,public_portfolio
+movebit,MoveBit,firm,nft_or_game,4,30,0.13333333333333333,public_portfolio
+movebit,MoveBit,firm,other_or_unclear,1,30,0.03333333333333333,public_portfolio
+movebit,MoveBit,firm,protocol,20,30,0.6666666666666666,public_portfolio
+movebit,MoveBit,firm,token_only,2,30,0.06666666666666667,public_portfolio
+movebit,MoveBit,firm,wallet_or_account,1,30,0.03333333333333333,public_portfolio
+ncc-group,NCC Group,firm,infrastructure,24,29,0.8275862068965517,public_portfolio
+ncc-group,NCC Group,firm,nft_or_game,0,29,0.0,public_portfolio
+ncc-group,NCC Group,firm,other_or_unclear,3,29,0.10344827586206896,public_portfolio
+ncc-group,NCC Group,firm,protocol,0,29,0.0,public_portfolio
+ncc-group,NCC Group,firm,token_only,0,29,0.0,public_portfolio
+ncc-group,NCC Group,firm,wallet_or_account,2,29,0.06896551724137931,public_portfolio
+neodyme,Neodyme,firm,infrastructure,9,35,0.2571428571428571,public_portfolio
+neodyme,Neodyme,firm,nft_or_game,1,35,0.02857142857142857,public_portfolio
+neodyme,Neodyme,firm,other_or_unclear,1,35,0.02857142857142857,public_portfolio
+neodyme,Neodyme,firm,protocol,22,35,0.6285714285714286,public_portfolio
+neodyme,Neodyme,firm,token_only,0,35,0.0,public_portfolio
+neodyme,Neodyme,firm,wallet_or_account,2,35,0.05714285714285714,public_portfolio
+nethermind,Nethermind,firm,infrastructure,35,191,0.18324607329842932,public_portfolio
+nethermind,Nethermind,firm,nft_or_game,18,191,0.09424083769633508,public_portfolio
+nethermind,Nethermind,firm,other_or_unclear,5,191,0.02617801047120419,public_portfolio
+nethermind,Nethermind,firm,protocol,116,191,0.6073298429319371,public_portfolio
+nethermind,Nethermind,firm,token_only,5,191,0.02617801047120419,public_portfolio
+nethermind,Nethermind,firm,wallet_or_account,12,191,0.06282722513089005,public_portfolio
+oak-security,Oak Security,firm,infrastructure,92,327,0.28134556574923547,public_portfolio
+oak-security,Oak Security,firm,nft_or_game,14,327,0.04281345565749235,public_portfolio
+oak-security,Oak Security,firm,other_or_unclear,35,327,0.10703363914373089,public_portfolio
+oak-security,Oak Security,firm,protocol,173,327,0.5290519877675841,public_portfolio
+oak-security,Oak Security,firm,token_only,1,327,0.0030581039755351682,public_portfolio
+oak-security,Oak Security,firm,wallet_or_account,12,327,0.03669724770642202,public_portfolio
+obsidian-audits,Obsidian Audits,collective,infrastructure,0,18,0.0,public_portfolio
+obsidian-audits,Obsidian Audits,collective,nft_or_game,0,18,0.0,public_portfolio
+obsidian-audits,Obsidian Audits,collective,other_or_unclear,1,18,0.05555555555555555,public_portfolio
+obsidian-audits,Obsidian Audits,collective,protocol,16,18,0.8888888888888888,public_portfolio
+obsidian-audits,Obsidian Audits,collective,token_only,0,18,0.0,public_portfolio
+obsidian-audits,Obsidian Audits,collective,wallet_or_account,1,18,0.05555555555555555,public_portfolio
+openzeppelin,OpenZeppelin,firm,infrastructure,129,427,0.30210772833723654,public_portfolio
+openzeppelin,OpenZeppelin,firm,nft_or_game,8,427,0.01873536299765808,public_portfolio
+openzeppelin,OpenZeppelin,firm,other_or_unclear,19,427,0.04449648711943794,public_portfolio
+openzeppelin,OpenZeppelin,firm,protocol,223,427,0.522248243559719,public_portfolio
+openzeppelin,OpenZeppelin,firm,token_only,17,427,0.03981264637002342,public_portfolio
+openzeppelin,OpenZeppelin,firm,wallet_or_account,31,427,0.07259953161592506,public_portfolio
+ottersec,OtterSec,firm,infrastructure,87,390,0.2230769230769231,public_portfolio
+ottersec,OtterSec,firm,nft_or_game,26,390,0.06666666666666667,public_portfolio
+ottersec,OtterSec,firm,other_or_unclear,12,390,0.03076923076923077,public_portfolio
+ottersec,OtterSec,firm,protocol,220,390,0.5641025641025641,public_portfolio
+ottersec,OtterSec,firm,token_only,4,390,0.010256410256410256,public_portfolio
+ottersec,OtterSec,firm,wallet_or_account,41,390,0.10512820512820513,public_portfolio
+oxorio,Oxorio,firm,infrastructure,6,46,0.13043478260869565,public_portfolio
+oxorio,Oxorio,firm,nft_or_game,0,46,0.0,public_portfolio
+oxorio,Oxorio,firm,other_or_unclear,11,46,0.2391304347826087,public_portfolio
+oxorio,Oxorio,firm,protocol,26,46,0.5652173913043478,public_portfolio
+oxorio,Oxorio,firm,token_only,3,46,0.06521739130434782,public_portfolio
+oxorio,Oxorio,firm,wallet_or_account,0,46,0.0,public_portfolio
+pashov-audit-group,Pashov Audit Group,collective,infrastructure,18,370,0.04864864864864865,public_portfolio
+pashov-audit-group,Pashov Audit Group,collective,nft_or_game,49,370,0.13243243243243244,public_portfolio
+pashov-audit-group,Pashov Audit Group,collective,other_or_unclear,16,370,0.043243243243243246,public_portfolio
+pashov-audit-group,Pashov Audit Group,collective,protocol,269,370,0.727027027027027,public_portfolio
+pashov-audit-group,Pashov Audit Group,collective,token_only,1,370,0.002702702702702703,public_portfolio
+pashov-audit-group,Pashov Audit Group,collective,wallet_or_account,17,370,0.04594594594594595,public_portfolio
+peckshield,PeckShield,firm,infrastructure,14,523,0.02676864244741874,public_portfolio
+peckshield,PeckShield,firm,nft_or_game,36,523,0.06883365200764818,public_portfolio
+peckshield,PeckShield,firm,other_or_unclear,93,523,0.17782026768642448,public_portfolio
+peckshield,PeckShield,firm,protocol,355,523,0.6787762906309751,public_portfolio
+peckshield,PeckShield,firm,token_only,18,523,0.03441682600382409,public_portfolio
+peckshield,PeckShield,firm,wallet_or_account,7,523,0.01338432122370937,public_portfolio
+pessimistic,Pessimistic,firm,infrastructure,1,176,0.005681818181818182,public_portfolio
+pessimistic,Pessimistic,firm,nft_or_game,5,176,0.028409090909090908,public_portfolio
+pessimistic,Pessimistic,firm,other_or_unclear,92,176,0.5227272727272727,public_portfolio
+pessimistic,Pessimistic,firm,protocol,62,176,0.3522727272727273,public_portfolio
+pessimistic,Pessimistic,firm,token_only,12,176,0.06818181818181818,public_portfolio
+pessimistic,Pessimistic,firm,wallet_or_account,4,176,0.022727272727272728,public_portfolio
+quantstamp,Quantstamp,firm,infrastructure,44,404,0.10891089108910891,public_portfolio
+quantstamp,Quantstamp,firm,nft_or_game,26,404,0.06435643564356436,public_portfolio
+quantstamp,Quantstamp,firm,other_or_unclear,63,404,0.15594059405940594,public_portfolio
+quantstamp,Quantstamp,firm,protocol,231,404,0.5717821782178217,public_portfolio
+quantstamp,Quantstamp,firm,token_only,18,404,0.04455445544554455,public_portfolio
+quantstamp,Quantstamp,firm,wallet_or_account,22,404,0.054455445544554455,public_portfolio
+runtime-verification,Runtime Verification,firm,infrastructure,17,104,0.16346153846153846,public_portfolio
+runtime-verification,Runtime Verification,firm,nft_or_game,3,104,0.028846153846153848,public_portfolio
+runtime-verification,Runtime Verification,firm,other_or_unclear,6,104,0.057692307692307696,public_portfolio
+runtime-verification,Runtime Verification,firm,protocol,74,104,0.7115384615384616,public_portfolio
+runtime-verification,Runtime Verification,firm,token_only,2,104,0.019230769230769232,public_portfolio
+runtime-verification,Runtime Verification,firm,wallet_or_account,2,104,0.019230769230769232,public_portfolio
+scalebit,ScaleBit,firm,infrastructure,0,7,0.0,public_portfolio
+scalebit,ScaleBit,firm,nft_or_game,1,7,0.14285714285714285,public_portfolio
+scalebit,ScaleBit,firm,other_or_unclear,0,7,0.0,public_portfolio
+scalebit,ScaleBit,firm,protocol,6,7,0.8571428571428571,public_portfolio
+scalebit,ScaleBit,firm,token_only,0,7,0.0,public_portfolio
+scalebit,ScaleBit,firm,wallet_or_account,0,7,0.0,public_portfolio
+sec3,Sec3,firm,infrastructure,1,36,0.027777777777777776,public_portfolio
+sec3,Sec3,firm,nft_or_game,1,36,0.027777777777777776,public_portfolio
+sec3,Sec3,firm,other_or_unclear,6,36,0.16666666666666666,public_portfolio
+sec3,Sec3,firm,protocol,28,36,0.7777777777777778,public_portfolio
+sec3,Sec3,firm,token_only,0,36,0.0,public_portfolio
+sec3,Sec3,firm,wallet_or_account,0,36,0.0,public_portfolio
+secure3,Secure3,contest_platform,infrastructure,3,15,0.2,public_portfolio
+secure3,Secure3,contest_platform,nft_or_game,4,15,0.26666666666666666,public_portfolio
+secure3,Secure3,contest_platform,other_or_unclear,1,15,0.06666666666666667,public_portfolio
+secure3,Secure3,contest_platform,protocol,7,15,0.4666666666666667,public_portfolio
+secure3,Secure3,contest_platform,token_only,0,15,0.0,public_portfolio
+secure3,Secure3,contest_platform,wallet_or_account,0,15,0.0,public_portfolio
+sherlock,Sherlock,contest_platform,infrastructure,26,359,0.07242339832869081,public_portfolio
+sherlock,Sherlock,contest_platform,nft_or_game,19,359,0.052924791086350974,public_portfolio
+sherlock,Sherlock,contest_platform,other_or_unclear,16,359,0.04456824512534819,public_portfolio
+sherlock,Sherlock,contest_platform,protocol,291,359,0.8105849582172702,public_portfolio
+sherlock,Sherlock,contest_platform,token_only,3,359,0.008356545961002786,public_portfolio
+sherlock,Sherlock,contest_platform,wallet_or_account,4,359,0.011142061281337047,public_portfolio
+shieldify,Shieldify,firm,infrastructure,7,137,0.051094890510948905,public_portfolio
+shieldify,Shieldify,firm,nft_or_game,31,137,0.22627737226277372,public_portfolio
+shieldify,Shieldify,firm,other_or_unclear,4,137,0.029197080291970802,public_portfolio
+shieldify,Shieldify,firm,protocol,88,137,0.6423357664233577,public_portfolio
+shieldify,Shieldify,firm,token_only,1,137,0.0072992700729927005,public_portfolio
+shieldify,Shieldify,firm,wallet_or_account,6,137,0.043795620437956206,public_portfolio
+sigma-prime,Sigma Prime,firm,infrastructure,56,167,0.33532934131736525,public_portfolio
+sigma-prime,Sigma Prime,firm,nft_or_game,5,167,0.029940119760479042,public_portfolio
+sigma-prime,Sigma Prime,firm,other_or_unclear,4,167,0.023952095808383235,public_portfolio
+sigma-prime,Sigma Prime,firm,protocol,92,167,0.5508982035928144,public_portfolio
+sigma-prime,Sigma Prime,firm,token_only,7,167,0.041916167664670656,public_portfolio
+sigma-prime,Sigma Prime,firm,wallet_or_account,3,167,0.017964071856287425,public_portfolio
+slowmist,SlowMist,firm,infrastructure,22,291,0.07560137457044673,public_portfolio
+slowmist,SlowMist,firm,nft_or_game,13,291,0.044673539518900345,public_portfolio
+slowmist,SlowMist,firm,other_or_unclear,123,291,0.422680412371134,public_portfolio
+slowmist,SlowMist,firm,protocol,85,291,0.2920962199312715,public_portfolio
+slowmist,SlowMist,firm,token_only,11,291,0.037800687285223365,public_portfolio
+slowmist,SlowMist,firm,wallet_or_account,37,291,0.12714776632302405,public_portfolio
+solidified,Solidified,firm,infrastructure,17,230,0.07391304347826087,public_portfolio
+solidified,Solidified,firm,nft_or_game,41,230,0.1782608695652174,public_portfolio
+solidified,Solidified,firm,other_or_unclear,17,230,0.07391304347826087,public_portfolio
+solidified,Solidified,firm,protocol,129,230,0.5608695652173913,public_portfolio
+solidified,Solidified,firm,token_only,20,230,0.08695652173913043,public_portfolio
+solidified,Solidified,firm,wallet_or_account,6,230,0.02608695652173913,public_portfolio
+spearbit,Spearbit,collective,infrastructure,33,151,0.2185430463576159,public_portfolio
+spearbit,Spearbit,collective,nft_or_game,7,151,0.046357615894039736,public_portfolio
+spearbit,Spearbit,collective,other_or_unclear,10,151,0.06622516556291391,public_portfolio
+spearbit,Spearbit,collective,protocol,91,151,0.6026490066225165,public_portfolio
+spearbit,Spearbit,collective,token_only,0,151,0.0,public_portfolio
+spearbit,Spearbit,collective,wallet_or_account,10,151,0.06622516556291391,public_portfolio
+statemind,Statemind,firm,infrastructure,2,51,0.0392156862745098,public_portfolio
+statemind,Statemind,firm,nft_or_game,2,51,0.0392156862745098,public_portfolio
+statemind,Statemind,firm,other_or_unclear,4,51,0.0784313725490196,public_portfolio
+statemind,Statemind,firm,protocol,40,51,0.7843137254901961,public_portfolio
+statemind,Statemind,firm,token_only,0,51,0.0,public_portfolio
+statemind,Statemind,firm,wallet_or_account,3,51,0.058823529411764705,public_portfolio
+teamomega,Team Omega,firm,infrastructure,7,54,0.12962962962962962,public_portfolio
+teamomega,Team Omega,firm,nft_or_game,3,54,0.05555555555555555,public_portfolio
+teamomega,Team Omega,firm,other_or_unclear,8,54,0.14814814814814814,public_portfolio
+teamomega,Team Omega,firm,protocol,32,54,0.5925925925925926,public_portfolio
+teamomega,Team Omega,firm,token_only,3,54,0.05555555555555555,public_portfolio
+teamomega,Team Omega,firm,wallet_or_account,1,54,0.018518518518518517,public_portfolio
+theori,Theori,firm,infrastructure,1,6,0.16666666666666666,public_portfolio
+theori,Theori,firm,nft_or_game,0,6,0.0,public_portfolio
+theori,Theori,firm,other_or_unclear,1,6,0.16666666666666666,public_portfolio
+theori,Theori,firm,protocol,4,6,0.6666666666666666,public_portfolio
+theori,Theori,firm,token_only,0,6,0.0,public_portfolio
+theori,Theori,firm,wallet_or_account,0,6,0.0,public_portfolio
+three-sigma,Three Sigma,firm,infrastructure,3,97,0.030927835051546393,public_portfolio
+three-sigma,Three Sigma,firm,nft_or_game,5,97,0.05154639175257732,public_portfolio
+three-sigma,Three Sigma,firm,other_or_unclear,21,97,0.21649484536082475,public_portfolio
+three-sigma,Three Sigma,firm,protocol,68,97,0.7010309278350515,public_portfolio
+three-sigma,Three Sigma,firm,token_only,0,97,0.0,public_portfolio
+three-sigma,Three Sigma,firm,wallet_or_account,0,97,0.0,public_portfolio
+trail-of-bits,Trail of Bits,firm,infrastructure,83,354,0.2344632768361582,public_portfolio
+trail-of-bits,Trail of Bits,firm,nft_or_game,8,354,0.022598870056497175,public_portfolio
+trail-of-bits,Trail of Bits,firm,other_or_unclear,135,354,0.3813559322033898,public_portfolio
+trail-of-bits,Trail of Bits,firm,protocol,98,354,0.2768361581920904,public_portfolio
+trail-of-bits,Trail of Bits,firm,token_only,4,354,0.011299435028248588,public_portfolio
+trail-of-bits,Trail of Bits,firm,wallet_or_account,26,354,0.07344632768361582,public_portfolio
+trust-security,Trust Security,firm,infrastructure,2,3,0.6666666666666666,public_portfolio
+trust-security,Trust Security,firm,nft_or_game,0,3,0.0,public_portfolio
+trust-security,Trust Security,firm,other_or_unclear,0,3,0.0,public_portfolio
+trust-security,Trust Security,firm,protocol,1,3,0.3333333333333333,public_portfolio
+trust-security,Trust Security,firm,token_only,0,3,0.0,public_portfolio
+trust-security,Trust Security,firm,wallet_or_account,0,3,0.0,public_portfolio
+verichains,Verichains,firm,infrastructure,14,335,0.041791044776119404,public_portfolio
+verichains,Verichains,firm,nft_or_game,47,335,0.14029850746268657,public_portfolio
+verichains,Verichains,firm,other_or_unclear,75,335,0.22388059701492538,public_portfolio
+verichains,Verichains,firm,protocol,121,335,0.3611940298507463,public_portfolio
+verichains,Verichains,firm,token_only,63,335,0.1880597014925373,public_portfolio
+verichains,Verichains,firm,wallet_or_account,15,335,0.04477611940298507,public_portfolio
+veridise,Veridise,firm,infrastructure,49,162,0.30246913580246915,public_portfolio
+veridise,Veridise,firm,nft_or_game,2,162,0.012345679012345678,public_portfolio
+veridise,Veridise,firm,other_or_unclear,16,162,0.09876543209876543,public_portfolio
+veridise,Veridise,firm,protocol,78,162,0.48148148148148145,public_portfolio
+veridise,Veridise,firm,token_only,5,162,0.030864197530864196,public_portfolio
+veridise,Veridise,firm,wallet_or_account,12,162,0.07407407407407407,public_portfolio
+zellic,Zellic,firm,infrastructure,115,414,0.2777777777777778,public_portfolio
+zellic,Zellic,firm,nft_or_game,6,414,0.014492753623188406,public_portfolio
+zellic,Zellic,firm,other_or_unclear,37,414,0.0893719806763285,public_portfolio
+zellic,Zellic,firm,protocol,221,414,0.533816425120773,public_portfolio
+zellic,Zellic,firm,token_only,7,414,0.016908212560386472,public_portfolio
+zellic,Zellic,firm,wallet_or_account,28,414,0.06763285024154589,public_portfolio
+zokyo,Zokyo,firm,infrastructure,9,310,0.02903225806451613,public_portfolio
+zokyo,Zokyo,firm,nft_or_game,7,310,0.02258064516129032,public_portfolio
+zokyo,Zokyo,firm,other_or_unclear,175,310,0.5645161290322581,public_portfolio
+zokyo,Zokyo,firm,protocol,97,310,0.31290322580645163,public_portfolio
+zokyo,Zokyo,firm,token_only,18,310,0.05806451612903226,public_portfolio
+zokyo,Zokyo,firm,wallet_or_account,4,310,0.012903225806451613,public_portfolio

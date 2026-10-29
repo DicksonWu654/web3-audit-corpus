@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--#include head-->
+<title>Data and methods | {{site_title}}</title>
+<meta name="description" content="How the database was built: collection, measured accuracy, the vulnerability taxonomy, coverage per firm, rights, corrections and downloads.">
+</head>
+<body data-page="methodology">
+<!--#include header-->
+<main id="main">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>How the database was built</h1>
+      <p class="lede">Public audit reports, collected from each publisher, parsed into findings and classified with reproducible scripts. This page gives the measured accuracy of each step, coverage per publisher, the rights that apply and how to report an error.</p>
+      <p><a href="{{repo}}/blob/main/METHODS.md">Read the full methods</a>, including LLM reference annotation, cross-model agreement and evaluation limits.</p>
+    </header>
+
+    <section class="section" aria-labelledby="pipe-h">
+      <h2 id="pipe-h" class="sec-h">From report to finding</h2>
+      <ol class="steps">
+        <li><h3>Choose the publishers</h3><p>Established audit firms, audit collectives and contest platforms that publish their reports.</p></li>
+        <li><h3>Collect the reports</h3><p>Reports come from each publisher's GitHub repository or website, pinned to a permanent link where possible and fingerprinted with SHA-256. Collectors respect robots.txt and rate limits, and never pass a login or paywall.</p></li>
+        <li><h3>Identify engagements</h3><p>Revisions, translations and PDF or Markdown copies of one audit merge into a single engagement. The audit year is the stated completion date, or the report's issue date; publication dates form a separate series, and file or crawl dates never stand in for either. Engagements without an eligible date stay in an unknown bucket.</p></li>
+        <li><h3>Parse the findings</h3><p>Layout-specific parsers read each publisher's report formats and extract every formal finding: the publisher's id, title, severity, status and full text with page numbers. Severity and status labels map to common scales through checked-in tables, and the original labels are kept.</p></li>
+        <li><h3>Classify the findings</h3><p>A model classifier assigns one primary vulnerability class per finding from the title and the start of the text, following written decision rules, and abstains when the evidence is too thin.</p></li>
+        <li><h3>Release</h3><p>Release scripts write every file, this site and the checksums from the final data, record hashes of their inputs, and produce identical output when rerun.</p></li>
+      </ol>
+    </section>
+
+    <section class="section" id="quality" aria-labelledby="quality-h">
+      <h2 id="quality-h" class="sec-h">Measured accuracy</h2>
+      <div id="m-quality"><p class="loading">Loading measurements…</p></div>
+    </section>
+
+    <section class="section" id="taxonomy" aria-labelledby="tax-h">
+      <h2 id="tax-h" class="sec-h">Vulnerability taxonomy</h2>
+      <div id="m-taxonomy"><p class="loading">Loading the taxonomy…</p></div>
+    </section>
+
+    <section class="section" id="coverage" aria-labelledby="cov-h">
+      <h2 id="cov-h" class="sec-h">Coverage per publisher</h2>
+      <div id="m-coverage"><p class="loading">Loading coverage…</p></div>
+    </section>
+
+    <section class="section" id="limits" aria-labelledby="lim-h">
+      <h2 id="lim-h" class="sec-h">Known limits</h2>
+      <ul class="limits">
+        <li>The database holds audits that were published. Firms choose which private reviews to publish and some remove old reports, so older years are the least complete.</li>
+        <li>Finding counts follow each publisher's reporting habits: some list every gas and style note, others only security issues.</li>
+        <li>Severity scales differ between publishers; the mapping keeps the original label next to the normalised one.</li>
+        <li>Fix status is what the report recorded at publication. It covers the reviewed code and can predate later fixes or deployment changes.</li>
+        <li>Text extraction from PDFs can break code listings and tables; every finding links to its page in the original report.</li>
+        <li>The latest year is year to date.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="rights" aria-labelledby="rights-h">
+      <h2 id="rights-h" class="sec-h">Rights and corrections</h2>
+      <div class="prose">
+        <p>Original reports belong to their publishers. The database links to each one, pinned where possible and fingerprinted with SHA-256, so anyone can confirm they are reading the same file.</p>
+        <p>Derived metadata, such as severities, classes, dates and counts, is open under the <a href="{{repo}}/blob/main/LICENSE-DATA.md">data licence</a>. Quoted finding text keeps its publisher's rights. Where a publisher's notice asks for it, the text is withheld; where a publisher's site terms do not allow automated copying, its reports are listed with links only and their text is not reproduced. The <a href="{{repo}}/blob/main/docs/RIGHTS.md">rights policy</a> lists each case.</p>
+        <p>Found an error, or want a report removed or attributed differently? <a href="{{repo}}/issues">Open an issue</a> with the finding or report link. Corrections land in the next release.</p>
+      </div>
+    </section>
+
+    <section class="section" id="download" aria-labelledby="dl-h">
+      <h2 id="dl-h" class="sec-h">Download the data</h2>
+      <div id="m-download"></div>
+    </section>
+  </div>
+</main>
+<!--#include footer-->
+<script type="module" src="assets/js/app.js?v={{v}}"></script>
+</body>
+</html>

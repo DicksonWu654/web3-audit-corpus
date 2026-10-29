@@ -1,0 +1,186 @@
+# Only scope_group=firm, host=github rows from the registry can be collected.
+# Empty entries use the registry repository and the shared document rules.
+version: 1
+defaults:
+  extensions: [pdf, md, markdown, html, htm, txt, docx, rtf]
+  non_report_names: '^(readme|license|licence|changelog|contributing|code_of_conduct|summary|index|package|requirements|date|links|leaderboard)(\.|$)'
+  non_report_paths: '(^|/)(node_modules|assets?|images?|logos?|slides?|presentations?|papers|templates?|training|ctf[-_]?writeups?|\.github/workflows)(/|$)|(^|/)(audit[-_ ]template|report[-_ ]template|checklist|research_portfolio|citation_guidelines)'
+  fix_review_pattern: 'fix[-_ ]?review|fix[-_ ]?verification|remediation[-_ ]?(review|report|verification)|follow[-_ ]?up|re[-_ ]?audit|retest'
+  formal_pattern: 'formal[-_ ]?verification|(^|[ /_.-])fv([ /_.-]|$)'
+firms:
+  trail-of-bits:
+    exclude_repo_patterns:
+      '^trailofbits/(audit-kubernetes|clang-tidy-audit|signal-auditor|vscode-weaudit|vsix-audit)$': Kubernetes assessment or security tooling, not a Web3 client-report archive (publisher account metadata).
+    include_paths: ['^reviews/']
+    readme_sections: [Blockchain Reviews, Frax Finance, MobileCoin, Offchain Labs, Reserve Protocol, Scroll, Uniswap]
+    scope_selector: trail_of_bits
+    preserve_existing_records: true
+    scope_note: Web3 README sections plus reviewed Web3 products and document-evidenced exceptions in trail_of_bits_scope.py; general cryptography, non-Web3 software, development artifacts, and attestations are excluded. Bron MPC is excluded because the report establishes no Web3 deployment target.
+    doc_kind_rules:
+      '(?i)letter[-_ ]?of[-_ ]?attestation':
+        doc_kind: non_report
+        reason: Publisher attestation letter, not a detailed audit report.
+  zellic:
+    doc_kind_rules:
+      '^AIxCC Concept White Paper - Zellic\.pdf$':
+        doc_kind: non_report
+        reason: Research concept whitepaper proposing an automated vulnerability-research system (first-page abstract), not a client engagement report.
+  sigma-prime:
+    repos: [sigp/audit-fantom-multisig-wallet, sigp/audit-fantom-tokensale, sigp/audit-horizon-state-token-sale, sigp/audit-skrilla-token-sale, sigp/havven-audit]
+    repo_rules:
+      sigp/audit-fantom-multisig-wallet:
+        include_paths: ['^review\.pdf$']
+      sigp/audit-fantom-tokensale:
+        include_paths: ['^fantom-security-review\.pdf$']
+      sigp/audit-horizon-state-token-sale:
+        include_paths: ['^README\.md$']
+        allow_readme_paths: [README.md]
+      sigp/audit-skrilla-token-sale:
+        include_paths: ['^README\.md$']
+        allow_readme_paths: [README.md]
+      sigp/havven-audit:
+        include_paths: ['^2018-04-05_fa705dd/README\.md$', '^2018-06-06_b5a6cdb/havven-review\.pdf$', '^2018-06-18_584eeec/review\.pdf$']
+        allow_readme_paths: [2018-04-05_fa705dd/README.md]
+  spearbit:
+    collector_delegate: web_spearbit.py
+    exclude_paths:
+      '^content/': Educational bridge introductions, checklists and seminar slides; not engagement reports.
+    exclude_repos:
+      spearbit/whitehat-db: Whitehat directory, not an archive of audit reports.
+    notes: Current portfolio README links to Cantina and legacy missing pdfs; content/slides are presentations. Link-only listing entries are not collected files.
+  halborn: {}
+  peckshield:
+    include_paths: ['^audit_reports/', '^reviews/PeckShield-Security-Review-Alpha-Homora-v1\.0\.pdf$']
+  certora:
+    include_paths: ['^[Rr]eports/']
+    exclude_repos:
+      Certora/gambit-report-viewer: Gambit mutation-report viewer application, not client audit reports.
+      Certora/risk-assessment: README and API tree identify a blockchain risk-monitoring application, not engagement reports.
+  runtime-verification:
+    exclude_repos:
+      runtimeverification/_audits_uniswapfoundation_v4-template: Copied hook-development template; API tree contains no delivered report.
+      runtimeverification/_audits_UnlockdFinance_unlockdv2-wallet: Client source-code workspace; embedded audit PDFs are Halborn/other-firm reports, not Runtime Verification deliverables.
+      runtimeverification/multiversx-protocol-audit: API tree contains protocol models, enumeration traces and a presentation; delivered reports are in publications, not this modelling workspace.
+    include_paths: ['^reports/']
+    exclude_paths:
+      '(^|/)alloy-specs/': Formal specification source/supporting material, not the delivered audit report.
+      '(?i)tinyman.*supplemental': Supplemental analysis, preserved in Git; not a standalone audit report.
+  slowmist:
+    include_paths: ['^open-report(?:-V2)?/']
+    exclude_paths:
+      '(?i)(^|/)(statement|report-demo)/': Statement or demonstration report, not a client audit.
+    notes: Includes both legacy open-report and open-report-V2; image assets and statement/demo material are explicitly excluded.
+    doc_kind_rules:
+      '(?i)/[^/]*Statement[^/]*\.pdf$':
+        doc_kind: non_report
+        reason: Wallet audit attestation statement, not the full report of engagement findings.
+    exclude_repo_patterns:
+      '^slowmist/.*(Checklist|Primer|Guide|Learning-Roadmap).*$': Educational audit guides, primers, checklists or auditor training (publisher metadata).
+      '^slowmist/2025-Stablecoin-AML-Compliance-Tech-Report$': Industry AML/compliance research; not an engagement security audit.
+  blocksec: {}
+  oak-security: {}
+  informalsystems:
+    repos: [informalsystems/audit-celestia]
+    exclude_repos:
+      informalsystems/neutron-integration-tests-audit-internal: README and tree identify test infrastructure with setup instructions; no report documents.
+    repo_rules:
+      informalsystems/audits:
+        exclude_paths:
+          '/IF-[A-Z]+-\d+\.md$': Individual finding source file, not a standalone audit report; findings extraction is a later phase.
+          '/models/': Formal-model invariants and supporting working notes, not delivered reports.
+          '/[^/]*Audit Scope[^/]*\.md$': Engagement scope/index linking to the complete PDF, not an additional report.
+        doc_kind_rules:
+          '^(IBC-GO|Injective)/[1-6][^/]*\.md$':
+            doc_kind: unknown
+            reason: Source chapter of a multi-file audit deliverable; preserve and compose at engagement reconciliation.
+      informalsystems/audit-celestia:
+        include_paths: ['^2022/Q3/report/src/[1-6][^/]*\.md$', '^2022/Q3/artifacts/payment_module_audit\.md$', '^2023/Q1/audit-summary/audit-summary\.md$']
+        notes: Report-source chapters and summary are preserved as source artifacts; individual finding submissions/templates are excluded. Compose source chapters at engagement reconciliation.
+        doc_kind_rules:
+          '^2022/Q3/report/src/':
+            doc_kind: unknown
+            reason: Source chapter of a multi-file audit deliverable; preserve and compose at engagement reconciliation.
+  mixbytes:
+    exclude_paths:
+      '^\.scripts/': Report-generation script/template material, not a client report.
+  statemind: {}
+  hexens: {}
+  dedaub:
+    exclude_repos:
+      Dedaub/report-og-image-service: Report social-preview image service; application code, not reports.
+  abdk-consulting: {}
+  nethermind:
+    exclude_repo_patterns:
+      '^NethermindEth/(AuditAgent-Giveth|auditagent-scoring-algo|client-nodes-reporter)$': Project identity proof, scan-scoring tooling or node telemetry; not published security audit deliverables.
+    exclude_repos:
+      NethermindEth/aztec-staking-payout-audit: README defines an audit trail of validator reward payouts, not a security audit engagement.
+  guardianaudits:
+    inspect_text_paths: ['^LeaderBoard\.md$', '^DIVA/Summary\.md$']
+    repos: [GuardianAudits/DefenderAudits]
+    repo_rules:
+      GuardianAudits/DefenderAudits:
+        allow_document_paths: [DIVA/Summary.md, PariFi/Summary.md, poodl/Summary.md]
+        exclude_paths:
+          '^LeaderBoard\.md$': Auditor points leaderboard, not an engagement report.
+        source_notes: Historical publisher-hosted team reviews and consolidated client reports; some original report covers attribute Solidity Lab. Verify brand lineage and merge team deliverables at engagement reconciliation.
+  pashov-audit-group: {}
+  verichains: {}
+  sec3: {}
+  decurity:
+    exclude_repos:
+      Decurity/audit-checklists: Audit methodology/checklists, not engagement reports.
+  pessimistic:
+    exclude_repos:
+      pessimistic-io/audit-process: Developer/auditor process guidance, not engagement reports.
+  oxorio: {}
+  composable-security:
+    include_paths: ['^reports/']
+  coinspect:
+    exclude_repo_patterns:
+      '^coinspect/(md-report-parser|md-report-style|md-reports-dependency-check)$': Markdown report parsing, styling or dependency tooling; not client reports.
+    exclude_repos:
+      coinspect/reports-client: API tree contains a report-client application and a one-line README; no report artifacts.
+  chainlight:
+    collector_delegate: web_chainlight.py
+    notes: Canonical ChainLight/Theori publisher collection follows chainlight-io/publications PDFs and client-hosted links, deduplicating by SHA-256.
+  solidified: {}
+  electisec:
+    fix_review_pattern: 'fix[-_ ]?review|remediation[-_ ]?(review|verification)|follow[-_ ]?up|re[-_ ]?audit|retest|recheck'
+    discovery_owners: [yAudit]
+    repos: [yAudit/reports-pdf, yAudit/fellowship-audits, yAudit/RLN-audit-report, yAudit/spartan-ecdsa-audit-report, yAudit/summa-audit-report]
+    exclude_repo_patterns:
+      '^yAudit/(fellows-report-template|report-style-guide|yaudit-brand|yborg-.*-shadow-audit)$': Fellowship templates, formatting/brand guidance or explicitly labelled shadow-audit calibration exercises.
+    exclude_repos:
+      yAudit/reports: Exact rebrand mirror of electisec/Reports (identical HEAD commit and tree); the canonical source is collected once.
+      yAudit/reports-website: Next.js website source; API tree contains no report content.
+    repo_rules:
+      yAudit/fellowship-audits:
+        include_paths: ['(?i)\.pdf$', '^block_006/.*\.md$', '^block_001/(?:.*/)?README\.md$']
+        allow_readme_paths: [block_001/week_0/README.md, block_001/week_1/README.md, block_001/week_2/README.md, block_001/week_3/README.md]
+        source_notes: Published fellowship protocol findings, including group outputs and substantive summaries; educational fellowship cohort. File representations are not separate commercial engagements; reconcile before audit totals.
+        notes: Includes publisher fellowship PDFs and substantive block_001/block_006 Markdown findings. Navigation and analysis appendices excluded.
+      yAudit/RLN-audit-report:
+        include_paths: ['^README\.md$']
+        allow_readme_paths: [README.md]
+      yAudit/spartan-ecdsa-audit-report:
+        include_paths: ['^README\.md$']
+        allow_readme_paths: [README.md]
+      yAudit/summa-audit-report:
+        include_paths: ['^version[AB]\.md$']
+  trust-security:
+    search_queries: ['"Trust Security" in:description', 'trust-security in:name', 'trustsec audit', '"trust-security.xyz" in:readme', '"trustsec.xyz" in:readme', 'Trust1995 audit in:readme']
+    notes: Registry Trust1995/Trust is unavailable to anonymous collection (public page HTTP 404 in Phase 0; anonymous Git retrieval also fails). The publisher account listing and exact-domain GitHub searches established no replacement report archive (github_discovery.json and github_search.json). Coverage remains unknown; website collection is assigned separately.
+  code4rena-zenith: {}
+  movebit:
+    notes: Repository is explicitly Sampled-Audit-Reports; it is a lower bound on publisher output. Website listing is assigned to the website collector; no numerical website gap is established here.
+  scalebit:
+    notes: Repository is explicitly Sampled-Audit-Reports; it is a lower bound on publisher output. No numerical website gap is established here.
+  bailsec: {}
+  zokyo: {}
+  obsidian-audits: {}
+  teamomega: {}
+  codespect:
+    exclude_repos:
+      CODESPECT-security/audit-preparation-guidelines: Audit preparation guidance; not engagement reports.
+  shieldify:
+    repos: [shieldify-security/audits-portfolio-md]

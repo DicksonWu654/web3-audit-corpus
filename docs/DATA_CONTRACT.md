@@ -1,0 +1,9 @@
+# Public data contract
+
+Database-edition assets are prepared by `scripts/release/build_database_release.py`; `make site-data` builds the website's JSON from the release. Files use UTF-8. CSV empty cells are unknown, booleans use true/false, and list-valued cells use JSON arrays. Stable IDs bind findings to reports and engagements. Original SHA-256 digests identify report bytes; public URLs, pinned permalinks and archive links preserve provenance.
+
+The release contains publisher metadata, report links, engagements, finding occurrences, taxonomy, quality measurements and aggregate statistics. Finding CSV and Parquet contain the same rows. One initial formal stream per engagement is selected for descriptive counts; other occurrences remain flagged. `audits-markdown.zip` has one file per report and `findings.jsonl.gz` has one object per Parquet row, joined to audit metadata. Both omit unavailable or withheld bodies and preserve attribution and licence fields.
+
+`text_withheld='publisher_notice'` and `body_text_status='publisher_notice'` mark bodies withheld under report notices or publisher requests. Oak excerpts are contiguous verbatim text with `body_truncated=true` when cut; required character changes within a kept span trigger `oak_transform_required` withholding. Text redaction and truncation flags record release transformations. Every release file is listed in `CHECKSUMS.sha256`, and `release_summary.json` records database counts and text availability. Descriptive statistics are limited to the explicit database-edition table contract.
+
+Site data contains summaries, aggregate chart tables, publisher lists, engagements per publisher, compact title search indexes and finding shards. Bodies are loaded on demand. Originals remain linked from their publishers. See [DATA_DICTIONARY.md](DATA_DICTIONARY.md), [RIGHTS.md](RIGHTS.md) and [the methods](../METHODS.md).

@@ -1,0 +1,11 @@
+{
+  "version": "scope-engagement-v1",
+  "max_completion_span_days": 7,
+  "candidate_span_days": 60,
+  "client_aliases": {
+    "makerdao": "sky",
+    "makerdaosky": "sky",
+    "skymakerdao": "sky"
+  },
+  "policy": "Same publisher, source-supported client family or unique audited repository organization, and review program; exact completion days within the bounded span; distinct scope deliverables. Different completion days require overlapping source review periods. Issue/publication dates are never a fallback. Later same-scope work, fix reviews, explicit re-audits, distinct contests, and incompatible periods do not merge. Missing evidence abstains."
+}

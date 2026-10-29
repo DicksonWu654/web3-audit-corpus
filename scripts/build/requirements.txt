@@ -1,0 +1,4 @@
+duckdb==1.4.3
+pyarrow==26.0.0
+pytest==9.0.2
+pytz==2025.2

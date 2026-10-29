@@ -1,0 +1,58 @@
+publisher_id,name,kind,engagements,first_audit_year,last_audit_year,unknown_audit_years,first_publication_year,last_publication_year,unknown_publication_years,coverage
+abdk-consulting,ABDK Consulting,firm,219,2017,2026,0,2020,2020,218,public_portfolio
+ackee-blockchain,Ackee Blockchain,firm,102,2021,2026,5,2021,2026,39,public_portfolio
+bailsec,Bailsec,firm,111,2023,2026,2,,,111,public_portfolio
+blocksec,BlockSec,firm,232,2021,2026,0,,,232,public_portfolio
+certora,Certora,firm,194,2018,2026,0,2023,2023,193,public_portfolio
+chainlight,ChainLight,firm,20,2023,2026,0,2023,2023,15,public_portfolio
+chainsecurity,ChainSecurity,firm,414,2017,2026,1,2017,2026,2,public_portfolio
+code4rena-zenith,Zenith,firm,221,2024,2026,1,2024,2026,3,public_portfolio
+codespect,CODESPECT,firm,43,2024,2026,0,,,43,public_portfolio
+coinspect,Coinspect,firm,41,2016,2025,0,2020,2020,40,public_portfolio
+composable-security,Composable Security,firm,27,2022,2026,0,,,27,public_portfolio
+consensys-diligence,Consensys Diligence,firm,168,2018,2026,6,2019,2026,19,public_portfolio
+decurity,Decurity,firm,60,2020,2026,1,,,60,public_portfolio
+dedaub,Dedaub,firm,209,2019,2026,2,,,209,public_portfolio
+electisec,Electisec,firm,205,2021,2026,17,,,205,public_portfolio
+fuzzland,Fuzzland,firm,30,2024,2025,17,,,30,public_portfolio
+guardianaudits,Guardian Audits,firm,344,2022,2026,8,,,344,public_portfolio
+hacken,Hacken,firm,1280,2020,2026,8,,,1280,public_sca_api_plus_third_party_copies
+halborn,Halborn,firm,539,2020,2026,2,2020,2026,270,public_portfolio
+hexens,Hexens,firm,169,2021,2026,5,,,169,public_portfolio
+informalsystems,Informal Systems,firm,51,2020,2026,6,2022,2022,50,public_portfolio
+iosiro,iosiro,firm,125,2017,2026,0,2017,2026,0,public_portfolio
+kudelski-security,Kudelski Security,firm,37,2019,2025,0,2019,2025,1,public_portfolio
+least-authority,Least Authority,firm,194,2015,2026,0,2015,2026,0,public_portfolio
+macro,Macro,firm,193,2022,2026,0,2022,2026,1,public_portfolio
+mixbytes,MixBytes,firm,252,2018,2026,11,,,252,public_portfolio
+movebit,MoveBit,firm,30,2022,2026,0,,,30,public_portfolio
+ncc-group,NCC Group,firm,29,2016,2026,0,2016,2025,2,public_portfolio
+neodyme,Neodyme,firm,35,2021,2025,0,2021,2026,0,public_portfolio
+nethermind,Nethermind,firm,191,2022,2026,1,,,191,public_portfolio
+oak-security,Oak Security,firm,327,2021,2026,15,,,327,public_portfolio
+obsidian-audits,Obsidian Audits,collective,18,2025,2026,0,,,18,public_portfolio
+openzeppelin,OpenZeppelin,firm,427,2016,2026,1,2016,2026,24,public_portfolio
+ottersec,OtterSec,firm,390,2022,2026,0,2022,2026,4,public_portfolio
+oxorio,Oxorio,firm,46,2022,2026,1,,,46,public_portfolio
+pashov-audit-group,Pashov Audit Group,collective,370,2022,2026,25,,,370,public_portfolio
+peckshield,PeckShield,firm,523,2019,2026,1,,,523,public_portfolio
+pessimistic,Pessimistic,firm,176,2020,2026,1,2020,2021,141,public_portfolio
+quantstamp,Quantstamp,firm,404,2018,2026,0,2018,2026,11,public_portfolio
+runtime-verification,Runtime Verification,firm,104,2018,2026,9,2021,2022,102,public_portfolio
+scalebit,ScaleBit,firm,7,2023,2024,0,,,7,public_portfolio
+sec3,Sec3,firm,36,2022,2026,0,,,36,public_portfolio
+shieldify,Shieldify,firm,137,2023,2026,2,,,137,public_portfolio
+sigma-prime,Sigma Prime,firm,167,2017,2026,8,2021,2025,164,public_portfolio
+slowmist,SlowMist,firm,291,2018,2026,6,,,291,public_portfolio
+solidified,Solidified,firm,230,2018,2024,0,2023,2023,229,public_portfolio
+spearbit,Spearbit,collective,151,2021,2026,0,2021,2026,14,public_portfolio
+statemind,Statemind,firm,51,2022,2026,0,,,51,public_portfolio
+teamomega,Team Omega,firm,54,2021,2026,0,2022,2022,53,public_portfolio
+theori,Theori,firm,6,2020,2022,0,2022,2022,5,public_portfolio
+three-sigma,Three Sigma,firm,97,2022,2026,0,2022,2026,1,public_portfolio
+trail-of-bits,Trail of Bits,firm,354,2017,2026,0,2018,2024,342,public_portfolio
+trust-security,Trust Security,firm,3,2024,2024,0,,,3,public_portfolio
+verichains,Verichains,firm,335,2018,2026,6,2021,2021,334,public_portfolio
+veridise,Veridise,firm,162,2022,2026,0,2022,2026,7,public_portfolio
+zellic,Zellic,firm,414,2022,2026,1,,,414,public_portfolio
+zokyo,Zokyo,firm,310,2020,2026,0,,,310,public_portfolio

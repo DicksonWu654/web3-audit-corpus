@@ -1,0 +1,8 @@
+{
+  "chainlight": {
+    "aliases": ["theori", "The Duck"],
+    "evidence_url": "https://github.com/chainlight-io/publications",
+    "evidence_quote": "Web3 Audits, Publications, and Track records by ChainLight of Theori",
+    "reconciliation": "Keep one manifest original per SHA-256 under chainlight; retain original host, collector and listing provenance."
+  }
+}

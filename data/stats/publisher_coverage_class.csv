@@ -1,0 +1,64 @@
+publisher_id,name,kind,coverage_class,reason,engagements,listed_count,matched_share,terms_restricted,terms_restricted_reports
+abdk-consulting,ABDK Consulting,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,219,216,1.0,False,0
+ackee-blockchain,Ackee Blockchain,firm,near_complete,Integrated listing: 63 matched of 65 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,102,65,0.9692307692307692,False,0
+bailsec,BailSec,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,111,112,1.0,False,0
+blocksec,BlockSec,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,232,241,1.0,False,0
+cantina,Cantina,contest_platform,complete,"Portfolio records, competition records and report files have different denominators. Cantina API is robots-disallowed; preserved IDs are compared to current public counters. Spearbit guild is attributed separately; no attribution changed.",555,604,1.0,False,0
+certora,Certora,firm,complete,Integrated listing: 200 matched of 200 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,194,200,1.0,False,0
+chainlight,ChainLight,firm,partial,Integrated listing: 25 matched of 27 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,20,27,0.9259259259259259,False,0
+chainsecurity,ChainSecurity,firm,complete,No unmatched exact URL candidates on measured surface.,414,430,1.0,True,416
+code4rena,Code4rena,contest_platform,complete,Final-report listing differs from audit-platform metadata; native HTML and Markdown representations can create multiple manifest rows per final report. Mitigation appendices can share a parent report.,414,412,1.0,True,478
+code4rena-zenith,Zenith,firm,complete,Integrated listing: 230 matched of 230 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,221,230,1.0,False,0
+codespect,CodeSpect,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,43,43,1.0,False,0
+coinspect,Coinspect,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,41,42,1.0,False,0
+composable-security,Composable Security,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,27,28,1.0,False,0
+consensys-diligence,Consensys Diligence,firm,near_complete,Integrated listing: 146 matched of 149 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,168,149,0.9798657718120806,False,0
+decurity,Decurity,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,60,61,1.0,False,0
+dedaub,Dedaub,firm,complete,No unmatched exact URL candidates on measured surface.,209,179,1.0,True,178
+electisec,Electisec,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,205,304,1.0,False,0
+fuzzland,Fuzzland,firm,partial,Integrated listing: 30 matched of 35 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,30,35,0.8571428571428571,False,0
+guardianaudits,Guardian Audits,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,344,333,1.0,False,0
+hacken,Hacken,firm,partial,Integrated listing: 223 matched of 1145 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,1280,1145,0.1947598253275109,False,0
+halborn,Halborn,firm,complete,No unmatched exact URL candidates on measured surface.,539,267,1.0,False,0
+hats-finance,Hats Finance,contest_platform,lower_bound,"No verified complete public competition listing. Organization repositories include workspaces/infrastructure and cannot serve as contest or final-report denominator. Root and immediate named report directories audited; absence of a linked report is unknown publication status, not a zero-report contest.",16,,,False,0
+hexens,Hexens,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,169,172,1.0,False,0
+immunefi,Immunefi,contest_platform,partial,Integrated listing: 3 matched of 56 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,60,56,0.05357142857142857,True,1
+informalsystems,Informal Systems,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,51,60,1.0,False,0
+iosiro,iosiro,firm,complete,No unmatched exact URL candidates on measured surface.,125,125,1.0,False,0
+kudelski-security,Kudelski Security,firm,partial,Integrated listing: 39 matched of 42 listed units. Quarantined original excluded; listing metadata only.,37,42,0.9285714285714286,True,35
+least-authority,Least Authority,firm,complete,No unmatched exact URL candidates on measured surface.,194,196,1.0,False,0
+macro,Macro,firm,complete,No unmatched exact URL candidates on measured surface.,193,192,1.0,False,0
+mixbytes,MixBytes,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,252,269,1.0,False,0
+movebit,MoveBit,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,30,29,1.0,False,0
+ncc-group,NCC Group,firm,complete,No unmatched exact URL candidates on measured surface.,29,29,1.0,False,0
+neodyme,Neodyme,firm,complete,No unmatched exact URL candidates on measured surface.,35,35,1.0,False,0
+nethermind,Nethermind,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,191,203,1.0,False,0
+oak-security,Oak Security,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,327,331,1.0,False,0
+obsidian-audits,Obsidian Audits,collective,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,18,20,1.0,False,0
+openzeppelin,OpenZeppelin,firm,complete,No unmatched exact URL candidates on measured surface.; explicit non-report category entries excluded from gap,427,412,1.0,False,0
+ottersec,OtterSec,firm,complete,No unmatched exact URL candidates on measured surface.,390,396,1.0,False,0
+oxorio,Oxorio,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,46,47,1.0,False,0
+pashov-audit-group,Pashov Audit Group,collective,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,370,609,1.0,False,0
+peckshield,PeckShield,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,523,493,1.0,False,0
+pessimistic,Pessimistic,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,176,182,1.0,False,0
+quantstamp,Quantstamp,firm,near_complete,Integrated listing: 399 matched of 400 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,404,400,0.9975,True,398
+runtime-verification,Runtime Verification,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,104,116,1.0,False,0
+scalebit,ScaleBit,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,7,14,1.0,False,0
+sec3,Sec3,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,36,37,1.0,False,0
+secure3,Secure3,contest_platform,lower_bound,"No verified complete public competition listing. Organization repositories include workspaces/infrastructure and cannot serve as contest or final-report denominator. Root and immediate named report directories audited; absence of a linked report is unknown publication status, not a zero-report contest.",15,,,False,0
+sherlock,Sherlock,contest_platform,complete,"Private platform metadata does not establish whether an archive report is public. Archive PDFs have a document denominator, not additional contest IDs. Solo coverage is unknown because an explicit category/join is absent; no invented IDs or private detail reads.",359,265,1.0,False,0
+shieldify,Shieldify,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,137,135,1.0,False,0
+sigma-prime,Sigma Prime,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,167,152,1.0,False,0
+slowmist,SlowMist,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,291,340,1.0,False,0
+solidified,Solidified,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,230,247,1.0,False,0
+spearbit,Spearbit,collective,near_complete,Integrated listing: 137 matched of 138 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,151,138,0.9927536231884058,False,0
+statemind,Statemind,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,51,55,1.0,False,0
+teamomega,Team Omega,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,54,55,1.0,False,0
+theori,Theori,firm,partial,Integrated listing: 7 matched of 8 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,6,8,0.875,False,0
+three-sigma,Three Sigma,firm,partial,Integrated listing: 35 matched of 44 listed units. Reviewed gap-fill integration receipt; listed units are publisher specific.,97,44,0.7954545454545454,False,0
+trail-of-bits,Trail of Bits,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,354,369,1.0,False,0
+trust-security,Trust Security,firm,lower_bound,"Portfolio API is robots-disallowed; no request to API sent. Count unknown, never zero.",3,,,False,0
+verichains,Verichains,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,335,367,1.0,False,0
+veridise,Veridise,firm,complete,No unmatched exact URL candidates on measured surface.,162,149,1.0,True,170
+zellic,Zellic,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,414,411,1.0,False,0
+zokyo,Zokyo,firm,complete,All eligible canonical report files represented; canonical archive only; revisions/renderings are separate files.,310,313,1.0,False,0

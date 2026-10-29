@@ -1,0 +1,125 @@
+{
+  "veridise_field_ids": {
+    "firm": "veridise",
+    "variant": "v2022_finding_id_fields",
+    "text": "4.1.1 Validation issue\nSeverity High    Difficulty Easy\nType Validation    Finding ID V-TST-VUL-001\nTarget module.rs    Status Open\nDescription This is a detailed explanation of the validation problem and its impact.\n",
+    "ids": [
+      "V-TST-VUL-001"
+    ],
+    "statuses": [
+      "open"
+    ]
+  },
+  "veridise_grouped_ids": {
+    "firm": "veridise",
+    "variant": "v2022_finding_id_fields",
+    "text": "4.1.1 Shared validation issue\nSeverity High    Difficulty Easy\nType Validation    Finding ID V-TST-VUL-001\n                            V-TST-VUL-002\nTarget module.rs    Status Fixed\nDescription Both named properties share this explanation and the same verified change.\n",
+    "ids": [
+      "V-TST-VUL-001",
+      "V-TST-VUL-002"
+    ],
+    "statuses": [
+      "fixed",
+      "fixed"
+    ]
+  },
+  "veridise_named_card": {
+    "firm": "veridise",
+    "variant": "v2022_named_metadata",
+    "text": "4.1.1 V-TST-VUL-001: Validation issue\nSeverity High    Commit aabbccd\nType Validation    Status Intended Behavior\nDescription The implementation deliberately permits this behavior and the publisher records this decision.\nDeveloper Response This is the expected behavior.\n",
+    "ids": [
+      "V-TST-VUL-001"
+    ],
+    "statuses": [
+      "acknowledged"
+    ]
+  },
+  "veridise_blank_status": {
+    "firm": "veridise",
+    "variant": "v2022_named_metadata",
+    "text": "4.1.1 V-TST-VUL-001: Validation issue\nSeverity High    Commit aabbccd\nType Validation    Status\nFile(s) module.rs\nDescription The card intentionally has an empty status.\nRecommendation This should be fixed.\nDeveloper Response We will implement the suggested fix.\n",
+    "ids": [
+      "V-TST-VUL-001"
+    ],
+    "statuses": [
+      null
+    ]
+  },
+  "veridise_fix_commit": {
+    "firm": "veridise",
+    "variant": "v2023_confirmed_fix_commits",
+    "text": "5.1.1 V-TST-VUL-001: Validation issue\nSeverity High    Commit aabbccd\nType Validation    Status Fixed\nConfirmed Fix At deadbee\nDescription The source records a fixed issue and a verified commit.\nDeveloper Response The developers implemented the suggested fix.\n",
+    "ids": [
+      "V-TST-VUL-001"
+    ],
+    "statuses": [
+      "fixed"
+    ]
+  },
+  "oxorio_numbered": {
+    "firm": "oxorio",
+    "variant": "v2022_numbered_cards",
+    "text": "2.1.1 Validation issue\nSeverity CRITICAL\nStatus • NEW\nDescription The finding contains a substantive explanation and a recommendation.\n",
+    "ids": [
+      "2.1.1"
+    ],
+    "statuses": [
+      "open"
+    ]
+  },
+  "oxorio_displaced_number": {
+    "firm": "oxorio",
+    "variant": "v2022_numbered_cards",
+    "text": ".1.1 Validation issue\n2\nSeverity CRITICAL\nStatus • DISMISSED\nDescription The PDF placed the leading chapter digit beneath the heading suffix.\n",
+    "ids": [
+      "2.1.1"
+    ],
+    "statuses": [
+      "invalid"
+    ]
+  },
+  "oxorio_native": {
+    "firm": "oxorio",
+    "variant": "v2023_native_id_cards",
+    "text": "C-01 Validation issue\nSeverity CRITICAL\nStatus • NO_ISSUE\nDescription The publisher explicitly dismisses the reported behavior.\nRecommendation A later release could change this behavior.\n",
+    "ids": [
+      "C-01"
+    ],
+    "statuses": [
+      "invalid"
+    ]
+  },
+  "oxorio_clean_native": {
+    "firm": "oxorio",
+    "variant": "v2023_native_id_cards",
+    "text": "SUMMARY OF FINDINGS\nSeverity    TOTAL    NEW    FIXED    ACKNOWLEDGED    NO ISSUE\nCRITICAL    0    0    0    0    0\nMAJOR    0    0    0    0    0\nFINDINGS REPORT\nNo findings were identified within the reviewed scope.\n",
+    "ids": [],
+    "statuses": []
+  },
+  "oxorio_verification": {
+    "firm": "oxorio",
+    "variant": "v2024_deployment_verification",
+    "text": "VERIFICATION DETAILS\nDeployment Verification: PASS\nRole Model Verification: PASS\nA third-party report identified findings which are outside this deployment verification.\n",
+    "ids": [],
+    "statuses": []
+  },
+  "oxorio_service_overview": {
+    "firm": "oxorio",
+    "variant": "v2022_service_overview",
+    "text": "We are OXORIO — a security team.\nAudit Methodology\nOur services include smart contract audits and verification of fixed code.\n",
+    "ids": [],
+    "statuses": []
+  },
+  "oxorio_markdown_badge": {
+    "firm": "oxorio",
+    "variant": "v2025_markdown_badges",
+    "text": "## Findings Report\n### WARNING\n#### [FIXED] Unused input\n##### Description\nThe detailed finding explains why a circuit input is unused and recommends removal.\n##### Update\nThe input has been removed.\n## Appendix\nReference text only.\n",
+    "ids": [
+      null
+    ],
+    "statuses": [
+      "fixed"
+    ],
+    "format": "md"
+  }
+}

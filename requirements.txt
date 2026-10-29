@@ -1,0 +1,6 @@
+duckdb==1.4.3
+pyarrow==26.0.0
+PyMuPDF==1.26.7
+pytest==9.0.2
+PyYAML==6.0.1
+requests==2.32.5

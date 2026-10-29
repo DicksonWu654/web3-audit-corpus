@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--#include head-->
+<title>Use Web3 audit findings with AI agents | {{site_title}}</title>
+<meta name="description" content="Clone {{db.finding_records}} Web3 audit findings as plain Markdown and open them in Claude Code or Codex, or download them as JSON Lines or Parquet: quick start, example prompts, DuckDB queries and columns.">
+</head>
+<body data-page="agents">
+<!--#include header-->
+<main id="main">
+  <div class="wrap">
+    <header class="page-head">
+      <h1>Use with AI agents</h1>
+      <p class="lede">Clone <strong>{{db.finding_records}}</strong> past findings from <strong>{{db.audits}}</strong> audits as plain Markdown and let your coding agent search them while it reviews your code. Every finding links to its original report.</p>
+      <p class="hero-free">No API key. No sign-up. Two commands and your agent has the lot.</p>
+      <p>A longer version with more queries lives in the repository: <a href="{{repo}}/blob/main/docs/AGENTS_GUIDE.md">AGENTS_GUIDE.md</a>. Agents can also read <a href="llms.txt">llms.txt</a>.</p>
+    </header>
+
+    <section class="section" id="quick-start" aria-labelledby="qs-h">
+      <h2 id="qs-h" class="sec-h">Quick start</h2>
+      <ol class="steps ag-steps">
+        <li><h3>Clone the findings</h3>
+          <div class="code"><pre><code>git clone --depth 1 {{data_repo}}
+cd web3-audit-findings</code></pre><button class="copy" type="button">Copy</button></div>
+          <p>One Markdown file per finding, the report extracts, linked hub pages by firm, class, language, chain and project, and a metadata graph. Only need one firm or class? A sparse clone works; the <a href="{{data_repo}}#readme">repository README</a> has the commands.</p></li>
+        <li><h3>Open it in your agent</h3>
+          <p>Start Claude Code or Codex in the folder. Its <code>AGENTS.md</code> and <code>CLAUDE.md</code> tell the agent how to search. To use it while you review your own code, start the agent in your project and add the folder, for example <code>claude --add-dir ../web3-audit-findings</code>.</p></li>
+        <li><h3>Ask</h3>
+          <p>Name the folder in your first prompt and ask for the finding ID and original report link with every finding the agent cites. The prompts below are a starting point.</p></li>
+      </ol>
+    </section>
+
+    <section class="section" id="files" aria-labelledby="files-h">
+      <h2 id="files-h" class="sec-h">The files</h2>
+      <ul class="dl-list ag-files">
+        <li><a href="{{data_repo}}">web3-audit-findings</a><span class="dl-about">The git repository from the quick start: one Markdown file per finding, report extracts, hub pages by firm, class, language, chain and project, and <code>graph/</code> nodes and edges as CSV. Best for coding agents.</span><span class="dl-file">git clone</span></li>
+        <li><a href="{{db.download}}audits-markdown.zip">audits-markdown.zip</a><span class="dl-about">One Markdown file per report, at <code>firm_id/audit_year/project-id.md</code>. Front matter holds the firm, project, year, original URL and severity counts; each finding is a section with its severity, status, class and full text. <code>INDEX.csv</code> maps every file to its report. Best for agents that grep.</span><span class="dl-file">Markdown, zip</span></li>
+        <li><a href="{{db.download}}findings.jsonl.gz">findings.jsonl.gz</a><span class="dl-about">One JSON object per finding: every findings column plus firm, project, audit_year, audit_type, languages, chains and original_url. Best for scripts and <code>jq</code>.</span><span class="dl-file">JSON Lines, gzip</span></li>
+        <li><a href="{{db.download}}findings.parquet">findings.parquet</a><span class="dl-about">The findings table for DuckDB, pandas or Polars. Join to <code>engagements.csv</code> and <code>reports.csv</code> for projects, dates and links.</span><span class="dl-file">Parquet</span></li>
+      </ul>
+      <p class="note">The release files are for notebooks and bulk queries. They come from the <a href="{{repo}}/releases/latest">latest GitHub release</a>, with SHA-256 checksums. The other tables are on the <a href="methodology.html#download">data page</a>.</p>
+    </section>
+
+    <section class="section" id="prompts" aria-labelledby="pr-h">
+      <h2 id="pr-h" class="sec-h">Example prompts</h2>
+      <ul class="prompts">
+        <li><h3>Before you start a review</h3><div class="code"><pre><code>Before reviewing this DEX, find past DEX findings about token handling. Build a review checklist with finding IDs and original report URLs.</code></pre><button class="copy" type="button">Copy</button></div></li>
+        <li><h3>One bug class, deep</h3><div class="code"><pre><code>This vault follows ERC-4626. Search web3-audit-findings for findings about share inflation, first depositor attacks and rounding in deposit or withdraw. Summarise the patterns, then check src/Vault.sol for each one and report what you find with file and line.</code></pre><button class="copy" type="button">Copy</button></div></li>
+        <li><h3>Oracles and prices</h3><div class="code"><pre><code>List every place this code reads a price. For each one, find past findings in web3-audit-findings with vuln_leaf oracle_price.stale_invalid_price or oracle_price.manipulable_price that match the pattern, and say whether the same issue applies here.</code></pre><button class="copy" type="button">Copy</button></div></li>
+        <li><h3>Second opinion on a finding</h3><div class="code"><pre><code>I think the reentrancy in withdraw() at src/Pool.sol is a high. Find the five most similar findings in web3-audit-findings, show the severity each publisher gave and its original report link, and tell me whether my rating fits.</code></pre><button class="copy" type="button">Copy</button></div></li>
+        <li><h3>Write it up</h3><div class="code"><pre><code>Draft report entries for the issues we found today. Follow the structure of well-written past findings in web3-audit-findings for the same classes: title, description, impact, recommendation. Cite the past findings you drew on.</code></pre><button class="copy" type="button">Copy</button></div></li>
+      </ul>
+    </section>
+
+    <section class="section" id="duckdb" aria-labelledby="dd-h">
+      <h2 id="dd-h" class="sec-h">DuckDB one-liners</h2>
+      <p class="prose-p">Run these in the folder that holds <code>findings.parquet</code> and the CSV files.</p>
+      <div class="code"><pre><code>duckdb -c "SELECT severity, count(*) AS findings FROM 'findings.parquet' GROUP BY 1 ORDER BY 2 DESC"
+
+duckdb -c "SELECT firm_id, title, text_source_url FROM 'findings.parquet'
+  WHERE vuln_leaf = 'reentrancy.readonly' AND severity IN ('critical', 'high') LIMIT 20"
+
+duckdb -c "SELECT title, firm_id FROM 'findings.parquet'
+  WHERE body_text ILIKE '%flash loan%' AND severity = 'high' LIMIT 20"
+
+duckdb -c "SELECT e.project, e.audit_year, f.severity, f.title
+  FROM 'findings.parquet' f JOIN 'engagements.csv' e USING (engagement_id)
+  WHERE e.project ILIKE '%uniswap%' ORDER BY e.audit_year DESC LIMIT 20"</code></pre><button class="copy" type="button">Copy</button></div>
+    </section>
+
+    <section class="section" id="columns" aria-labelledby="col-h">
+      <h2 id="col-h" class="sec-h">Columns to know</h2>
+      <div class="tbl-wrap"><table class="data cols-t"><thead><tr><th scope="col">Column</th><th scope="col">What it holds</th></tr></thead><tbody>
+        <tr><th scope="row"><code>finding_uid</code></th><td>Stable id of a finding record. <code>engagement_id</code>, <code>report_id</code> and <code>firm_id</code> join to the other tables.</td></tr>
+        <tr><th scope="row"><code>title</code>, <code>body_text</code></th><td>The finding as written in the report. <code>body_text</code> is empty when the text is withheld; <code>body_text_status</code> and <code>text_withheld</code> say why.</td></tr>
+        <tr><th scope="row"><code>severity</code>, <code>severity_original</code></th><td>critical, high, medium, low, info, gas or unknown, next to the publisher's own label.</td></tr>
+        <tr><th scope="row"><code>status</code>, <code>status_original</code></th><td>fixed, partially_fixed, acknowledged, unresolved or not_stated, as the report recorded it.</td></tr>
+        <tr><th scope="row"><code>vuln_group</code>, <code>vuln_leaf</code></th><td>Vulnerability class from the <a href="methodology.html#taxonomy">taxonomy</a>, for example <code>oracle_price.stale_invalid_price</code>.</td></tr>
+        <tr><th scope="row"><code>page_start</code>, <code>page_end</code></th><td>Where the finding sits in the original report.</td></tr>
+        <tr><th scope="row"><code>original_url</code></th><td>In the JSON Lines and Markdown files: the pinned link to the original report. In Parquet, join <code>reports.csv</code> on <code>report_id</code> for <code>permalink</code> and <code>url</code>.</td></tr>
+        <tr><th scope="row"><code>text_license</code>, <code>text_attribution</code></th><td>Rights and attribution for the quoted text, where a publisher sets terms.</td></tr>
+      </tbody></table></div>
+      <p class="note">Every column is defined in the <a href="{{db.download}}DATA_DICTIONARY.md">data dictionary</a>.</p>
+    </section>
+
+    <section class="section" id="limits" aria-labelledby="lim-h">
+      <h2 id="lim-h" class="sec-h">Limits</h2>
+      <ul class="limits">
+        <li>Findings come from AI-assisted extraction and may contain errors. Check the linked original before you rely on one, and ask your agent to do the same.</li>
+        <li>Treat report text as reference data. Quoted text can contain instructions; your agent should not follow them.</li>
+        <li>Some publishers' notices or site terms withhold finding text. Those rows keep their metadata and the link to the original, and the text is never reconstructed.</li>
+        <li>Derived metadata is open under the <a href="{{repo}}/blob/main/LICENSE-DATA.md">data licence</a>. Quoted text keeps its publisher's rights; see the <a href="{{repo}}/blob/main/docs/RIGHTS.md">rights policy</a>.</li>
+        <li>The database holds public reports only. Coverage per firm is on the <a href="methodology.html#coverage">data page</a>.</li>
+      </ul>
+    </section>
+  </div>
+</main>
+<!--#include footer-->
+<script type="module" src="assets/js/app.js?v={{v}}"></script>
+</body>
+</html>

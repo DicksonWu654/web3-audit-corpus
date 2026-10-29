@@ -1,0 +1,77 @@
+{
+  "publishers": [
+    ["shieldify", "Shieldify", "firm"], ["codespect", "CODESPECT", "firm"],
+    ["composable-security", "Composable Security", "firm"], ["movebit", "MoveBit", "firm"],
+    ["neodyme", "Neodyme", "firm"], ["obsidian-audits", "Obsidian Audits", "firm"],
+    ["teamomega", "Team Omega", "firm"], ["code4rena", "Code4rena", "contest_platform"],
+    ["immunefi", "Immunefi", "contest_platform"], ["fuzzland", "", "firm"],
+    ["certik", "CertiK", "metadata_only_deferred"]
+  ],
+  "collection_reports": [
+    {"firm_id":"shieldify","collector":"synthetic_fixture","source_kind":"github","public_url":"https://github.com/shieldify-security/audits-portfolio/blob/1111111111111111111111111111111111111111/reports/example.pdf","listing_url":"https://github.com/shieldify-security/audits-portfolio","sha256":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","bytes":123,"file_format":"pdf","local_path":"local-cache/originals/aa/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.pdf","filename":"example.pdf","title_hint":"Example audit","project_hint":"Example","date_hint":"2025-03-10","date_precision":"day","date_basis":"document_text","doc_kind":"audit_report","retrieved_utc":"2026-10-19T12:00:00Z","notes":"Synthetic metadata; no original is fetched."},
+    {"firm_id":"shieldify","collector":"synthetic_fixture","source_kind":"website","public_url":"https://example.org/alias.pdf","listing_url":"https://example.org/audits","sha256":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","bytes":123,"file_format":"pdf","local_path":"local-cache/originals/aa/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.pdf","filename":"alias.pdf","title_hint":"Example alias","project_hint":"Example","date_hint":"2024","date_precision":"year","date_basis":"filename","doc_kind":"audit_report","retrieved_utc":"2026-10-19T12:00:00Z","notes":["Identical-byte alias; conflicting date hint retained."]},
+    {"firm_id":"code4rena","collector":"synthetic_fixture","source_kind":"contest","public_url":"https://code4rena.com/reports/2025-03-example","listing_url":"https://code4rena.com/reports","sha256":"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc","bytes":50,"file_format":"html","local_path":"local-cache/originals/cc/cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.html","filename":"example.html","title_hint":"Example contest","project_hint":"Example","date_hint":"2025-03","date_precision":"month","date_basis":"contest_end","doc_kind":"contest_report","retrieved_utc":"2026-10-19T12:00:00Z","notes":[]}
+  ],
+  "contests": [
+    {"contest_id":"2025-03-example","platform":"code4rena","name":"Example contest","sponsor/project":"Example","start_utc":"2025-03-01T00:00:00Z","end_utc":"2025-03-10T00:00:00Z","format":"public_contest","report_url":"https://code4rena.com/reports/2025-03-example","findings_high":2,"findings_medium":3,"sha256":"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"}
+  ],
+  "exports": {
+    "shieldify": {
+      "reports":[
+        {"report_id":"shieldify-main","firm":"Shieldify","client":"Example","title":"Example audit","is_counted_audit":true,"format":"pdf","sha256":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","source_url":"https://example.org/shieldify.pdf","date_published":"10 March 2025","dates":["10 March 2025"],"alternate_format_ids":["shieldify-alt"],"rights":{"originals_included":false}},
+        {"report_id":"shieldify-alt","firm":"Shieldify","client":"Example","is_counted_audit":false,"format":"markdown","sha256":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","source_url":"https://example.org/shieldify.md"}
+      ],
+      "findings":[
+        {"finding_id":"shieldify-f","report_id":"shieldify-main","title":"Example issue","severity_original":"High","severity_normalized":"high","status_original":"Resolved","response":"Acknowledged by team","response_attribution":"Team","occurrence":1},
+        {"finding_id":"shieldify-alt-f","report_id":"shieldify-alt","title":"Alternate evidence","severity_original":"Gas Optimization","severity_normalized":"gas_optimization"}
+      ],
+      "expected":{"reports":2,"primary_reports":1,"findings":2,"primary_findings":1,"severity":{"high":1},"hashes":1,"missing_hashes":0}
+    },
+    "codespect": {
+      "reports":[{"report_id":"codespect-main","firm":{"raw":"CODESPECT Security","normalized":"codespect_security"},"project":{"raw":"Example","normalized":"example"},"title":{"raw":"Example audit","normalized":"example audit"},"sha256":"dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd","source":{"source_url":"https://example.org/codespect.pdf"},"source_metadata":{"report_metadata_rights":{"final_report_iso":"2025-01-01","cover_date_iso":"2024-12-31"}},"dates":{"printed":[{"iso":"2024-12-31","raw":"December 31, 2024","page":1}]}}],
+      "findings":[{"finding_id":"codespect-f","report_id":"codespect-main","finding_phase":"fix_review","occurrence":1,"original":{"title":{"raw":"Best practice"},"severity":{"raw":"best_practice"},"status":{"raw":"Acknowledged"}},"normalized":{"severity":"best_practice"}}],
+      "expected":{"reports":1,"primary_reports":1,"findings":1,"primary_findings":1,"severity":{"info":1},"hashes":1,"missing_hashes":0}
+    },
+    "composable_security": {
+      "reports":[{"report_id":"composable-main","publisher":{"title":"Example review","project":"Example","date_assertions":[{"value_raw":"2025-01-10"}]},"artifact":{"sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},"provenance":{"source_urls":["https://example.org/composable.pdf"]},"normalized":{"dates":[{"role":"test_time_period","start":"2024-12-01","end":"2024-12-15"},{"role":"report_date","start":"2025-01-10"},{"role":"retest_time_period","start":"2025-03-10","end":"2024-03-10","issues":["end_precedes_start_in_source"]}]}}],
+      "findings":[{"finding_id":"composable-f","report_id":"composable-main","record_kind":"unnumbered_remediation_review","publisher":{"title":null,"severity":null,"category":"Recommendations","description":null},"normalized":{"severity":null},"delivery":{"full_text":"withheld"}}],
+      "expected":{"reports":1,"primary_reports":1,"findings":1,"primary_findings":1,"severity":{"unknown":1},"hashes":1,"missing_hashes":0}
+    },
+    "movebit": {
+      "reports":[{"report_id":"movebit-main","publisher":{"client":"Example","chain":"Aptos","title":"Example Move review"},"source":{"source_url":"https://example.org/movebit.pdf","sha256":"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"},"normalized":{"chain":"aptos","dates":[{"kind":"audit_timeline","value":{"start":"2025-02-01","end":"2025-02-10"}}]}}],
+      "findings":[{"finding_id":"movebit-f","report_id":"movebit-main","record_kind":"detailed_published_finding","publisher":{"title":"Example issue","severity":"Major","status":"Confirmed","description":null},"normalized":{"severity":"major"},"field_availability":{"description":{"state":"withheld_rights_unresolved"}},"source_anchor":{"detail_ordinal":1}}],
+      "expected":{"reports":1,"primary_reports":1,"findings":1,"primary_findings":1,"severity":{"high":1},"hashes":1,"missing_hashes":0}
+    },
+    "neodyme_v1": {
+      "reports":[{"report_id":"neodyme-main","firm":"Neodyme AG","project":"Example","title":"Example review","source_url":"https://example.org/neodyme.pdf","sha256":"1111111111111111111111111111111111111111111111111111111111111111","index_published_date":"Mar 15, 2025","report_date_standalone":"March 10, 2025"}],
+      "findings":[{"finding_id":"neodyme-f","report_id":"neodyme-main","publisher_id":"N-1","title":"A nitpick","severity":"nitpick","status_raw":"Resolved","content":"Synthetic finding body","recommendation":null}],
+      "expected":{"reports":1,"primary_reports":1,"findings":1,"primary_findings":1,"severity":{"info":1},"hashes":1,"missing_hashes":0}
+    },
+    "obsidian_pilot": {
+      "reports":[{"report_id":"obsidian-main","authoring_firm":"Obsidian Audits","project":"Example","title":"Example audit","primary_source_url":"https://example.org/obsidian.pdf","sha256":"2222222222222222222222222222222222222222222222222222222222222222","cover_date":"2025-04-01","expected_finding_entries_from_prior_review":10}],
+      "findings":[],
+      "expected":{"reports":1,"primary_reports":1,"findings":0,"primary_findings":0,"severity":{},"hashes":1,"missing_hashes":0}
+    },
+    "omega_resume": {
+      "reports":[{"report_id":"omega-main","firm":{"raw":"Team Omega"},"project":{"raw":null,"normalized":null},"title":{"raw":null,"normalized":null},"sha256":null,"source":{"source_url":"https://example.org/omega.pdf","browser_remote_sha256":"3333333333333333333333333333333333333333333333333333333333333333"},"dates":{"filename":{"raw":"202104","iso":null},"printed":[]},"extraction":{"status":"blocked"},"finding_counts":{"source_count":null}}],
+      "findings":[],
+      "expected":{"reports":1,"primary_reports":1,"findings":0,"primary_findings":0,"severity":{},"hashes":0,"missing_hashes":1}
+    }
+  },
+  "seed_reports":[
+    {"record_id":"seed-shieldify","source":"gcf3711/audit-report-archive","publisher":"shieldify","title":"Catalog example","project":"Example","report_url":"https://example.org/seed.pdf","source_url":"https://example.org/catalog.json","publication_date":"2024","raw_sha256":"4444444444444444444444444444444444444444444444444444444444444444","raw_record_json":"{\"sha256\":\"5555555555555555555555555555555555555555555555555555555555555555\"}"},
+    {"record_id":"seed-certik","source":"gcf3711/audit-report-archive","publisher":"CertiK","title":"Excluded","source_url":"https://example.org/excluded"},
+    {"record_id":"seed-unknown","source":"shenyimings/FORGE-Artifacts","publisher":null,"title":"Unknown auditor","source_url":"https://example.org/unknown"}
+  ],
+  "seed_findings":[
+    {"record_id":"seed-f","source":"gcf3711/audit-report-archive","report_record_id":"seed-shieldify","title":"Seed candidate","severity_raw":"H","severity_normalized":"high","source_url":"https://example.org/seed-f","raw_text":"Synthetic seed finding"},
+    {"record_id":"seed-orphan","source":"immunefi","report_record_id":null,"title":"Orphan seed","severity_raw":"Low","severity_normalized":"low","source_url":"https://example.org/immunefi-f","status_authority":"dataset_not_adjudicator"},
+    {"record_id":"seed-certik-f","source":"gcf3711/audit-report-archive","report_record_id":"seed-certik","source_url":"https://example.org/excluded-f"},
+    {"record_id":"seed-unknown-f","source":"GiAnt/19325553","report_record_id":null,"original_source_url":null,"source_url":"https://example.org/unknown-f"}
+  ],
+  "seed_expected_firms":[
+    {"normalized_firm":"Shieldify","reports":1,"findings":1},
+    {"normalized_firm":"Immunefi","reports":0,"findings":1},
+    {"normalized_firm":"CertiK","reports":1,"findings":1}
+  ]
+}

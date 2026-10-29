@@ -1,0 +1,64 @@
+publisher_id,name,kind,engagements,token_only_engagements,engagements_excluding_token_only,token_only_share,other_or_unclear_engagements,coverage
+abdk-consulting,ABDK Consulting,firm,219,6,213,0.0273972602739726,137,public_portfolio
+ackee-blockchain,Ackee Blockchain,firm,102,2,100,0.0196078431372549,20,public_portfolio
+bailsec,Bailsec,firm,111,1,110,0.009009009009009009,54,public_portfolio
+blocksec,BlockSec,firm,232,3,229,0.01293103448275862,31,public_portfolio
+cantina,Cantina,contest_platform,555,6,549,0.010810810810810811,88,public_portfolio
+certora,Certora,firm,194,2,192,0.010309278350515464,5,public_portfolio
+chainlight,ChainLight,firm,20,0,20,0.0,9,public_portfolio
+chainsecurity,ChainSecurity,firm,414,6,408,0.014492753623188406,12,public_portfolio
+code4rena,Code4rena,contest_platform,414,1,413,0.0024154589371980675,77,public_portfolio
+code4rena-zenith,Zenith,firm,221,2,219,0.00904977375565611,26,public_portfolio
+codespect,CODESPECT,firm,43,2,41,0.046511627906976744,0,public_portfolio
+coinspect,Coinspect,firm,41,1,40,0.024390243902439025,2,public_portfolio
+composable-security,Composable Security,firm,27,0,27,0.0,2,public_portfolio
+consensys-diligence,Consensys Diligence,firm,168,6,162,0.03571428571428571,14,public_portfolio
+decurity,Decurity,firm,60,0,60,0.0,5,public_portfolio
+dedaub,Dedaub,firm,209,3,206,0.014354066985645933,11,public_portfolio
+electisec,Electisec,firm,205,1,204,0.004878048780487805,30,public_portfolio
+fuzzland,Fuzzland,firm,30,0,30,0.0,9,public_portfolio
+guardianaudits,Guardian Audits,firm,344,1,343,0.0029069767441860465,96,public_portfolio
+hacken,Hacken,firm,1280,158,1122,0.1234375,519,public_sca_api_plus_third_party_copies
+halborn,Halborn,firm,539,18,521,0.03339517625231911,94,public_portfolio
+hats-finance,Hats Finance,contest_platform,16,0,16,0.0,1,public_portfolio
+hexens,Hexens,firm,169,1,168,0.005917159763313609,10,public_portfolio
+immunefi,Immunefi,contest_platform,60,0,60,0.0,57,public_portfolio
+informalsystems,Informal Systems,firm,51,0,51,0.0,5,public_portfolio
+iosiro,iosiro,firm,125,5,120,0.04,29,public_portfolio
+kudelski-security,Kudelski Security,firm,37,1,36,0.02702702702702703,10,public_portfolio
+least-authority,Least Authority,firm,194,2,192,0.010309278350515464,23,public_portfolio
+macro,Macro,firm,193,1,192,0.0051813471502590676,78,public_portfolio
+mixbytes,MixBytes,firm,252,2,250,0.007936507936507936,25,public_portfolio
+movebit,MoveBit,firm,30,2,28,0.06666666666666667,1,public_portfolio
+ncc-group,NCC Group,firm,29,0,29,0.0,3,public_portfolio
+neodyme,Neodyme,firm,35,0,35,0.0,1,public_portfolio
+nethermind,Nethermind,firm,191,5,186,0.02617801047120419,5,public_portfolio
+oak-security,Oak Security,firm,327,1,326,0.0030581039755351682,35,public_portfolio
+obsidian-audits,Obsidian Audits,collective,18,0,18,0.0,1,public_portfolio
+openzeppelin,OpenZeppelin,firm,427,17,410,0.03981264637002342,19,public_portfolio
+ottersec,OtterSec,firm,390,4,386,0.010256410256410256,12,public_portfolio
+oxorio,Oxorio,firm,46,3,43,0.06521739130434782,11,public_portfolio
+pashov-audit-group,Pashov Audit Group,collective,370,1,369,0.002702702702702703,16,public_portfolio
+peckshield,PeckShield,firm,523,18,505,0.03441682600382409,93,public_portfolio
+pessimistic,Pessimistic,firm,176,12,164,0.06818181818181818,92,public_portfolio
+quantstamp,Quantstamp,firm,404,18,386,0.04455445544554455,63,public_portfolio
+runtime-verification,Runtime Verification,firm,104,2,102,0.019230769230769232,6,public_portfolio
+scalebit,ScaleBit,firm,7,0,7,0.0,0,public_portfolio
+sec3,Sec3,firm,36,0,36,0.0,6,public_portfolio
+secure3,Secure3,contest_platform,15,0,15,0.0,1,public_portfolio
+sherlock,Sherlock,contest_platform,359,3,356,0.008356545961002786,16,public_portfolio
+shieldify,Shieldify,firm,137,1,136,0.0072992700729927005,4,public_portfolio
+sigma-prime,Sigma Prime,firm,167,7,160,0.041916167664670656,4,public_portfolio
+slowmist,SlowMist,firm,291,11,280,0.037800687285223365,123,public_portfolio
+solidified,Solidified,firm,230,20,210,0.08695652173913043,17,public_portfolio
+spearbit,Spearbit,collective,151,0,151,0.0,10,public_portfolio
+statemind,Statemind,firm,51,0,51,0.0,4,public_portfolio
+teamomega,Team Omega,firm,54,3,51,0.05555555555555555,8,public_portfolio
+theori,Theori,firm,6,0,6,0.0,1,public_portfolio
+three-sigma,Three Sigma,firm,97,0,97,0.0,21,public_portfolio
+trail-of-bits,Trail of Bits,firm,354,4,350,0.011299435028248588,135,public_portfolio
+trust-security,Trust Security,firm,3,0,3,0.0,0,public_portfolio
+verichains,Verichains,firm,335,63,272,0.1880597014925373,75,public_portfolio
+veridise,Veridise,firm,162,5,157,0.030864197530864196,16,public_portfolio
+zellic,Zellic,firm,414,7,407,0.016908212560386472,37,public_portfolio
+zokyo,Zokyo,firm,310,18,292,0.05806451612903226,175,public_portfolio

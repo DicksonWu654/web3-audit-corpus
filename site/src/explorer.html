@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--#include head-->
+<title>Search findings | {{site_title}}</title>
+<meta name="description" content="Search and filter {{db.finding_records}} Web3 audit findings by firm, year, severity, fix status, vulnerability class and review type, with the full text and a link to the original report.">
+</head>
+<body data-page="explorer">
+<!--#include header-->
+<main id="main">
+  <div class="wrap">
+    <header class="ex-head">
+      <h1>Search findings</h1>
+      <p id="ex-dek">Search finding titles, projects, firms and classes; open any finding for its text, metadata and a link to the original report. Every search and every finding has its own link to share.</p>
+      <form class="searchbar" role="search" id="search-form">
+        <label class="sr-only" for="q">Search findings</label>
+        <input class="q" id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Try: reentrancy, oracle, signature replay, Uniswap">
+        <label class="sr-only" for="sort">Sort results</label>
+        <select id="sort">
+          <option value="new">Newest first</option>
+          <option value="relevance">Best match</option>
+          <option value="sev">Most severe first</option>
+          <option value="old">Oldest first</option>
+        </select>
+        <button class="filter-toggle" type="button" id="filter-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
+      </form>
+      <div class="progress" id="progress" data-state="loading" aria-live="polite"><span class="bar"><i></i></span><span class="txt">Loading the search index…</span></div>
+    </header>
+    <div class="ex-grid" id="ex-grid">
+      <aside class="filters" id="filters" aria-label="Filters"></aside>
+      <section class="ex-results" aria-label="Results">
+        <div class="res-bar"><p class="res-count" id="res-count" aria-live="polite"></p><button class="clear share-search" type="button" id="share-search" hidden>Copy link to this search</button><button class="clear" type="button" id="clear-all" hidden>Clear all filters</button></div>
+        <div class="active-filters" id="active-filters"></div>
+        <ol class="results" id="results"></ol>
+        <div class="more" id="more"></div>
+      </section>
+      <div class="detail-wrap" id="detail-wrap">
+        <article class="detail" id="detail" hidden aria-live="polite"></article>
+      </div>
+    </div>
+  </div>
+</main>
+<!--#include footer-->
+<script type="module" src="assets/js/app.js?v={{v}}"></script>
+</body>
+</html>

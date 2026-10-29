@@ -1,0 +1,1012 @@
+{
+  "exclude": [
+    "0xdjango",
+    "0ximmeas",
+    "0xleastwood",
+    "0xpsuedopandit",
+    "0xrobocop",
+    "0xsanson",
+    "0xstalin",
+    "chasethelight",
+    "cmichel",
+    "dacian",
+    "daniel-vf",
+    "hickuphh3",
+    "riley-holterhus",
+    "picodes",
+    "kirinsec",
+    "liangosec",
+    "ambit",
+    "haechi-audit",
+    "matter-labs-audits",
+    "bitslab",
+    "mikhail",
+    "sakasec",
+    "auditbase"
+  ],
+  "merge": {
+    "ackee": "ackee-blockchain",
+    "composable": "composable-security",
+    "verilog": "verilog-solutions",
+    "trust": "trust-security",
+    "coinscope": "cyberscope"
+  },
+  "update": {
+    "0xguard": {
+      "repos": [
+        "0xGuard-com/audit-reports"
+      ],
+      "github_reports_url": "https://github.com/0xGuard-com/audit-reports"
+    },
+    "blockapex": {
+      "repos": [
+        "BlockApex/Audit-Reports"
+      ],
+      "github_reports_url": "https://github.com/BlockApex/Audit-Reports",
+      "website": "https://blockapex.io"
+    },
+    "coinfabrik": {
+      "repos": [
+        "CoinFabrik/coinfabrik-audit-reports"
+      ],
+      "github_reports_url": "https://github.com/CoinFabrik/coinfabrik-audit-reports"
+    },
+    "hashex": {
+      "repos": [
+        "HashEx/public_audits"
+      ],
+      "github_reports_url": "https://github.com/HashEx/public_audits"
+    },
+    "hashlock": {
+      "repos": [
+        "Hashlock-Auditing/hashlock-audits"
+      ],
+      "github_reports_url": "https://github.com/Hashlock-Auditing/hashlock-audits",
+      "website_reports_url": "https://hashlock.com/audits"
+    },
+    "offside-labs": {
+      "repos": [
+        "OffsideLabs/reports"
+      ],
+      "github_reports_url": "https://github.com/OffsideLabs/reports"
+    },
+    "monethic": {
+      "repos": [
+        "Monethic/portfolio"
+      ],
+      "github_reports_url": "https://github.com/Monethic/portfolio"
+    },
+    "distributed-lab": {
+      "repos": [
+        "dl-solarity/audits"
+      ],
+      "github_reports_url": "https://github.com/dl-solarity/audits"
+    },
+    "techrate": {
+      "repos": [
+        "TechRate/Smart-Contract-Audits"
+      ],
+      "github_reports_url": "https://github.com/TechRate/Smart-Contract-Audits"
+    },
+    "quillaudits": {
+      "repos": [
+        "Quillhash/QuillAudit_smart_contract_audit_Reports"
+      ],
+      "github_reports_url": "https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports"
+    },
+    "interfi": {
+      "repos": [
+        "interfinetwork/smart-contract-audits"
+      ],
+      "github_reports_url": "https://github.com/interfinetwork/smart-contract-audits"
+    },
+    "solidproof": {
+      "repos": [
+        "solidproof/smart-contract-audits",
+        "solidproof/projects"
+      ],
+      "github_reports_url": "https://github.com/solidproof/smart-contract-audits"
+    },
+    "least-authority": {
+      "report_path_pattern": "^(?!.*(?:GNU|Knot-dns|Cryptocat|GlobaLeaks|ORC|OpenVPN)).*\\.pdf$",
+      "notes": "General security consultancy; old GitHub report archive is a subset of the larger website portfolio. Generic non-Web3 reports excluded from numeric count."
+    },
+    "code4rena-zenith": {
+      "repos": [
+        "zenith-security/reports"
+      ],
+      "github_reports_url": "https://github.com/zenith-security/reports",
+      "name": "Zenith",
+      "kind": "firm",
+      "aliases": "Code4rena Zenith"
+    },
+    "enigma-dark": {
+      "repos": [
+        "Enigma-Dark/security-review-reports"
+      ],
+      "github_reports_url": "https://github.com/Enigma-Dark/security-review-reports"
+    },
+    "sourcehat": {
+      "website_reports_url": "https://sourcehat.com/audits/",
+      "aliases": "Solidity Finance;SolidityFinance"
+    },
+    "cantina": {
+      "website_reports_url": "https://cantina.xyz/security-reviews",
+      "kind": "contest_platform"
+    },
+    "code4rena": {
+      "website_reports_url": "https://code4rena.com/reports",
+      "repos": [],
+      "github_reports_url": "",
+      "kind": "contest_platform",
+      "aliases": "C4;code-423n4"
+    },
+    "hats-finance": {
+      "website_reports_url": "https://github.com/hats-finance",
+      "repos": [],
+      "github_reports_url": "https://github.com/hats-finance",
+      "kind": "contest_platform",
+      "notes": "Competition platform. Reports are distributed across per-competition <project>-0x<vault> repositories as report.md; website availability is unreliable. Count left unknown pending complete org enumeration."
+    },
+    "hackenproof": {
+      "website_reports_url": "https://hackenproof.com/blog",
+      "kind": "bug_bounty_platform",
+      "notes": "Bug bounty disclosures, not commissioned audit reports. Keep separate from Hacken."
+    },
+    "hackerone": {
+      "website_reports_url": "https://hackerone.com/hacktivity",
+      "kind": "bug_bounty_platform",
+      "notes": "Cross-industry disclosure platform; Web3 reports are a subset. Not an audit-firm report total."
+    },
+    "bugcrowd": {
+      "website_reports_url": "https://www.bugcrowd.com/disclosures/",
+      "kind": "bug_bounty_platform",
+      "notes": "Cross-industry disclosure platform; Web3 reports are a subset. Not an audit-firm report total."
+    },
+    "auditbase": {
+      "website_reports_url": "https://www.auditbase.com/audits",
+      "notes": "Auditing provider; public report portfolio may be incomplete."
+    },
+    "auditone": {
+      "website_reports_url": "https://auditone.io/audits",
+      "repos": [],
+      "github_reports_url": ""
+    },
+    "fairyproof": {
+      "website_reports_url": "https://www.fairyproof.com",
+      "repos": [],
+      "github_reports_url": "",
+      "other_reports_url": "https://www.fairyproof.com/doc/InvestmentVault_Audit_Report.pdf"
+    },
+    "neodyme": {
+      "website_reports_url": "https://www.neodyme.io/en/reports/",
+      "repos": [],
+      "github_reports_url": "",
+      "chains_focus": "Solana;EVM;Rust"
+    },
+    "hacken": {
+      "website_reports_url": "https://hacken.io/audits/reports/",
+      "other_reports_url": "https://hacken.io/api/audits"
+    },
+    "chainsecurity": {
+      "website_reports_url": "https://www.chainsecurity.com/smart-contract-audit-reports",
+      "listing_pattern": "href=\"(/security-audit/[^\"?#]+)\""
+    },
+    "consensys-diligence": {
+      "website_reports_url": "https://diligence.consensys.io/audits/",
+      "aliases": "ConsenSys;Consensys;Diligence",
+      "notes": "Historical ConsenSys Diligence audit URLs redirect to diligence.security; HTTP 403 in this environment prevents current listing enumeration. Legacy report rows remain attributable to this publisher."
+    },
+    "beosin": {
+      "website_reports_url": "https://beosin.com/report",
+      "aliases": "Chengdu LianAn;Chengdu Lianan;LianAn;Beosin Blockchain Security",
+      "notes": "Current report page exposes a featured sample of public PDFs. Full report total is unknown and is not replaced by marketing audit/client counts."
+    },
+    "blockaudit": {
+      "website_reports_url": "https://blockaudit.report/audits",
+      "repos": [],
+      "github_reports_url": "https://github.com/Block-Audit-Report"
+    },
+    "quarkslab": {
+      "website_reports_url": "https://blog.quarkslab.com/tag/audit.html"
+    },
+    "cure53": {
+      "website_reports_url": "https://cure53.de/#publications",
+      "notes": "General security consultancy. Count only Web3-relevant assessments during acquisition; the full publications index includes non-Web3 work."
+    },
+    "ncc-group": {
+      "website_reports_url": "https://www.nccgroup.com/research/",
+      "notes": "General security consultancy; public Web3 audits are a subset of its research archive."
+    },
+    "x41-d-sec": {
+      "website_reports_url": "https://x41-dsec.de/",
+      "notes": "General security consultancy; public Web3 audits are a subset of published reports.",
+      "other_reports_url": "https://x41-dsec.de/static/reports/X41-Audit-Thetanuts-2021-11-Public-Report.pdf"
+    },
+    "kudelski-security": {
+      "website_reports_url": "https://research.kudelskisecurity.com/?s=audit",
+      "other_reports_url": "https://github.com/wormhole-foundation/wormhole-audits/blob/main/2022-07-01_kudelski.pdf"
+    },
+    "sayfer": {
+      "website_reports_url": "https://sayfer.io/reports/web-pentest/",
+      "other_reports_url": "https://sayfer.io/wp-content/uploads/2023/09/Sayfer-Blockchain-Audit-for-XDC2.0.pdf",
+      "notes": "General cybersecurity consultancy with public Web3 audit work. Current general pentest report library is not counted as a Web3 report total."
+    },
+    "securedapp": {
+      "website_reports_url": "https://securedapp.io/audits"
+    },
+    "red4sec": {
+      "website_reports_url": "https://red4sec.com/en/audits",
+      "repos": [],
+      "github_reports_url": ""
+    },
+    "redguild": {
+      "website_reports_url": "https://theredguild.org/",
+      "repos": [],
+      "github_reports_url": "https://github.com/theredguild/publications",
+      "repos_unused": [],
+      "notes": "Security collective. Public reports and research are mixed; isolate report files during acquisition.",
+      "kind": "collective"
+    },
+    "hans": {
+      "website_reports_url": "",
+      "repos": [],
+      "github_reports_url": "",
+      "website": "https://github.com/hansfriese",
+      "aliases": "hansfriese;Hans Friese",
+      "notes": "Solo auditor, distinct from other researchers named Hans."
+    },
+    "george-hunter": {
+      "website": "https://github.com/gogotheauditor",
+      "notes": "Public portfolio URL from the curated auditor list returned 404. Historical solo-auditor entry; current portfolio location unresolved."
+    },
+    "bytes032": {
+      "notes": "Portfolio URL from the curated auditor list returned 404. Current public portfolio location unresolved."
+    },
+    "electisec": {
+      "aliases": "yAudit;yAcademy;yaudit",
+      "notes": "Electisec is the successor brand of yAudit. Legacy and current repositories are merged and identical blobs deduplicated. Training block_001/block_002 paths excluded.",
+      "report_path_pattern": "^(?!block_00[12]/).*\\.(?:pdf|md)$"
+    },
+    "softstack": {
+      "aliases": "Chainsulting;softstackHQ",
+      "notes": "Chainsulting rebranded as Softstack; legacy and current repositories are treated as one publisher."
+    },
+    "kalos": {
+      "aliases": "HAECHI Audit;HAECHI;Haechi",
+      "notes": "Publisher README explicitly states KALOS was previously HAECHI AUDIT.",
+      "report_path_pattern": "^audit-reports-[^/]+/.*\\.pdf$"
+    },
+    "pessimistic": {
+      "name": "Pessimistic",
+      "aliases": "Pessemistic;pessimistic-io"
+    },
+    "bailsec": {
+      "name": "Bailsec",
+      "aliases": "Bail Security;BailSec"
+    },
+    "zobront": {
+      "name": "Zach Obront",
+      "aliases": "Zobront;ZachObront;Obront"
+    },
+    "guvenkaya": {
+      "name": "Guvenkaya",
+      "website": "https://github.com/Guvenkaya"
+    },
+    "teamomega": {
+      "name": "Team Omega",
+      "aliases": "OmegaAudits",
+      "website": "https://github.com/OmegaAudits"
+    },
+    "verilog-solutions": {
+      "repos": [
+        "Verilog-Solutions/.github"
+      ],
+      "github_reports_url": "https://github.com/Verilog-Solutions/.github/tree/main/Audit",
+      "aliases": "Verilog",
+      "report_path_pattern": "^Audit/.*\\.pdf$"
+    },
+    "composable-security": {
+      "repos": [
+        "ComposableSecurity/.github"
+      ],
+      "github_reports_url": "https://github.com/ComposableSecurity/.github/tree/main/reports",
+      "aliases": "Composable",
+      "report_path_pattern": "^reports/.*\\.pdf$"
+    },
+    "soken": {
+      "repos": [
+        "Soken-LTD/smart-contract-audits",
+        "sokenteam/Solidity-Audit-Reports",
+        "sokenteam/Rust-Audit-Reports"
+      ],
+      "github_reports_url": "https://github.com/Soken-LTD/smart-contract-audits",
+      "website_reports_url": "https://soken.dev/audits"
+    },
+    "trust-security": {
+      "repos": [
+        "Trust1995/Trust"
+      ],
+      "github_reports_url": "https://github.com/Trust1995/Trust",
+      "website_reports_url": "https://www.trust-security.xyz",
+      "aliases": "Trust;Trust1995"
+    },
+    "trail-of-bits": {
+      "notes": "Count restricted to report PDFs linked under README Blockchain Reviews and named blockchain clients, excluding generic software, AI and cryptography reviews.",
+      "report_selection": "trailofbits"
+    },
+    "runtime-verification": {
+      "report_path_pattern": "^reports/.*\\.(?:pdf|md|html)$"
+    },
+    "peckshield": {
+      "report_path_pattern": "^audit_reports/.*\\.pdf$"
+    },
+    "slowmist": {
+      "report_path_pattern": "^open-report(?:-V2)?/.*\\.pdf$"
+    },
+    "srlabs": {
+      "report_path_pattern": "^(?:Polkadot|Autonomys|Other_Blockchains)/.*\\.pdf$"
+    },
+    "arbitrary-execution": {
+      "report_path_pattern": "^assessments/.*\\.pdf$"
+    },
+    "pashov-audit-group": {
+      "report_path_pattern": "^(?:solo|team|agentic)/(?:pdf|md)/.*\\.(?:pdf|md)$",
+      "notes": "PDF/Markdown renderings with the same filename stem are counted once; solo and group-era reports remain under one publisher. Agentic subfolder is explicitly included and separately identifiable."
+    },
+    "immunefi": {
+      "count_exclude": true,
+      "notes": "Repository contains individual finding submissions from audit competitions, not one report per Markdown file. Count left unknown to avoid equating findings with audits."
+    },
+    "gauntlet-economic-audits": {
+      "notes": "Economic-risk research provider. Resources are public but are not a commissioned code-audit report archive; count left unknown."
+    },
+    "smolquants-economic-audits": {
+      "notes": "Economic-security research collective; audit artifacts are distributed among repositories. Count left unknown pending repository enumeration.",
+      "kind": "collective"
+    },
+    "sentnl": {
+      "repos": [
+        "Sentnl/audit-reports"
+      ],
+      "github_reports_url": "https://github.com/Sentnl/audit-reports",
+      "website_reports_url": "https://sentnl.io/audits",
+      "report_path_pattern": "^(?!web2/).*\\.pdf$"
+    },
+    "robust": {
+      "website": "https://robustswap.com",
+      "website_reports_url": "",
+      "github_reports_url": "",
+      "repos": [],
+      "other_reports_url": "https://github.com/robustswap/audits",
+      "notes": "Historical Robust DeFi audit provider. Previously suggested robust.net is now a parked domain and is not the firm. Current report archive location requires confirmation."
+    },
+    "sakasec": {
+      "website": "https://saka.security",
+      "website_reports_url": "",
+      "github_reports_url": "",
+      "repos": [],
+      "notes": "Provider lead not confirmed from a primary source in this pass; excluded from counts pending identity verification."
+    },
+    "kann": {
+      "kind": "solo",
+      "notes": "Independent auditor. Reports can include engagements delivered through firms or contests."
+    },
+    "refious-security": {
+      "kind": "collective"
+    },
+    "guardianaudits": {
+      "name": "Guardian Audits",
+      "aliases": "GuardianAudits;Guardian Solidity Lab",
+      "notes": "Guardian Solidity Lab training/program portfolio is associated with the same publisher; report artifacts may include trainee engagements."
+    },
+    "ottersec": {
+      "website_reports_url": "https://osec.io/audits",
+      "other_reports_url": "",
+      "notes": "Canonical public report index. Notion portfolio link from historical lists has been superseded. Stable report URLs redirect to signed downloads."
+    },
+    "openzeppelin": {
+      "website_reports_url": "https://www.openzeppelin.com/research#security-audits",
+      "notes": "Count uses embedded entries explicitly categorized Security Audits, excluding news posts and research."
+    },
+    "spearbit": {
+      "website_reports_url": "https://spearbit.com",
+      "notes": "Collective whose public portfolio is a README listing; current Git tree contains seminar slides rather than the historical PDF archive. Many engagements are hosted on Cantina. Do not count slides as audits.",
+      "kind": "collective"
+    }
+  },
+  "add": [
+    {
+      "firm_id": "coinsult",
+      "name": "Coinsult",
+      "kind": "firm",
+      "website": "https://github.com/Coinsult",
+      "github_reports_url": "https://github.com/Coinsult/Audits",
+      "repos": [
+        "Coinsult/Audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "authio",
+      "name": "Authio",
+      "kind": "firm",
+      "website": "https://github.com/authio-ethereum",
+      "github_reports_url": "https://github.com/authio-ethereum/Audits",
+      "repos": [
+        "authio-ethereum/Audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "cryptonics-consulting",
+      "name": "Cryptonics Consulting",
+      "kind": "firm",
+      "website": "https://github.com/cryptonicsconsulting",
+      "github_reports_url": "https://github.com/cryptonicsconsulting/audits",
+      "repos": [
+        "cryptonicsconsulting/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "solidstate-auditing",
+      "name": "SolidState Auditing",
+      "kind": "firm",
+      "website": "https://github.com/solidstate-auditing",
+      "github_reports_url": "https://github.com/solidstate-auditing/audits-public",
+      "repos": [
+        "solidstate-auditing/audits-public"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "bugblow",
+      "name": "BugBlow",
+      "kind": "firm",
+      "website": "https://github.com/BugBlow",
+      "github_reports_url": "https://github.com/BugBlow/audits",
+      "repos": [
+        "BugBlow/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "assure-defi",
+      "name": "Assure DeFi",
+      "kind": "firm",
+      "website": "https://github.com/Assure-DeFi",
+      "github_reports_url": "https://github.com/Assure-DeFi/Audits",
+      "repos": [
+        "Assure-DeFi/Audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "obelisk-auditing",
+      "name": "Obelisk Auditing",
+      "kind": "firm",
+      "website": "https://github.com/ObeliskAuditing",
+      "github_reports_url": "https://github.com/ObeliskAuditing/obelisk-audits",
+      "repos": [
+        "ObeliskAuditing/obelisk-audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "openshield",
+      "name": "OpenShield",
+      "kind": "firm",
+      "website": "https://github.com/oshieldio",
+      "github_reports_url": "https://github.com/oshieldio/Publications",
+      "repos": [
+        "oshieldio/Publications"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "arsenlupin",
+      "name": "ArsenLupin",
+      "kind": "solo",
+      "website": "https://github.com/ArsenSecurity",
+      "github_reports_url": "https://github.com/ArsenSecurity/Audits",
+      "repos": [
+        "ArsenSecurity/Audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "pkqs90",
+      "name": "pkqs90",
+      "kind": "solo",
+      "website": "https://github.com/pkqs90",
+      "github_reports_url": "https://github.com/pkqs90/audits",
+      "repos": [
+        "pkqs90/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "plamentsv",
+      "name": "PlamenTSV",
+      "kind": "solo",
+      "website": "https://github.com/PlamenTSV",
+      "github_reports_url": "https://github.com/PlamenTSV/audits",
+      "repos": [
+        "PlamenTSV/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "0xhuntoor",
+      "name": "0xHuntoor",
+      "kind": "solo",
+      "website": "https://github.com/0xHuntoor",
+      "github_reports_url": "https://github.com/0xHuntoor/audits",
+      "repos": [
+        "0xHuntoor/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "kristiyan-maslarov",
+      "name": "Kristiyan Maslarov",
+      "kind": "solo",
+      "website": "https://github.com/kristiyanmaslarov",
+      "github_reports_url": "https://github.com/kristiyanmaslarov/Audits",
+      "repos": [
+        "kristiyanmaslarov/Audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "mario-poneder",
+      "name": "Mario Poneder",
+      "kind": "solo",
+      "website": "https://github.com/MarioPoneder",
+      "github_reports_url": "https://github.com/MarioPoneder/audits",
+      "repos": [
+        "MarioPoneder/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "10xhash",
+      "name": "10xhash",
+      "kind": "solo",
+      "website": "https://github.com/10xhash",
+      "github_reports_url": "https://github.com/10xhash/audits",
+      "repos": [
+        "10xhash/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "tpiliposian",
+      "name": "tpiliposian",
+      "kind": "solo",
+      "website": "https://github.com/tpiliposian",
+      "github_reports_url": "https://github.com/tpiliposian/audits",
+      "repos": [
+        "tpiliposian/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "dadekuma",
+      "name": "DadeKuma",
+      "kind": "solo",
+      "website": "https://github.com/DadeKuma",
+      "github_reports_url": "https://github.com/DadeKuma/audits",
+      "repos": [
+        "DadeKuma/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "kankodu",
+      "name": "Kankodu",
+      "kind": "solo",
+      "website": "https://github.com/kankodu",
+      "github_reports_url": "https://github.com/kankodu/audits",
+      "repos": [
+        "kankodu/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "x15",
+      "name": "x15",
+      "kind": "solo",
+      "website": "https://github.com/x15-eth",
+      "github_reports_url": "https://github.com/x15-eth/audits",
+      "repos": [
+        "x15-eth/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "tsvetanovv",
+      "name": "Tsvetanovv",
+      "kind": "solo",
+      "website": "https://github.com/cvetanovv",
+      "github_reports_url": "https://github.com/cvetanovv/Audits",
+      "repos": [
+        "cvetanovv/Audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "arvolear",
+      "name": "Arvolear",
+      "kind": "solo",
+      "website": "https://github.com/Arvolear",
+      "github_reports_url": "https://github.com/Arvolear/audits",
+      "repos": [
+        "Arvolear/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "carlos-alegre",
+      "name": "Carlos Alegre",
+      "kind": "solo",
+      "website": "https://github.com/CarlosAlegreUr",
+      "github_reports_url": "https://github.com/CarlosAlegreUr/Audits-By-CarlosAlegreUr",
+      "repos": [
+        "CarlosAlegreUr/Audits-By-CarlosAlegreUr"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "nicola-mirchev",
+      "name": "Nicola Mirchev",
+      "kind": "solo",
+      "website": "https://github.com/NicolaMirchev",
+      "github_reports_url": "https://github.com/NicolaMirchev/audits",
+      "repos": [
+        "NicolaMirchev/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "auditmos",
+      "name": "auditmos",
+      "kind": "solo",
+      "website": "https://github.com/auditmos",
+      "github_reports_url": "https://github.com/auditmos/audits",
+      "repos": [
+        "auditmos/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "mattdf",
+      "name": "mattdf",
+      "kind": "solo",
+      "website": "https://github.com/mattdf",
+      "github_reports_url": "https://github.com/mattdf/audits",
+      "repos": [
+        "mattdf/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "0xfoobar",
+      "name": "0xfoobar",
+      "kind": "solo",
+      "website": "https://github.com/0xfoobar",
+      "github_reports_url": "https://github.com/0xfoobar/audits",
+      "repos": [
+        "0xfoobar/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "14si2o",
+      "name": "14si2o",
+      "kind": "solo",
+      "website": "https://github.com/14si2o",
+      "github_reports_url": "https://github.com/14si2o/Audits",
+      "repos": [
+        "14si2o/Audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "shealtielanz",
+      "name": "Shealtielanz",
+      "kind": "solo",
+      "website": "https://github.com/shealtielanz",
+      "github_reports_url": "https://github.com/shealtielanz/audits",
+      "repos": [
+        "shealtielanz/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "pavel-pindarev",
+      "name": "Pavel Pindarev",
+      "kind": "solo",
+      "website": "https://github.com/PavelPindarev",
+      "github_reports_url": "https://github.com/PavelPindarev/audits",
+      "repos": [
+        "PavelPindarev/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "maarc",
+      "name": "maarc",
+      "kind": "solo",
+      "website": "https://github.com/maarcweiss",
+      "github_reports_url": "https://github.com/maarcweiss/audits",
+      "repos": [
+        "maarcweiss/audits"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "0xluk3",
+      "name": "0xluk3",
+      "kind": "solo",
+      "website": "https://github.com/0xluk3",
+      "github_reports_url": "https://github.com/0xluk3/portfolio",
+      "repos": [
+        "0xluk3/portfolio"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "melted-blocks",
+      "name": "Melted Blocks",
+      "kind": "solo",
+      "website": "https://github.com/meltedblocks",
+      "github_reports_url": "https://github.com/meltedblocks/portfolio",
+      "repos": [
+        "meltedblocks/portfolio"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "jesjupyter",
+      "name": "JesJupyter",
+      "kind": "solo",
+      "website": "https://github.com/jes16jupyter",
+      "github_reports_url": "https://github.com/jes16jupyter/jesjupyter-portfolio",
+      "repos": [
+        "jes16jupyter/jesjupyter-portfolio"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "panther",
+      "name": "Panther",
+      "kind": "solo",
+      "website": "https://github.com/pantheraudits",
+      "github_reports_url": "https://github.com/pantheraudits/portfolio",
+      "repos": [
+        "pantheraudits/portfolio"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "snuffles",
+      "name": "Snuffles",
+      "kind": "solo",
+      "website": "https://github.com/snufflesrea",
+      "github_reports_url": "https://github.com/snufflesrea/audit-portfolio",
+      "repos": [
+        "snufflesrea/audit-portfolio"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://api.github.com/search/repositories?q=audits+in:name+fork:false+stars:%3E1&sort=stars&per_page=100&page=2"
+      ]
+    },
+    {
+      "firm_id": "blocksafu",
+      "name": "BlockSAFU",
+      "kind": "firm",
+      "website": "https://blocksafu.com",
+      "github_reports_url": "https://github.com/blocksafu111/audit",
+      "repos": [
+        "blocksafu111/audit"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://github.com/blocksafu111/audit"
+      ]
+    },
+    {
+      "firm_id": "renascence-labs",
+      "name": "Renascence Labs",
+      "kind": "firm",
+      "website": "https://github.com/Renascence-Labs",
+      "github_reports_url": "https://github.com/Renascence-Labs/portfolio",
+      "repos": [
+        "Renascence-Labs/portfolio"
+      ],
+      "aliases": "",
+      "status": "unknown",
+      "notes": "",
+      "discovery_sources": [
+        "https://github.com/Renascence-Labs/portfolio"
+      ]
+    }
+  ]
+}
